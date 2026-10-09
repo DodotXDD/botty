@@ -792,15 +792,12 @@ offset_right = 680.0
 offset_bottom = 474.00003
 scale = Vector2(1, 0.98644274)
 
-[node name="WordRecap" parent="." instance=ExtResource("19_sjku2")]
-visible = false
-offset_left = 563.0
-offset_top = 328.0
-offset_right = 563.0
-offset_bottom = 328.0
-
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 process_mode = 3
+
+[node name="WordRecap" parent="CanvasLayer" instance=ExtResource("19_sjku2")]
+visible = false
+z_index = 100
 
 [node name="FeedbackLabel" type="Label" parent="CanvasLayer"]
 layout_mode = 0

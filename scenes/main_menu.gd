@@ -46,8 +46,9 @@ func _ready():
 # --- MAIN BUTTONS ---
 
 func _on_start_button_pressed():
-	# Keeps your existing loader logic
-	LoadingLoader.load_screen_to_scene("res://scenes/battle_scene.tscn")
+	var error := get_tree().change_scene_to_file("res://scenes/MapProgress.tscn")
+	if error != OK:
+		push_error("Could not open the map progress scene: %s" % error_string(error))
 
 func _on_quit_button_pressed():
 	get_tree().quit()

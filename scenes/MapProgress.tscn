@@ -1,0 +1,234 @@
+[gd_scene load_steps=7 format=3 uid="uid://bbffnqv2vuc55"]
+
+[ext_resource type="Script" path="res://scripts/map_progress_controller.gd" id="1_map_progress"]
+[ext_resource type="PackedScene" path="res://scenes/MapIsland.tscn" id="2_map_island"]
+[ext_resource type="PackedScene" path="res://scenes/MapRoute.tscn" id="3_map_route"]
+
+[sub_resource type="StyleBoxFlat" id="MenuButtonStyle"]
+bg_color = Color(0.9, 0.83, 0.67, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.36, 0.21, 0.15, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="LevelActive"]
+bg_color = Color(0.82, 0.27, 0.22, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.42, 0.18, 0.15, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+shadow_color = Color(0.25, 0.19, 0.14, 0.34)
+shadow_size = 3
+
+[sub_resource type="StyleBoxFlat" id="LevelFuture"]
+bg_color = Color(0.76, 0.72, 0.61, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.52, 0.47, 0.38, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+shadow_color = Color(0.25, 0.19, 0.14, 0.25)
+shadow_size = 2
+
+[node name="MapProgress" type="Control" unique_id=1853346717]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_map_progress")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.91, 0.94, 0.91, 1)
+mouse_filter = 2
+
+[node name="MapArtwork" type="Node2D" parent="."]
+
+[node name="MapBorder" type="Polygon2D" parent="MapArtwork"]
+polygon = PackedVector2Array(194, 18, 540, 18, 540, 42, 736, 42, 736, 18, 930, 18, 930, 52, 990, 52, 990, 82, 1032, 82, 1032, 118, 1080, 118, 1080, 142, 1128, 142, 1128, 194, 1104, 194, 1104, 294, 1142, 294, 1142, 354, 1110, 354, 1110, 430, 1132, 430, 1132, 510, 1098, 510, 1098, 558, 1018, 558, 1018, 590, 900, 590, 900, 574, 790, 574, 790, 614, 652, 614, 652, 638, 476, 638, 476, 612, 338, 612, 338, 588, 230, 588, 230, 616, 120, 616, 120, 582, 62, 582, 62, 510, 28, 510, 28, 450, 58, 450, 58, 370, 24, 370, 24, 238, 58, 238, 58, 196, 84, 196, 84, 156, 44, 156, 44, 124, 18, 124, 18, 90, 54, 90, 54, 68, 116, 68, 116, 52, 194, 52)
+color = Color(0.36, 0.21, 0.15, 1)
+
+[node name="MapEdge" type="Polygon2D" parent="MapArtwork"]
+polygon = PackedVector2Array(208, 32, 526, 32, 526, 56, 750, 56, 750, 32, 916, 32, 916, 66, 976, 66, 976, 96, 1018, 96, 1018, 132, 1066, 132, 1066, 156, 1114, 156, 1114, 180, 1090, 180, 1090, 308, 1128, 308, 1128, 340, 1096, 340, 1096, 444, 1118, 444, 1118, 496, 1084, 496, 1084, 544, 1004, 544, 1004, 576, 914, 576, 914, 560, 776, 560, 776, 600, 638, 600, 638, 624, 490, 624, 490, 598, 324, 598, 324, 574, 244, 574, 244, 602, 134, 602, 134, 568, 76, 568, 76, 496, 42, 496, 42, 464, 72, 464, 72, 356, 38, 356, 38, 252, 72, 252, 72, 210, 98, 210, 98, 142, 58, 142, 58, 138, 32, 138, 32, 104, 68, 104, 68, 82, 130, 82, 130, 66, 208, 66)
+color = Color(0.78, 0.52, 0.29, 1)
+
+[node name="Land" type="Polygon2D" parent="MapArtwork"]
+polygon = PackedVector2Array(220, 42, 514, 42, 514, 68, 762, 68, 762, 42, 902, 42, 902, 78, 962, 78, 962, 108, 1004, 108, 1004, 144, 1052, 144, 1052, 168, 1100, 168, 1100, 194, 1076, 194, 1076, 318, 1114, 318, 1114, 330, 1082, 330, 1082, 456, 1104, 456, 1104, 482, 1070, 482, 1070, 530, 990, 530, 990, 562, 928, 562, 928, 546, 762, 546, 762, 586, 624, 586, 624, 610, 504, 610, 504, 584, 310, 584, 310, 560, 258, 560, 258, 588, 148, 588, 148, 554, 90, 554, 90, 482, 56, 482, 56, 478, 86, 478, 86, 342, 52, 342, 52, 266, 86, 266, 86, 224, 112, 224, 112, 128, 72, 128, 72, 124, 46, 124, 46, 118, 82, 118, 82, 96, 144, 96, 144, 80, 220, 80)
+color = Color(0.98, 0.89, 0.66, 1)
+
+[node name="Route1" parent="MapArtwork" instance=ExtResource("3_map_route")]
+position = Vector2(252, 198)
+rotation = 0.72
+scale = Vector2(1.05, 1)
+
+[node name="Route2" parent="MapArtwork" instance=ExtResource("3_map_route")]
+position = Vector2(420, 329)
+rotation = -0.53
+scale = Vector2(0.97, 1)
+
+[node name="Route3" parent="MapArtwork" instance=ExtResource("3_map_route")]
+position = Vector2(604, 234)
+rotation = 0.78
+scale = Vector2(1.15, 1)
+
+[node name="Route4" parent="MapArtwork" instance=ExtResource("3_map_route")]
+position = Vector2(782, 398)
+rotation = -0.70
+scale = Vector2(1.12, 1)
+
+[node name="Island1" parent="MapArtwork" instance=ExtResource("2_map_island")]
+position = Vector2(238, 194)
+
+[node name="Island2" parent="MapArtwork" instance=ExtResource("2_map_island")]
+position = Vector2(408, 334)
+
+[node name="Island3" parent="MapArtwork" instance=ExtResource("2_map_island")]
+position = Vector2(590, 230)
+
+[node name="Island4" parent="MapArtwork" instance=ExtResource("2_map_island")]
+position = Vector2(770, 402)
+
+[node name="Island5" parent="MapArtwork" instance=ExtResource("2_map_island")]
+position = Vector2(954, 270)
+
+[node name="CurrentPin" type="Node2D" parent="MapArtwork"]
+position = Vector2(210, 140)
+
+[node name="PinTail" type="Polygon2D" parent="MapArtwork/CurrentPin"]
+polygon = PackedVector2Array(-5, 8, 3, 8, -3, 32)
+color = Color(0.78, 0.16, 0.14, 1)
+
+[node name="PinHead" type="Polygon2D" parent="MapArtwork/CurrentPin"]
+polygon = PackedVector2Array(0, -12, 7, -10, 12, -4, 11, 4, 6, 10, -3, 12, -10, 7, -12, 0, -9, -8)
+color = Color(0.78, 0.16, 0.14, 1)
+
+[node name="BackButton" type="Button" parent="."]
+offset_left = 32.0
+offset_top = 24.0
+offset_right = 174.0
+offset_bottom = 66.0
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("MenuButtonStyle")
+theme_override_styles/hover = SubResource("MenuButtonStyle")
+theme_override_styles/pressed = SubResource("MenuButtonStyle")
+text = "MAIN MENU"
+tooltip_text = "Return to the main menu"
+
+[node name="TitleLabel" type="Label" parent="."]
+offset_left = 392.0
+offset_top = 17.0
+offset_right = 762.0
+offset_bottom = 55.0
+theme_override_colors/font_color = Color(0.36, 0.21, 0.15, 1)
+theme_override_font_sizes/font_size = 28
+text = "JOURNEY MAP"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="."]
+offset_left = 377.0
+offset_top = 53.0
+offset_right = 777.0
+offset_bottom = 79.0
+theme_override_colors/font_color = Color(0.35, 0.34, 0.27, 1)
+theme_override_font_sizes/font_size = 15
+text = "Choose a level to continue your journey"
+horizontal_alignment = 1
+
+[node name="Level1Button" type="Button" parent="."]
+offset_left = 245.0
+offset_top = 149.0
+offset_right = 307.0
+offset_bottom = 211.0
+theme_override_colors/font_color = Color(1, 0.97, 0.87, 1)
+theme_override_styles/normal = SubResource("LevelActive")
+theme_override_styles/hover = SubResource("LevelActive")
+theme_override_styles/pressed = SubResource("LevelActive")
+theme_override_font_sizes/font_size = 22
+text = "1"
+tooltip_text = "Start Level 1"
+
+[node name="Level2Button" type="Button" parent="."]
+offset_left = 415.0
+offset_top = 289.0
+offset_right = 477.0
+offset_bottom = 351.0
+theme_override_styles/normal = SubResource("LevelFuture")
+theme_override_styles/hover = SubResource("LevelFuture")
+theme_override_styles/pressed = SubResource("LevelFuture")
+theme_override_font_sizes/font_size = 22
+text = "2"
+tooltip_text = "Level 2 is coming soon"
+
+[node name="Level3Button" type="Button" parent="."]
+offset_left = 597.0
+offset_top = 185.0
+offset_right = 659.0
+offset_bottom = 247.0
+theme_override_styles/normal = SubResource("LevelFuture")
+theme_override_styles/hover = SubResource("LevelFuture")
+theme_override_styles/pressed = SubResource("LevelFuture")
+theme_override_font_sizes/font_size = 22
+text = "3"
+tooltip_text = "Level 3 is coming soon"
+
+[node name="Level4Button" type="Button" parent="."]
+offset_left = 777.0
+offset_top = 357.0
+offset_right = 839.0
+offset_bottom = 419.0
+theme_override_styles/normal = SubResource("LevelFuture")
+theme_override_styles/hover = SubResource("LevelFuture")
+theme_override_styles/pressed = SubResource("LevelFuture")
+theme_override_font_sizes/font_size = 22
+text = "4"
+tooltip_text = "Level 4 is coming soon"
+
+[node name="Level5Button" type="Button" parent="."]
+offset_left = 961.0
+offset_top = 225.0
+offset_right = 1023.0
+offset_bottom = 287.0
+theme_override_styles/normal = SubResource("LevelFuture")
+theme_override_styles/hover = SubResource("LevelFuture")
+theme_override_styles/pressed = SubResource("LevelFuture")
+theme_override_font_sizes/font_size = 22
+text = "5"
+tooltip_text = "Level 5 is coming soon"
+
+[node name="LevelStatus" type="Label" parent="."]
+offset_left = 322.0
+offset_top = 594.0
+offset_right = 832.0
+offset_bottom = 622.0
+theme_override_colors/font_color = Color(0.36, 0.21, 0.15, 1)
+theme_override_font_sizes/font_size = 15
+text = "LEVEL 1 AVAILABLE  |  LEVELS 2-5 COMING SOON"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Level1Button" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="Level2Button" to="." method="_on_level_2_pressed"]
+[connection signal="pressed" from="Level3Button" to="." method="_on_level_3_pressed"]
+[connection signal="pressed" from="Level4Button" to="." method="_on_level_4_pressed"]
+[connection signal="pressed" from="Level5Button" to="." method="_on_level_5_pressed"]

@@ -1,0 +1,67 @@
+[gd_scene format=3]
+
+[node name="MapRoute" type="Node2D"]
+
+[node name="Dot00" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot01" type="Polygon2D" parent="."]
+position = Vector2(10, 0)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot02" type="Polygon2D" parent="."]
+position = Vector2(24, -4)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot03" type="Polygon2D" parent="."]
+position = Vector2(38, -9)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot04" type="Polygon2D" parent="."]
+position = Vector2(52, -12)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot05" type="Polygon2D" parent="."]
+position = Vector2(66, -12)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot06" type="Polygon2D" parent="."]
+position = Vector2(80, -8)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot07" type="Polygon2D" parent="."]
+position = Vector2(94, 0)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot08" type="Polygon2D" parent="."]
+position = Vector2(108, 9)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot09" type="Polygon2D" parent="."]
+position = Vector2(122, 15)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot10" type="Polygon2D" parent="."]
+position = Vector2(136, 16)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot11" type="Polygon2D" parent="."]
+position = Vector2(150, 12)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)
+
+[node name="Dot12" type="Polygon2D" parent="."]
+position = Vector2(164, 5)
+polygon = PackedVector2Array(-2, -2, 2, -2, 2, 2, -2, 2)
+color = Color(0.23, 0.22, 0.18, 1)

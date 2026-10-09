@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[node name="MapIsland" type="Node2D"]
+
+[node name="Sand" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-44, 9, -31, 0, -14, 4, -1, -2, 15, 3, 34, 1, 46, 10, 24, 14, -23, 14)
+color = Color(0.72, 0.6, 0.39, 1)
+
+[node name="Foliage" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-37, 7, -23, 2, -9, 6, 4, 1, 18, 6, 33, 4, 40, 9, 19, 11, -18, 11)
+color = Color(0.36, 0.4, 0.31, 1)
+
+[node name="PalmLeft" type="Polygon2D" parent="."]
+position = Vector2(-15, 3)
+polygon = PackedVector2Array(-1, 2, -3, -12, -10, -22, -18, -26, -7, -25, -2, -20, 1, -30, 4, -20, 14, -25, 8, -15, 3, -12, 6, 2)
+color = Color(0.3, 0.37, 0.29, 1)
+
+[node name="PalmCenter" type="Polygon2D" parent="."]
+position = Vector2(1, 1)
+polygon = PackedVector2Array(-1, 3, -2, -14, -11, -25, -20, -28, -8, -27, -2, -21, 0, -34, 3, -22, 14, -29, 8, -17, 3, -13, 5, 3)
+color = Color(0.27, 0.34, 0.27, 1)
+
+[node name="PalmRight" type="Polygon2D" parent="."]
+position = Vector2(17, 4)
+polygon = PackedVector2Array(-1, 1, -3, -10, -9, -19, -17, -23, -6, -21, -2, -17, 1, -27, 4, -18, 13, -23, 8, -13, 3, -10, 5, 1)
+color = Color(0.32, 0.39, 0.3, 1)

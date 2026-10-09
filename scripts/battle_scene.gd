@@ -19,7 +19,7 @@ var all_formed_words: Array = []
 @onready var inventory = $Inventory
 @onready var hero_start_pos = hero.position
 @onready var enemy_start_pos = enemy.position
-@onready var word_recap = $WordRecap
+@onready var word_recap = $CanvasLayer/WordRecap
 
 const DictionaryLoader = preload("res://scripts/dictionary_loader.gd")
 var dict_loader: Node = null
@@ -52,12 +52,12 @@ func _ready() -> void:
 	
 	inventory.damage_updated.connect(_on_damage_updated)
 
-	if not has_node("WordRecap"):
+	if not has_node("CanvasLayer/WordRecap"):
 		var recap_scene = preload("res://scenes/word_recap.tscn")
 		word_recap = recap_scene.instantiate()
-		add_child(word_recap)
+		$CanvasLayer.add_child(word_recap)
 	else:
-		word_recap = $WordRecap
+		word_recap = $CanvasLayer/WordRecap
 	word_recap.hide()
 	
 	dict_loader = DictionaryLoader.new()
@@ -344,6 +344,7 @@ func _show_recap(outcome: String) -> void:
 								"def_tl": m.get("def_tl", ""), 
 								"speech_part": m.get("speech_part", "N/A"),
 								"example": m.get("example", ""),
+								"example_tl": m.get("example_tl", ""),
 								"synonyms": m.get("synonyms", [])
 							})
 				else:
@@ -351,6 +352,8 @@ func _show_recap(outcome: String) -> void:
 						"def": entry.get("def", entry.get("meaning", "N/A")),
 						"def_tl": entry.get("def_tl", ""),
 						"speech_part": entry.get("speech_part", entry.get("part_of_speech", "N/A")),
+						"example": entry.get("example", ""),
+						"example_tl": entry.get("example_tl", ""),
 						"synonyms": entry.get("synonyms", [])
 					})
 				words_for_recap.append({

@@ -1,121 +1,137 @@
 extends Control
 
 @onready var scroll_container = $Panel/ScrollContainer
-# --- UPDATED PATH to match your screenshot ---
-@onready var word_list = $Panel/ScrollContainer/GridContainer/WordList
+@onready var word_list = $Panel/ScrollContainer/WordList
 @onready var details_panel = $Panel/DetailsPanel
-@onready var details_content = $Panel/DetailsPanel/ScrollContainer/DetailsContent
-@onready var lbl_word = $Panel/DetailsPanel/ScrollContainer/DetailsContent/Word
+@onready var details_scroll = $Panel/DetailsPanel/ScrollContainer
+@onready var lbl_word = $Panel/DetailsPanel/Word
 @onready var meaning_list = $Panel/DetailsPanel/ScrollContainer/DetailsContent/MeaningList
-@onready var lbl_speech = $Panel/DetailsPanel/ScrollContainer/DetailsContent/SpeechPart
-@onready var lbl_synonyms = $Panel/DetailsPanel/ScrollContainer/DetailsContent/Synonyms
 @onready var title_label: Label = $Panel/TitleLabel
+@onready var summary_label: Label = $Panel/SummaryLabel
+@onready var empty_state_label: Label = $Panel/EmptyStateLabel
 @onready var btn_main_menu: Button = $Panel/MainMenuButton
 @onready var btn_replay: Button = $Panel/ReplayButton
-@onready var btn_close_details = $Panel/DetailsPanel/CloseButton
 
 var words_data: Array = []
+var word_button_group := ButtonGroup.new()
 
 func _ready() -> void:
 	hide()
-	details_panel.hide()
+	empty_state_label.hide()
 
 	if btn_main_menu:
 		btn_main_menu.pressed.connect(_on_main_menu_pressed)
 	if btn_replay:
 		btn_replay.pressed.connect(_on_replay_pressed)
-	if btn_close_details:
-		btn_close_details.pressed.connect(_on_close_details_pressed)
 
 func show_recap(words: Array, outcome: String = "WORD RECAP") -> void:
-	words_data = words
-	title_label.text = outcome
+	words_data.clear()
+	var seen_words: Dictionary = {}
+	for word_info in words:
+		if typeof(word_info) != TYPE_DICTIONARY:
+			continue
+		var word := String(word_info.get("word", "")).strip_edges().to_lower()
+		if word.is_empty() or seen_words.has(word):
+			continue
+		seen_words[word] = true
+		var normalized_info: Dictionary = word_info.duplicate(true)
+		normalized_info["word"] = word
+		words_data.append(normalized_info)
+
+	title_label.text = outcome.to_upper()
+	var word_count := words_data.size()
+	var word_label := "WORD" if word_count == 1 else "WORDS"
+	summary_label.text = "BATTLE JOURNAL  |  %d UNIQUE %s" % [word_count, word_label]
 	_populate_word_list()
-	details_panel.hide()
+	var has_words := not words_data.is_empty()
+	scroll_container.visible = has_words
+	details_panel.visible = has_words
+	empty_state_label.visible = not has_words
 	show()
 
 func _populate_word_list() -> void:
 	for child in word_list.get_children():
 		child.queue_free()
 
+	word_button_group = ButtonGroup.new()
 	for i in range(words_data.size()):
 		var word_info = words_data[i]
+		var word := String(word_info.get("word", ""))
 		var btn = Button.new()
-		btn.text = word_info["word"].capitalize()
-		btn.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
-		btn.custom_minimum_size = Vector2(150, 40)
+		btn.text = "%s    %d letters" % [word.capitalize(), word.length()]
+		btn.tooltip_text = word.capitalize()
+		btn.toggle_mode = true
+		btn.button_group = word_button_group
+		btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		btn.custom_minimum_size = Vector2(0, 48)
 		btn.pressed.connect(_on_word_clicked.bind(i))
 		word_list.add_child(btn)
+
+	if not words_data.is_empty():
+		_on_word_clicked(0)
 
 func _on_word_clicked(index: int) -> void:
 	if index < 0 or index >= words_data.size():
 		return
 
 	var info = words_data[index]
-	lbl_word.text = "Word: " + info.get("word", "N/A")
+	lbl_word.text = String(info.get("word", "N/A")).to_upper()
+	details_scroll.scroll_vertical = 0
 
-	# Clear previous meanings
 	for child in meaning_list.get_children():
 		child.queue_free()
+	meaning_list.add_theme_constant_override("separation", 8)
 
 	var use_tagalog := GameSettings.target_language == "Tagalog"
-	if info.has("meanings"):
-		var meanings = info["meanings"]
-		var seen_defs := []
+	var meanings: Array = info.get("meanings", [])
+	var seen_definitions: Array[String] = []
+	for meaning in meanings:
+		if typeof(meaning) != TYPE_DICTIONARY:
+			continue
 
-		for meaning in meanings:
-			var english_definition = String(meaning.get("def", "N/A"))
-			var translated_definition = String(meaning.get("def_tl", "")).strip_edges()
-			var def_text = translated_definition if use_tagalog and not translated_definition.is_empty() else english_definition
-			if def_text in seen_defs:
-				continue
-			seen_defs.append(def_text)
+		var english_definition := String(meaning.get("def", "N/A")).strip_edges()
+		var translated_definition := String(meaning.get("def_tl", "")).strip_edges()
+		var definition := translated_definition if use_tagalog and not translated_definition.is_empty() else english_definition
+		if definition in seen_definitions:
+			continue
+		seen_definitions.append(definition)
 
-			var def_label = Label.new()
-			def_label.text = "🟢 " + def_text
-			def_label.autowrap_mode = TextServer.AUTOWRAP_WORD
-			meaning_list.add_child(def_label)
+		_add_detail_label(definition, 20, Color(0.08, 0.08, 0.08))
 
-			# --- This part automatically handles the translation label ---
-			if not use_tagalog and not translated_definition.is_empty():
-				var tl_label = Label.new()
-				tl_label.text = " 🔹 Translation: " + translated_definition
-				tl_label.autowrap_mode = TextServer.AUTOWRAP_WORD
-				meaning_list.add_child(tl_label)
+		var speech_part := String(meaning.get("speech_part", "")).strip_edges()
+		if not speech_part.is_empty():
+			_add_detail_label(speech_part.to_upper(), 14, Color(0.28, 0.28, 0.28))
 
-			var speech_label = Label.new()
-			speech_label.text = " 📘 Part of Speech: " + meaning.get("speech_part", "N/A")
-			speech_label.autowrap_mode = TextServer.AUTOWRAP_WORD
-			meaning_list.add_child(speech_label)
+		if not use_tagalog and not translated_definition.is_empty():
+			_add_detail_label("Tagalog: " + translated_definition, 16, Color(0.18, 0.18, 0.18))
 
-			var english_example = String(meaning.get("example", ""))
-			var translated_example = String(meaning.get("example_tl", "")).strip_edges()
-			var example_text = translated_example if use_tagalog and not translated_example.is_empty() else english_example
-			if not example_text.is_empty():
-				var ex_label = Label.new()
-				ex_label.text = " 💬 Example: " + example_text
-				ex_label.autowrap_mode = TextServer.AUTOWRAP_WORD
-				meaning_list.add_child(ex_label)
+		var english_example := String(meaning.get("example", "")).strip_edges()
+		var translated_example := String(meaning.get("example_tl", "")).strip_edges()
+		var example := translated_example if use_tagalog and not translated_example.is_empty() else english_example
+		if not example.is_empty():
+			_add_detail_label("Example: \"" + example + "\"", 16, Color(0.18, 0.18, 0.18))
 
-			if not use_tagalog and not translated_example.is_empty():
-				var ex_tl_label = Label.new()
-				ex_tl_label.text = " 💭 TL Example: " + translated_example
-				ex_tl_label.autowrap_mode = TextServer.AUTOWRAP_WORD
-				meaning_list.add_child(ex_tl_label)
+		if not use_tagalog and not translated_example.is_empty():
+			_add_detail_label("Tagalog example: \"" + translated_example + "\"", 15, Color(0.28, 0.28, 0.28))
 
-			if meaning.has("synonyms") and meaning["synonyms"].size() > 0:
-				var syn_label = Label.new()
-				syn_label.text = " 🔁 Synonyms: " + ", ".join(meaning["synonyms"])
-				syn_label.autowrap_mode = TextServer.AUTOWRAP_WORD
-				meaning_list.add_child(syn_label)
+		var synonyms: Array = meaning.get("synonyms", [])
+		if not synonyms.is_empty():
+			_add_detail_label("Synonyms: " + ", ".join(synonyms), 15, Color(0.28, 0.28, 0.28))
 
-			var spacer = Control.new()
-			spacer.custom_minimum_size = Vector2(0, 10)
-			meaning_list.add_child(spacer)
+		var separator := HSeparator.new()
+		meaning_list.add_child(separator)
 
-	lbl_speech.text = ""
-	lbl_synonyms.text = ""
-	details_panel.show()
+	if seen_definitions.is_empty():
+		_add_detail_label("No definition is available for this word.", 17, Color(0.18, 0.18, 0.18))
+
+func _add_detail_label(text: String, font_size: int, font_color: Color) -> void:
+	var label := Label.new()
+	label.text = text
+	label.autowrap_mode = TextServer.AUTOWRAP_WORD
+	label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	label.add_theme_font_size_override("font_size", font_size)
+	label.add_theme_color_override("font_color", font_color)
+	meaning_list.add_child(label)
 
 func _on_main_menu_pressed() -> void:
 	get_tree().paused = false
@@ -124,13 +140,3 @@ func _on_main_menu_pressed() -> void:
 func _on_replay_pressed() -> void:
 	get_tree().paused = false
 	get_tree().reload_current_scene()
-
-func _on_close_details_pressed() -> void:
-	details_panel.hide()
-
-# --- NEW HELPER FUNCTION ---
-func _add_shadow_to(node: Control) -> void:
-	# Adds a semi-transparent black shadow, offset by 2 pixels right and down
-	node.add_theme_color_override("font_shadow_color", Color(0.0, 0.0, 0.0, 1.0))
-	node.add_theme_constant_override("shadow_offset_x", 4)
-	node.add_theme_constant_override("shadow_offset_y", 4)
