@@ -1,0 +1,1881 @@
+{
+  "xenophobic": {
+    "word": "xenophobic",
+    "wordset_id": "5645bdae31",
+    "meanings": [
+      {
+        "id": "6f50157c76",
+        "def": "suffering from xenophobia, or the fear of outsiders",
+        "example": "Those remarks make it pretty clear how xenophobic you are.",
+        "speech_part": "adjective",
+        "example_tl": "Ang mga pahayag na iyon ay malinaw na malinaw kung gaano ka ka -xenophobic."
+      }
+    ]
+  },
+  "xanthous": {
+    "word": "xanthous",
+    "wordset_id": "f71f9720cc",
+    "meanings": [
+      {
+        "id": "fc3a76e2f1",
+        "def": "of the color intermediate between green and orange in the color spectrum",
+        "example": "The new rug you bought is fairly xanthous, don't you think?",
+        "speech_part": "adjective",
+        "synonyms": [
+          "yellow"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "example_tl": "Ang bagong alpombra na binili mo ay medyo xanthous, hindi ba sa palagay mo?"
+      }
+    ]
+  },
+  "xxvii": {
+    "word": "xxvii",
+    "wordset_id": "77a1aec695",
+    "meanings": [
+      {
+        "id": "d4fea7855f",
+        "def": "being seven more than twenty",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty-seven"
+        ],
+        "def_tl": "pagiging pitong higit sa dalawampu"
+      }
+    ]
+  },
+  "xxviii": {
+    "word": "xxviii",
+    "wordset_id": "517a3ca0f7",
+    "meanings": [
+      {
+        "id": "e54bb9c23b",
+        "def": "the Roman numeral for 28",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty-eight"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 28"
+      }
+    ]
+  },
+  "x": {
+    "word": "x",
+    "wordset_id": "0daa6695c3",
+    "meanings": [
+      {
+        "id": "dc5abff7e9",
+        "def": "the Roman numeral for 10",
+        "speech_part": "adjective",
+        "synonyms": [
+          "ten"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 10"
+      },
+      {
+        "id": "33930a25cb",
+        "def": "the 24th letter of the Roman alphabet",
+        "example": "The farmer signed with an x.",
+        "speech_part": "noun",
+        "synonyms": [
+          "ex"
+        ],
+        "example_tl": "Nag -sign ang magsasaka sa isang x."
+      }
+    ]
+  },
+  "xxix": {
+    "word": "xxix",
+    "wordset_id": "797917c907",
+    "meanings": [
+      {
+        "id": "c651ef5e44",
+        "def": "the Roman numeral for 29",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty-nine"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 29"
+      }
+    ]
+  },
+  "xi": {
+    "word": "xi",
+    "wordset_id": "0dee376a0c",
+    "meanings": [
+      {
+        "id": "8d5cdcc800",
+        "def": "the Roman numeral for 11",
+        "speech_part": "adjective",
+        "synonyms": [
+          "eleven"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 11"
+      },
+      {
+        "id": "cd0361967f",
+        "def": "the 14th letter of the Greek alphabet",
+        "speech_part": "noun",
+        "def_tl": "Ang ika -14 na liham ng alpabetong Greek"
+      }
+    ]
+  },
+  "xxx": {
+    "word": "xxx",
+    "wordset_id": "714b4e5e79",
+    "meanings": [
+      {
+        "id": "7d0027b336",
+        "def": "the Roman numeral for 30",
+        "speech_part": "adjective",
+        "synonyms": [
+          "thirty"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman numeral para sa 30"
+      }
+    ]
+  },
+  "xxxi": {
+    "word": "xxxi",
+    "wordset_id": "84b4e33af9",
+    "meanings": [
+      {
+        "id": "43d5392da5",
+        "def": "thirty-one in Roman numerals",
+        "speech_part": "adjective",
+        "synonyms": [
+          "thirty-one"
+        ],
+        "def_tl": "Tatlumpu't isa sa Roman Numerals"
+      }
+    ]
+  },
+  "xii": {
+    "word": "xii",
+    "wordset_id": "65eb2f35bb",
+    "meanings": [
+      {
+        "id": "aeff5f34ad",
+        "def": "the Roman numeral for 12",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twelve"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 12"
+      }
+    ]
+  },
+  "xxxii": {
+    "word": "xxxii",
+    "wordset_id": "702664316d",
+    "meanings": [
+      {
+        "id": "5f1b60a36d",
+        "def": "the Roman numeral for 32",
+        "speech_part": "adjective",
+        "synonyms": [
+          "thirty-two"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 32"
+      }
+    ]
+  },
+  "xxxiii": {
+    "word": "xxxiii",
+    "wordset_id": "35850d807f",
+    "meanings": [
+      {
+        "id": "7098f4d9f7",
+        "def": "the Roman numeral for 33",
+        "speech_part": "adjective",
+        "synonyms": [
+          "thirty-three"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 33"
+      }
+    ]
+  },
+  "xiii": {
+    "word": "xiii",
+    "wordset_id": "2ee78f843f",
+    "meanings": [
+      {
+        "id": "392346271c",
+        "def": "the Roman numeral for 13",
+        "speech_part": "adjective",
+        "synonyms": [
+          "thirteen"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 13"
+      }
+    ]
+  },
+  "xxxiv": {
+    "word": "xxxiv",
+    "wordset_id": "77449718d2",
+    "meanings": [
+      {
+        "id": "873ec46862",
+        "def": "the Roman numeral for 34",
+        "speech_part": "adjective",
+        "synonyms": [
+          "thirty-four"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 34"
+      }
+    ]
+  },
+  "xiv": {
+    "word": "xiv",
+    "wordset_id": "a81ac6cf03",
+    "meanings": [
+      {
+        "id": "8938d357a5",
+        "def": "the Roman numeral for 14",
+        "speech_part": "adjective",
+        "synonyms": [
+          "fourteen"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 14"
+      }
+    ]
+  },
+  "xxxv": {
+    "word": "xxxv",
+    "wordset_id": "e3e46f9ad3",
+    "meanings": [
+      {
+        "id": "370b374ec0",
+        "def": "the Roman numeral for 35",
+        "speech_part": "adjective",
+        "synonyms": [
+          "thirty-five"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 35"
+      }
+    ]
+  },
+  "xxxvi": {
+    "word": "xxxvi",
+    "wordset_id": "629f01316b",
+    "meanings": [
+      {
+        "id": "2fd3ad62fb",
+        "def": "the Roman numeral for 36",
+        "speech_part": "adjective",
+        "synonyms": [
+          "thirty-six"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 36"
+      }
+    ]
+  },
+  "xv": {
+    "word": "xv",
+    "wordset_id": "600f817d50",
+    "meanings": [
+      {
+        "id": "c1ae361f03",
+        "def": "the Roman numeral for 15",
+        "speech_part": "adjective",
+        "synonyms": [
+          "fifteen"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 15"
+      }
+    ]
+  },
+  "xxxvii": {
+    "word": "xxxvii",
+    "wordset_id": "a07c6d4ff4",
+    "meanings": [
+      {
+        "id": "0843e40a47",
+        "def": "the Roman numeral for 37",
+        "speech_part": "adjective",
+        "synonyms": [
+          "thirty-seven"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 37"
+      }
+    ]
+  },
+  "xvi": {
+    "word": "xvi",
+    "wordset_id": "c3e4201b05",
+    "meanings": [
+      {
+        "id": "8a5d7d5aa1",
+        "def": "the Roman numeral for 16",
+        "speech_part": "adjective",
+        "synonyms": [
+          "sixteen"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 16"
+      }
+    ]
+  },
+  "xxxviii": {
+    "word": "xxxviii",
+    "wordset_id": "f423e0a1db",
+    "meanings": [
+      {
+        "id": "52ef1c873b",
+        "def": "the Roman numeral for 38",
+        "speech_part": "adjective",
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 38"
+      }
+    ]
+  },
+  "xvii": {
+    "word": "xvii",
+    "wordset_id": "e8f3299a51",
+    "meanings": [
+      {
+        "id": "5ca101d674",
+        "def": "the Roman numeral for 17",
+        "speech_part": "adjective",
+        "synonyms": [
+          "seventeen"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 17"
+      }
+    ]
+  },
+  "xl": {
+    "word": "xl",
+    "wordset_id": "83268f5941",
+    "meanings": [
+      {
+        "id": "a9be828eec",
+        "def": "the Roman numeral for 40",
+        "speech_part": "adjective",
+        "synonyms": [
+          "forty"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman numeral para sa 40"
+      }
+    ]
+  },
+  "xviii": {
+    "word": "xviii",
+    "wordset_id": "02e290257f",
+    "meanings": [
+      {
+        "id": "145aec59aa",
+        "def": "the Roman numeral for 18",
+        "speech_part": "adjective",
+        "synonyms": [
+          "eighteen"
+        ],
+        "def_tl": "Ang Roman Numeral para sa 18"
+      }
+    ]
+  },
+  "xix": {
+    "word": "xix",
+    "wordset_id": "b9e7946ea9",
+    "meanings": [
+      {
+        "id": "1cd9582cc5",
+        "def": "the Roman numeral for 19",
+        "speech_part": "adjective",
+        "synonyms": [
+          "nineteen"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 19"
+      }
+    ]
+  },
+  "xlii": {
+    "word": "xlii",
+    "wordset_id": "e8f4324c88",
+    "meanings": [
+      {
+        "id": "d32fdbc18a",
+        "def": "the Roman numeral for 42",
+        "speech_part": "adjective",
+        "synonyms": [
+          "forty-two"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 42"
+      }
+    ]
+  },
+  "xx": {
+    "word": "xx",
+    "wordset_id": "09c5201610",
+    "meanings": [
+      {
+        "id": "856dda8b00",
+        "def": "the Roman numeral for 20",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman numeral para sa 20"
+      }
+    ]
+  },
+  "xliii": {
+    "word": "xliii",
+    "wordset_id": "30b1751c6d",
+    "meanings": [
+      {
+        "id": "44d92320e2",
+        "def": "the Roman numeral for 43",
+        "speech_part": "adjective",
+        "synonyms": [
+          "forty-three"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 43"
+      }
+    ]
+  },
+  "xliv": {
+    "word": "xliv",
+    "wordset_id": "1773d131dd",
+    "meanings": [
+      {
+        "id": "8b78df5234",
+        "def": "the Roman numeral for 44",
+        "speech_part": "adjective",
+        "synonyms": [
+          "forty-four"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 44"
+      }
+    ]
+  },
+  "xxi": {
+    "word": "xxi",
+    "wordset_id": "a2d853655e",
+    "meanings": [
+      {
+        "id": "e349850e8b",
+        "def": "the Roman numeral for 21",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty-one"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 21"
+      }
+    ]
+  },
+  "xlv": {
+    "word": "xlv",
+    "wordset_id": "9009cc122e",
+    "meanings": [
+      {
+        "id": "d75b786e00",
+        "def": "the Roman numeral for 45",
+        "speech_part": "adjective",
+        "synonyms": [
+          "forty-five"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 45"
+      }
+    ]
+  },
+  "xxii": {
+    "word": "xxii",
+    "wordset_id": "8fd59f85b1",
+    "meanings": [
+      {
+        "id": "91a05c578f",
+        "def": "the Roman numeral for 22",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty-two"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 22"
+      }
+    ]
+  },
+  "xlvi": {
+    "word": "xlvi",
+    "wordset_id": "e2ef43ddb6",
+    "meanings": [
+      {
+        "id": "3fe84997b2",
+        "def": "the Roman numeral for 46",
+        "speech_part": "adjective",
+        "synonyms": [
+          "forty-six"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 46"
+      }
+    ]
+  },
+  "xlvii": {
+    "word": "xlvii",
+    "wordset_id": "b6320fd782",
+    "meanings": [
+      {
+        "id": "e0e48bba70",
+        "def": "the Roman numeral for 47",
+        "speech_part": "adjective",
+        "synonyms": [
+          "forty-seven"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 47"
+      }
+    ]
+  },
+  "xxiii": {
+    "word": "xxiii",
+    "wordset_id": "783dd6bf66",
+    "meanings": [
+      {
+        "id": "b2a4e897ad",
+        "def": "the Roman numeral for 23",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty-three"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 23"
+      }
+    ]
+  },
+  "xlviii": {
+    "word": "xlviii",
+    "wordset_id": "4765b3156b",
+    "meanings": [
+      {
+        "id": "b281a65588",
+        "def": "the Roman numeral for 48",
+        "speech_part": "adjective",
+        "synonyms": [
+          "forty-eight"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 48"
+      }
+    ]
+  },
+  "xxiv": {
+    "word": "xxiv",
+    "wordset_id": "ed62bf8424",
+    "meanings": [
+      {
+        "id": "458f748a78",
+        "def": "the Roman numeral for 24",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty-four"
+        ],
+        "def_tl": "Ang Roman Numeral para sa 24"
+      }
+    ]
+  },
+  "xxv": {
+    "word": "xxv",
+    "wordset_id": "04c378012e",
+    "meanings": [
+      {
+        "id": "deb0f5adc4",
+        "def": "the Roman numeral for 25",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty-five"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 25"
+      }
+    ]
+  },
+  "xxvi": {
+    "word": "xxvi",
+    "wordset_id": "09b07b63e9",
+    "meanings": [
+      {
+        "id": "d4da320eab",
+        "def": "the Roman numeral for 26",
+        "speech_part": "adjective",
+        "synonyms": [
+          "twenty-six"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 26"
+      }
+    ]
+  },
+  "xc": {
+    "word": "xc",
+    "wordset_id": "188fa29de3",
+    "meanings": [
+      {
+        "id": "3b78db3639",
+        "def": "the Roman numeral for 90",
+        "speech_part": "adjective",
+        "synonyms": [
+          "ninety"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 90"
+      }
+    ]
+  },
+  "xci": {
+    "word": "xci",
+    "wordset_id": "bf6b328ad7",
+    "meanings": [
+      {
+        "id": "d25266ae26",
+        "def": "the Roman numeral for 91",
+        "speech_part": "adjective",
+        "synonyms": [
+          "ninety-one"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 91"
+      }
+    ]
+  },
+  "xcl": {
+    "word": "xcl",
+    "wordset_id": "5de6668c8c",
+    "meanings": [
+      {
+        "id": "06125f6bbf",
+        "def": "the Roman numeral for 190",
+        "speech_part": "adjective",
+        "synonyms": [
+          "one hundred ninety"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 190"
+      }
+    ]
+  },
+  "xciii": {
+    "word": "xciii",
+    "wordset_id": "21821640d9",
+    "meanings": [
+      {
+        "id": "fa1f22518a",
+        "def": "the Roman numeral for 93",
+        "speech_part": "adjective",
+        "synonyms": [
+          null
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 93"
+      }
+    ]
+  },
+  "xciv": {
+    "word": "xciv",
+    "wordset_id": "3ccd3600f7",
+    "meanings": [
+      {
+        "id": "091ceff116",
+        "def": "nintey-four in Roman numerals",
+        "speech_part": "adjective",
+        "def_tl": "Siyamnapu't apat sa Roman Numerals"
+      }
+    ]
+  },
+  "xcv": {
+    "word": "xcv",
+    "wordset_id": "2a88ba352f",
+    "meanings": [
+      {
+        "id": "cd24500fc8",
+        "def": "the Roman numeral for 95",
+        "speech_part": "adjective",
+        "synonyms": [
+          "ninety-five"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 95"
+      }
+    ]
+  },
+  "xcvi": {
+    "word": "xcvi",
+    "wordset_id": "6445948b04",
+    "meanings": [
+      {
+        "id": "ef0a0a4a21",
+        "def": "the Roman numeral for 96",
+        "speech_part": "adjective",
+        "synonyms": [
+          "ninety-six"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 96"
+      }
+    ]
+  },
+  "xcvii": {
+    "word": "xcvii",
+    "wordset_id": "eef69775e6",
+    "meanings": [
+      {
+        "id": "e59d667415",
+        "def": "the number 97 in Roman numerals",
+        "example": "It's my xcvii birthday, Augustus!",
+        "speech_part": "adjective",
+        "synonyms": [
+          "ninety-seven"
+        ],
+        "example_tl": "Ito ang aking xcvii birthday, Augustus!"
+      }
+    ]
+  },
+  "xcviii": {
+    "word": "xcviii",
+    "wordset_id": "c0e83dc31d",
+    "meanings": [
+      {
+        "id": "5777d1dc18",
+        "def": "the Roman numeral for 98",
+        "speech_part": "adjective",
+        "synonyms": [
+          "ninety-eight"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "def_tl": "Ang Roman Numeral para sa 98"
+      }
+    ]
+  },
+  "xeric": {
+    "word": "xeric",
+    "wordset_id": "5f1a35aeac",
+    "meanings": [
+      {
+        "id": "24959211ae",
+        "def": "being deficient in moisture",
+        "example": "The Sahara desert is a xeric environment – it rarely rains there.",
+        "speech_part": "adjective",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          }
+        ],
+        "example_tl": "Ang Sahara Desert ay isang xeric na kapaligiran - bihirang umuulan doon."
+      }
+    ]
+  },
+  "xerophytic": {
+    "word": "xerophytic",
+    "wordset_id": "3c10a0f425",
+    "meanings": [
+      {
+        "id": "2aa387b76c",
+        "def": "adapted to a dry environment",
+        "example": "Cacti are xerophytic plants.",
+        "speech_part": "adjective",
+        "example_tl": "Ang Cacti ay mga xerophytic halaman."
+      }
+    ]
+  },
+  "xenogeneic": {
+    "word": "xenogeneic",
+    "wordset_id": "bcf0e4b36e",
+    "meanings": [
+      {
+        "id": "d7d3ee4287",
+        "def": "denoting or relating to cells or tissues from individuals belonging to different species",
+        "example": "The xenogenic reactions of trees and mosses is quite fascinating.",
+        "speech_part": "adjective",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang xenogenic reaksyon ng mga puno at mosses ay medyo kamangha -manghang."
+      }
+    ]
+  },
+  "xerographic": {
+    "word": "xerographic",
+    "wordset_id": "cacfb35d04",
+    "meanings": [
+      {
+        "id": "66c9509879",
+        "def": "of or relating to copying paper or other items, aka xerography",
+        "example": "Our xerographic machine was on the fritz.",
+        "speech_part": "adjective",
+        "example_tl": "Ang aming xerographic machine ay nasa fritz."
+      }
+    ]
+  },
+  "xerography": {
+    "word": "xerography",
+    "wordset_id": "60c6c25f6e",
+    "meanings": [
+      {
+        "id": "5ae187a2f9",
+        "def": "forming an image by the action of light on a specially coated charged plate",
+        "example": "The machine used xerography to print copies.",
+        "speech_part": "noun",
+        "example_tl": "Ang makina ay gumagamit ng xerography upang mag -print ng mga kopya."
+      }
+    ]
+  },
+  "xeroradiography": {
+    "word": "xeroradiography",
+    "wordset_id": "b535e5219e",
+    "meanings": [
+      {
+        "id": "dff19146e3",
+        "def": "radiography using X-rays and xerographic techniques",
+        "example": "The radiologist specialized in xeroradiography.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "medical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang radiologist na dalubhasa sa xeroradiography."
+      }
+    ]
+  },
+  "xenotransplant": {
+    "word": "xenotransplant",
+    "wordset_id": "8a07f7864a",
+    "meanings": [
+      {
+        "id": "680a17d53d",
+        "def": "a surgical procedure in which tissue or whole organs are transfered from one species to another species",
+        "speech_part": "noun",
+        "synonyms": [
+          "xenotransplantation"
+        ],
+        "def_tl": "isang pamamaraan ng kirurhiko kung saan ang tisyu o buong organo ay inilipat mula sa isang species sa ibang species"
+      }
+    ]
+  },
+  "xenotransplantation": {
+    "word": "xenotransplantation",
+    "wordset_id": "445114bbbf",
+    "meanings": [
+      {
+        "id": "b3628ed597",
+        "def": "a surgical procedure in which tissue or whole organs are transfered from one species to another species",
+        "example": "The comparable sizes of organs in pigs and humans means that xenotransplantation could be feasible.",
+        "speech_part": "noun",
+        "synonyms": [
+          "xenotransplant"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "medical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang maihahambing na laki ng mga organo sa mga baboy at tao ay nangangahulugan na ang xenotransplantation ay maaaring magagawa."
+      }
+    ]
+  },
+  "xanthomonad": {
+    "word": "xanthomonad",
+    "wordset_id": "714178917e",
+    "meanings": [
+      {
+        "id": "a3b706c596",
+        "def": "bacteria producing yellow non-water-soluble pigments",
+        "example": "I cultured a flask full of xanthomonad.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Nag -kultura ako ng isang flask na puno ng Xanthomonad."
+      }
+    ]
+  },
+  "xylophone": {
+    "word": "xylophone",
+    "wordset_id": "ff153d2824",
+    "meanings": [
+      {
+        "id": "37bb637455",
+        "def": "a percussion instrument with wooden bars tuned to produce a chromatic scale, with resonators to help with the sound quality",
+        "example": "The children were encouraged to play the xylophone.",
+        "speech_part": "noun",
+        "synonyms": [
+          "marimba"
+        ],
+        "example_tl": "Hinikayat ang mga bata na maglaro ng xylophone."
+      }
+    ]
+  },
+  "xerox": {
+    "word": "xerox",
+    "wordset_id": "559a7067ed",
+    "meanings": [
+      {
+        "id": "02c3c80587",
+        "def": "a copy made by a xerographic printer",
+        "speech_part": "noun",
+        "def_tl": "Isang kopya na ginawa ng isang xerographic printer"
+      },
+      {
+        "id": "b741f3f771",
+        "def": "reproduce by xerography",
+        "speech_part": "verb",
+        "synonyms": [
+          "photocopy"
+        ],
+        "def_tl": "Magparami sa pamamagitan ng xerography"
+      }
+    ]
+  },
+  "xenograft": {
+    "word": "xenograft",
+    "wordset_id": "57ea128cfb",
+    "meanings": [
+      {
+        "id": "d39037baff",
+        "def": "tissue from an animal of one species used as a temporary graft, as in cases of severe burns, on an individual of another species",
+        "example": "The surgeons used skin from a pig as a xenograft.",
+        "speech_part": "noun",
+        "synonyms": [
+          "heterograft"
+        ],
+        "example_tl": "Ang mga siruhano ay gumagamit ng balat mula sa isang baboy bilang isang xenograft."
+      }
+    ]
+  },
+  "xenolith": {
+    "word": "xenolith",
+    "wordset_id": "ed1e620dcb",
+    "meanings": [
+      {
+        "id": "29169ddade",
+        "def": "a piece of rock of different origin from the igneous rock in which it is embedded",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "def_tl": "isang piraso ng bato ng iba't ibang pinagmulan mula sa igneous na bato kung saan ito ay naka -embed"
+      }
+    ]
+  },
+  "xylophonist": {
+    "word": "xylophonist",
+    "wordset_id": "3369324d50",
+    "meanings": [
+      {
+        "id": "007cc87034",
+        "def": "someone who plays a xylophone",
+        "example": "The xylophonist played the Danse Macabre.",
+        "speech_part": "noun",
+        "example_tl": "Ang xylophonist ay naglaro ng danse macabre."
+      }
+    ]
+  },
+  "xenogenesis": {
+    "word": "xenogenesis",
+    "wordset_id": "4f51687b7e",
+    "meanings": [
+      {
+        "id": "e52502ba81",
+        "def": "the production of offspring that is distinct from either parent",
+        "example": "The two creatures did not look alike, but were thought to be different stages in xenogenesis.",
+        "speech_part": "noun",
+        "synonyms": [
+          "alternation of generations"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang dalawang nilalang ay hindi magkapareho, ngunit naisip na magkakaibang yugto sa xenogenesis."
+      }
+    ]
+  },
+  "xerophyte": {
+    "word": "xerophyte",
+    "wordset_id": "de2c709d31",
+    "meanings": [
+      {
+        "id": "8d1d77b72a",
+        "def": "plant adapted for life with a limited supply of water",
+        "example": "The gardener loved the easy maintenance of the xerophyte.",
+        "speech_part": "noun",
+        "synonyms": [
+          "desert plant"
+        ],
+        "example_tl": "Gustung -gusto ng hardinero ang madaling pagpapanatili ng xerophyte."
+      }
+    ]
+  },
+  "xerophile": {
+    "word": "xerophile",
+    "wordset_id": "f54648d40d",
+    "meanings": [
+      {
+        "id": "5d15b0d255",
+        "def": "plant adapted for life with a limited supply of water",
+        "example": "Cacti are some of the most well-known xerophiles.",
+        "speech_part": "noun",
+        "synonyms": [
+          "desert plant"
+        ],
+        "example_tl": "Ang Cacti ay ilan sa mga kilalang xerophile."
+      }
+    ]
+  },
+  "xylem": {
+    "word": "xylem",
+    "wordset_id": "641a96b3c6",
+    "meanings": [
+      {
+        "id": "8fc6fdd400",
+        "def": "the woody part of plants: the supporting and water-conducting tissue, consisting primarily of tracheids and vessels",
+        "example": "The xylem carries water up into the tree.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang xylem ay nagdadala ng tubig hanggang sa puno."
+      }
+    ]
+  },
+  "xanthelasma": {
+    "word": "xanthelasma",
+    "wordset_id": "6a327a4385",
+    "meanings": [
+      {
+        "id": "81acb3b8f0",
+        "def": "xanthoma of the eyelids",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "medical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "def_tl": "Xanthoma ng mga eyelid"
+      }
+    ]
+  },
+  "xanthoma": {
+    "word": "xanthoma",
+    "wordset_id": "e9ef404da9",
+    "meanings": [
+      {
+        "id": "18a1ac3a02",
+        "def": "a skin problem marked by the development of irregular yellow nodules on the eyelids, neck and back",
+        "example": "The patient is suffering from xanthoma.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "medical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang pasyente ay nagdurusa mula sa xanthoma."
+      }
+    ]
+  },
+  "xanthomatosis": {
+    "word": "xanthomatosis",
+    "wordset_id": "d9065a1701",
+    "meanings": [
+      {
+        "id": "aa63d6ce68",
+        "def": "widespread xanthomas (especially on elbows and knees)",
+        "speech_part": "noun",
+        "synonyms": [
+          "xanthoma multiplex",
+          "cholesterosis cutis",
+          "lipid granulomatosis"
+        ],
+        "def_tl": "malawak na xanthomas (lalo na sa mga siko at tuhod)"
+      }
+    ]
+  },
+  "xanthosis": {
+    "word": "xanthosis",
+    "wordset_id": "45224f7553",
+    "meanings": [
+      {
+        "id": "bad9805c57",
+        "def": "an abnormal yellow discoloration of the skin",
+        "example": "The child was so unhealthy that the skin displayed xanthosis.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "medical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang bata ay hindi malusog na ang balat ay nagpakita ng xanthosis."
+      }
+    ]
+  },
+  "xenophobia": {
+    "word": "xenophobia",
+    "wordset_id": "334cc14715",
+    "meanings": [
+      {
+        "id": "89a0d8b072",
+        "def": "a fear of foreigners or strangers",
+        "example": "I think your xenophobia might be cured by a trip abroad.",
+        "speech_part": "noun",
+        "example_tl": "Sa palagay ko ay maaaring pagalingin ang iyong xenophobia sa isang paglalakbay sa ibang bansa."
+      }
+    ]
+  },
+  "xanthopsia": {
+    "word": "xanthopsia",
+    "wordset_id": "470976bb0a",
+    "meanings": [
+      {
+        "id": "afc94472b0",
+        "def": "visual defect in which objects appear to have a yellowish hue",
+        "example": "The drug digitalin is thought to cause xanthopsia.",
+        "speech_part": "noun",
+        "example_tl": "Ang gamot na digitin ay naisip na maging sanhi ng xanthopsia."
+      }
+    ]
+  },
+  "xerotes": {
+    "word": "xerotes",
+    "wordset_id": "1df90e3ab6",
+    "meanings": [
+      {
+        "id": "ce2480cd6a",
+        "def": "the condition of not containing or being covered by a liquid, especially water",
+        "example": "The xerotes of the skin was helped by applying a wax.",
+        "speech_part": "noun",
+        "synonyms": [
+          "dryness"
+        ],
+        "labels": [
+          {
+            "name": "archaic",
+            "is_dialect": false
+          }
+        ],
+        "example_tl": "Ang mga xerotes ng balat ay tinulungan sa pamamagitan ng pag -apply ng isang waks."
+      }
+    ]
+  },
+  "xeroderma": {
+    "word": "xeroderma",
+    "wordset_id": "ffe6550853",
+    "meanings": [
+      {
+        "id": "5176e8bb5a",
+        "def": "a mild form of ichthyosis characterized by abnormal dryness and roughness of the skin",
+        "speech_part": "noun",
+        "synonyms": [
+          "xerodermia"
+        ],
+        "def_tl": "Isang banayad na anyo ng ichthyosis na nailalarawan sa pamamagitan ng hindi normal na pagkatuyo at pagkamagaspang ng balat"
+      }
+    ]
+  },
+  "xerodermia": {
+    "word": "xerodermia",
+    "wordset_id": "0ab0564909",
+    "meanings": [
+      {
+        "id": "660824bfb6",
+        "def": "a mild form of ichthyosis characterized by abnormal dryness and roughness of the skin",
+        "speech_part": "noun",
+        "synonyms": [
+          "xeroderma"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "medical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "def_tl": "Isang banayad na anyo ng ichthyosis na nailalarawan sa pamamagitan ng hindi normal na pagkatuyo at pagkamagaspang ng balat"
+      }
+    ]
+  },
+  "xerophthalmia": {
+    "word": "xerophthalmia",
+    "wordset_id": "b4d10337ee",
+    "meanings": [
+      {
+        "id": "dec5d6f20c",
+        "def": "abnormal dryness of the conjunctiva and cornea of the eyes",
+        "speech_part": "noun",
+        "synonyms": [
+          "xerophthalmus",
+          "xeroma",
+          "conjunctivitis arida"
+        ],
+        "def_tl": "hindi normal na pagkatuyo ng conjunctiva at kornea ng mga mata"
+      }
+    ]
+  },
+  "xerophthalmus": {
+    "word": "xerophthalmus",
+    "wordset_id": "9873e35578",
+    "meanings": [
+      {
+        "id": "d8883972fe",
+        "def": "abnormal dryness of the conjunctiva and cornea of the eyes",
+        "speech_part": "noun",
+        "synonyms": [
+          "xerophthalmia"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "medical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "def_tl": "hindi normal na pagkatuyo ng conjunctiva at kornea ng mga mata"
+      }
+    ]
+  },
+  "xeroma": {
+    "word": "xeroma",
+    "wordset_id": "4314dad75f",
+    "meanings": [
+      {
+        "id": "553c0ca1dc",
+        "def": "abnormal dryness of the conjunctiva and cornea of the eyes",
+        "example": "Your eyes have a condition called xeroma.",
+        "speech_part": "noun",
+        "synonyms": [
+          "xerophthalmia"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "medical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang iyong mga mata ay may kondisyon na tinatawag na xeroma."
+      }
+    ]
+  },
+  "xerostomia": {
+    "word": "xerostomia",
+    "wordset_id": "67cbea91e6",
+    "meanings": [
+      {
+        "id": "5bdbd97762",
+        "def": "abnormal dryness of the mouth resulting from decreased secretion of saliva",
+        "speech_part": "noun",
+        "synonyms": [
+          "dry mouth"
+        ],
+        "def_tl": "hindi normal na pagkatuyo ng bibig na nagreresulta mula sa nabawasan na pagtatago ng laway"
+      }
+    ]
+  },
+  "xanthemia": {
+    "word": "xanthemia",
+    "wordset_id": "19c92074a7",
+    "meanings": [
+      {
+        "id": "c428e45fd3",
+        "def": "excess carotene in the blood stream",
+        "example": "Eating too many carrots had contributed to the child's xanthemia.",
+        "speech_part": "noun",
+        "synonyms": [
+          "carotenemia"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "medical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang pagkain ng maraming karot ay nag -ambag sa xanthemia ng bata."
+      }
+    ]
+  },
+  "xenon": {
+    "word": "xenon",
+    "wordset_id": "43b584e95b",
+    "meanings": [
+      {
+        "id": "81da5eb232",
+        "def": "a colorless, odorless, inert gaseous element occurring in the earth's atmosphere in trace amounts",
+        "example": "The canister was filled with xenon.",
+        "speech_part": "noun",
+        "example_tl": "Ang canister ay napuno ng xenon."
+      }
+    ]
+  },
+  "xanthophyll": {
+    "word": "xanthophyll",
+    "wordset_id": "79cae7d652",
+    "meanings": [
+      {
+        "id": "24705b2067",
+        "def": "yellow carotenoid pigments in plants and animal fats and egg yolks",
+        "speech_part": "noun",
+        "synonyms": [
+          "xanthophyl",
+          "lutein"
+        ],
+        "def_tl": "dilaw na karotenoid pigment sa mga halaman at taba ng hayop at itlog yolks"
+      }
+    ]
+  },
+  "xanthophyl": {
+    "word": "xanthophyl",
+    "wordset_id": "6bc234984e",
+    "meanings": [
+      {
+        "id": "3ac9da6156",
+        "def": "yellow carotenoid pigments in plants and animal fats and egg yolks",
+        "speech_part": "noun",
+        "synonyms": [
+          "xanthophyll"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "def_tl": "dilaw na karotenoid pigment sa mga halaman at taba ng hayop at itlog yolks"
+      }
+    ]
+  },
+  "xanthate": {
+    "word": "xanthate",
+    "wordset_id": "60cf5183f6",
+    "meanings": [
+      {
+        "id": "291bdadc55",
+        "def": "a salt or ester of xanthic acid",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "def_tl": "isang asin o ester ng xanthic acid"
+      }
+    ]
+  },
+  "xanthine": {
+    "word": "xanthine",
+    "wordset_id": "59dad95550",
+    "meanings": [
+      {
+        "id": "28c32647e1",
+        "def": "crystalline oxidation product of the metabolism of nucleoproteins",
+        "example": "Once generated from guanine, xanthine is often turned into uric acid.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Kapag nabuo mula sa guanine, ang xanthine ay madalas na naging uric acid."
+      }
+    ]
+  },
+  "xylose": {
+    "word": "xylose",
+    "wordset_id": "bc42ac7d65",
+    "meanings": [
+      {
+        "id": "c6f6548a3d",
+        "def": "a sugar extracted from wood or straw",
+        "example": "Xylose is found in most plants that humans consume.",
+        "speech_part": "noun",
+        "synonyms": [
+          "wood sugar"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang Xylose ay matatagpuan sa karamihan ng mga halaman na ubusin ng mga tao."
+      }
+    ]
+  },
+  "xenotime": {
+    "word": "xenotime",
+    "wordset_id": "d3b490559a",
+    "meanings": [
+      {
+        "id": "fce74d11d1",
+        "def": "a brown-to-yellow mineral that is a phosphate of yttrium in crystalline form",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "def_tl": "isang brown-to-dilaw na mineral na isang pospeyt ng yttrium sa crystalline form"
+      }
+    ]
+  },
+  "xylene": {
+    "word": "xylene",
+    "wordset_id": "02f8cfc859",
+    "meanings": [
+      {
+        "id": "348b627bed",
+        "def": "a colorless flammable volatile liquid hydrocarbon used as a solvent",
+        "speech_part": "noun",
+        "synonyms": [
+          "xylol"
+        ],
+        "def_tl": "isang walang kulay na nasusunog na pabagu -bago ng likido na hydrocarbon na ginamit bilang isang solvent"
+      }
+    ]
+  },
+  "xylol": {
+    "word": "xylol",
+    "wordset_id": "9b4dd5c3bc",
+    "meanings": [
+      {
+        "id": "ac048d37f1",
+        "def": "a colorless flammable volatile liquid hydrocarbon used as a solvent",
+        "example": "The only way the powder would dissolve was in xylol.",
+        "speech_part": "noun",
+        "synonyms": [
+          "xylene"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang tanging paraan na matunaw ang pulbos ay nasa xylol."
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+[gd_scene load_steps=5 format=3 uid="uid://cklqc8kimromj"]
+
+[ext_resource type="Script" uid="uid://ceddmjs7rcfpu" path="res://scripts/letter_tile.gd" id="1_840n4"]
+[ext_resource type="Texture2D" uid="uid://dvh23tpu8w31x" path="res://assets/UI/background.jpg" id="2_5bxqe"]
+
+[sub_resource type="Shader" id="Shader_5bxqe"]
+code = "shader_type canvas_item;
+
+uniform vec4 glow_color : source_color = vec4(0.0, 1.0, 0.0, 1.0);
+uniform float glow_strength : hint_range(0.0, 2.0) = 0.0;
+
+void fragment() {
+    vec4 base = texture(TEXTURE, UV) * COLOR;
+    // Add simple glow effect by mixing the color
+    vec3 glow_mix = mix(base.rgb, glow_color.rgb, glow_strength * 0.5);
+    COLOR = vec4(glow_mix, base.a);
+}
+"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ddlsb"]
+shader = SubResource("Shader_5bxqe")
+shader_parameter/glow_color = Color(0, 1, 0, 1)
+shader_parameter/glow_strength = 0.0
+
+[node name="LetterLabel" type="Control"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 3
+anchors_preset = 10
+anchor_right = 1.0
+offset_right = -1102.0
+offset_bottom = 50.0
+grow_horizontal = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+script = ExtResource("1_840n4")
+
+[node name="Background" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_ddlsb")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_5bxqe")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -19.0
+offset_top = -23.0
+offset_right = 11.0
+offset_bottom = 22.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.9882353)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "W"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PointsLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 26.0
+offset_right = 49.0
+offset_bottom = 49.0
+theme_override_colors/font_color = Color(0.97352535, 0.8915951, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.9529412)
+text = "1"
+horizontal_alignment = 1

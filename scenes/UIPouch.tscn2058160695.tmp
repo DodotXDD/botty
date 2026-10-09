@@ -1,0 +1,56 @@
+[gd_scene load_steps=4 format=3 uid="uid://bik3ic16r430d"]
+
+[ext_resource type="Script" uid="uid://y8wqkvaj3po2" path="res://scripts/uipouch.gd" id="1_jqplv"]
+[ext_resource type="Texture2D" uid="uid://7ylcye03vmh0" path="res://assets/Invent/backpack.png" id="2_tdoy6"]
+[ext_resource type="PackedScene" uid="uid://cklqc8kimromj" path="res://scenes/LetterTile.tscn" id="3_tdoy6"]
+
+[node name="UIpouch" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 191.0
+offset_top = 352.0
+offset_right = 502.0
+offset_bottom = 637.0
+script = ExtResource("1_jqplv")
+
+[node name="Pouch" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_tdoy6")
+expand_mode = 1
+
+[node name="LettersContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -70.5
+offset_top = -35.5
+offset_right = 66.5
+offset_bottom = 106.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LetterTile" parent="LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="LetterTile2" parent="LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="LetterTile3" parent="LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="LetterTile4" parent="LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="LetterTile5" parent="LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="LetterTile6" parent="LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2

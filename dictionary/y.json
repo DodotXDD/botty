@@ -1,0 +1,3600 @@
+{
+  "yet": {
+    "word": "yet",
+    "wordset_id": "ffb929d4fd",
+    "meanings": [
+      {
+        "id": "340cfebecc",
+        "def": "to a greater degree or extent",
+        "example": "We aim for yet better results.",
+        "speech_part": "adverb",
+        "synonyms": [
+          "even"
+        ],
+        "example_tl": "Nilalayon namin para sa mas mahusay na mga resulta."
+      },
+      {
+        "id": "9368b41697",
+        "def": "despite anything to the contrary, usually following a concession",
+        "example": "You are right, yet I still disagree.",
+        "speech_part": "adverb",
+        "synonyms": [
+          "however"
+        ],
+        "example_tl": "Tama ka, hindi pa rin ako sumasang -ayon."
+      },
+      {
+        "id": "3e7c6a3506",
+        "def": "up to the present time",
+        "example": "I have yet to see the results.",
+        "speech_part": "adverb",
+        "example_tl": "Hindi ko pa nakikita ang mga resulta."
+      },
+      {
+        "id": "4b401449b6",
+        "def": "used in negative statement to describe a situation that has existed up to this point or up to the present time",
+        "example": "Yet you have not lived up to expectations.",
+        "speech_part": "adverb",
+        "synonyms": [
+          "so far"
+        ],
+        "example_tl": "Gayunpaman hindi ka pa nabubuhay hanggang sa mga inaasahan."
+      },
+      {
+        "id": "0225f43475",
+        "def": "used after a superlative",
+        "example": "The violinist was the best yet.",
+        "speech_part": "adverb",
+        "synonyms": [
+          "so far"
+        ],
+        "example_tl": "Ang violinist ay ang pinakamahusay pa."
+      },
+      {
+        "id": "4309e65dbc",
+        "def": "within an indefinite time or at an unspecified future time",
+        "example": "The gardeners longed for the flowers that were yet to show themselves.",
+        "speech_part": "adverb",
+        "synonyms": [
+          "in time"
+        ],
+        "example_tl": "Ang mga hardinero ay nagnanais ng mga bulaklak na hindi pa ipinapakita sa kanilang sarili."
+      }
+    ]
+  },
+  "yearly": {
+    "word": "yearly",
+    "wordset_id": "cd7b11ed14",
+    "meanings": [
+      {
+        "id": "3f623894b5",
+        "def": "without missing a year",
+        "speech_part": "adverb",
+        "synonyms": [
+          "annually"
+        ],
+        "def_tl": "nang hindi nawawala ng isang taon"
+      },
+      {
+        "id": "e499386028",
+        "def": "occurring or payable every year",
+        "speech_part": "adjective",
+        "synonyms": [
+          "annual"
+        ],
+        "def_tl": "nagaganap o babayaran bawat taon"
+      },
+      {
+        "id": "a2516e4cfd",
+        "def": "a reference book that is published regularly once every year",
+        "speech_part": "noun",
+        "synonyms": [
+          "annual"
+        ],
+        "def_tl": "Isang sanggunian na libro na nai -publish nang regular isang beses bawat taon"
+      }
+    ]
+  },
+  "yonder": {
+    "word": "yonder",
+    "wordset_id": "41757c3f4a",
+    "meanings": [
+      {
+        "id": "3cac34f9a6",
+        "def": "at or in an indicated (usually distant) place (`yon' is archaic and dialectal)",
+        "example": "the house yonder",
+        "speech_part": "adverb",
+        "example_tl": "ang bahay yonder"
+      },
+      {
+        "id": "5858ce6cfc",
+        "def": "distant but within sight (`yon' is dialectal)",
+        "example": "yonder valley",
+        "speech_part": "adjective",
+        "synonyms": [
+          "yon"
+        ],
+        "example_tl": "Yonder Valley"
+      }
+    ]
+  },
+  "yon": {
+    "word": "yon",
+    "wordset_id": "2c661270b4",
+    "meanings": [
+      {
+        "id": "4225d8981b",
+        "def": "distant but within sight (`yon' is dialectal)",
+        "example": "yonder valley",
+        "speech_part": "adjective",
+        "synonyms": [
+          "yonder"
+        ],
+        "example_tl": "Yonder Valley"
+      }
+    ]
+  },
+  "yieldingly": {
+    "word": "yieldingly",
+    "wordset_id": "d2d186a8bf",
+    "meanings": [
+      {
+        "id": "e875bc11d2",
+        "def": "in an obedient manner",
+        "example": "They yieldingly surrendered to the superior forces.",
+        "speech_part": "adverb",
+        "synonyms": [
+          "obediently"
+        ],
+        "example_tl": "Sumuko sila sa Superior Forces."
+      }
+    ]
+  },
+  "yearningly": {
+    "word": "yearningly",
+    "wordset_id": "3215c25470",
+    "meanings": [
+      {
+        "id": "b900d35522",
+        "def": "in a yearning manner",
+        "example": "The poet yearningly wrote for their lover.",
+        "speech_part": "adverb",
+        "synonyms": [
+          "longingly"
+        ],
+        "example_tl": "Ang makata ay nagnanais na sumulat para sa kanilang kasintahan."
+      }
+    ]
+  },
+  "yea": {
+    "word": "yea",
+    "wordset_id": "076fcca717",
+    "meanings": [
+      {
+        "id": "a64aa9f530",
+        "def": "not only so, but",
+        "example": "I therein do rejoice, yea, and will rejoice",
+        "speech_part": "adverb",
+        "synonyms": [
+          "yeah"
+        ],
+        "example_tl": "Ako doon ay nagagalak, oo, at magagalak"
+      },
+      {
+        "id": "5c773735c5",
+        "def": "an affirmative",
+        "example": "The yeas have it",
+        "speech_part": "noun",
+        "synonyms": [
+          "yes"
+        ],
+        "example_tl": "Ang mga yeas ay mayroon nito"
+      }
+    ]
+  },
+  "yeah": {
+    "word": "yeah",
+    "wordset_id": "1287621330",
+    "meanings": [
+      {
+        "id": "5f4428f3e0",
+        "def": "casual way of answering yes",
+        "example": "Yeah, I agree.",
+        "speech_part": "adverb",
+        "synonyms": [
+          "yea"
+        ],
+        "example_tl": "Yeah, sumasang -ayon ako."
+      }
+    ]
+  },
+  "youthfully": {
+    "word": "youthfully",
+    "wordset_id": "ce5d9a64e1",
+    "meanings": [
+      {
+        "id": "7c2d2eb437",
+        "def": "in a youthful manner",
+        "example": "I am still youthfully enthusiastic.",
+        "speech_part": "adverb",
+        "example_tl": "Masigasig pa rin ako sa kabataan."
+      }
+    ]
+  },
+  "yesterday": {
+    "word": "yesterday",
+    "wordset_id": "96f0ad0516",
+    "meanings": [
+      {
+        "id": "38eee8e189",
+        "def": "on the day preceding today",
+        "example": "Yesterday, the weather was beautiful.",
+        "speech_part": "adverb",
+        "example_tl": "Kahapon, maganda ang panahon."
+      },
+      {
+        "id": "4917b42705",
+        "def": "in the recent past",
+        "example": "The election was news yesterday.",
+        "speech_part": "adverb",
+        "synonyms": [
+          "recently"
+        ],
+        "example_tl": "Ang halalan ay balita kahapon."
+      },
+      {
+        "id": "f9abd3d378",
+        "def": "the day immediately before today",
+        "example": "The news was in yesterday's newspapers.",
+        "speech_part": "noun",
+        "example_tl": "Ang balita ay nasa mga pahayagan kahapon."
+      },
+      {
+        "id": "02f2ad04fa",
+        "def": "the recent past",
+        "example": "Yesterday's solutions are not good enough.",
+        "speech_part": "noun",
+        "example_tl": "Ang mga solusyon kahapon ay hindi sapat."
+      }
+    ]
+  },
+  "yellow": {
+    "word": "yellow",
+    "wordset_id": "d628f9a047",
+    "meanings": [
+      {
+        "id": "207bf22937",
+        "def": "typical of tabloids",
+        "speech_part": "adjective",
+        "synonyms": [
+          "scandalmongering"
+        ],
+        "def_tl": "Karaniwan ng mga tabloid"
+      },
+      {
+        "id": "77b9d6221e",
+        "def": "easily frightened",
+        "speech_part": "adjective",
+        "synonyms": [
+          "chicken"
+        ],
+        "def_tl": "madaling matakot"
+      },
+      {
+        "id": "729f559c38",
+        "def": "of the color intermediate between green and orange in the color spectrum",
+        "speech_part": "adjective",
+        "synonyms": [
+          "xanthous"
+        ],
+        "def_tl": "ng kulay na intermediate sa pagitan ng berde at orange sa spectrum ng kulay"
+      },
+      {
+        "id": "0bf204d820",
+        "def": "affected by jaundice which causes yellowing of skin etc",
+        "speech_part": "adjective",
+        "synonyms": [
+          "jaundiced",
+          "icteric"
+        ],
+        "def_tl": "apektado ng jaundice na nagiging sanhi ng pagdidilaw ng balat atbp"
+      },
+      {
+        "id": "4a468c6289",
+        "def": "cowardly or treacherous",
+        "example": "the little yellow stain of treason-M.W.Straight",
+        "speech_part": "adjective",
+        "example_tl": "Ang maliit na dilaw na mantsa ng Treason-M.W.Straight"
+      },
+      {
+        "id": "e091130cde",
+        "def": "changed to a yellowish color by age",
+        "example": "yellowed parchment",
+        "speech_part": "adjective",
+        "synonyms": [
+          "yellowed"
+        ],
+        "example_tl": "Yellowed Parchment"
+      },
+      {
+        "id": "13d7510710",
+        "def": "yellow color or pigment",
+        "speech_part": "noun",
+        "synonyms": [
+          "yellowness"
+        ],
+        "def_tl": "dilaw na kulay o pigment"
+      },
+      {
+        "id": "b43bb54a10",
+        "def": "turn yellow",
+        "example": "The pages of the book began to yellow",
+        "speech_part": "verb",
+        "example_tl": "Ang mga pahina ng libro ay nagsimulang dilaw"
+      }
+    ]
+  },
+  "yellowish": {
+    "word": "yellowish",
+    "wordset_id": "15cf0a4813",
+    "meanings": [
+      {
+        "id": "8ceb020a9f",
+        "def": "of the color intermediate between green and orange in the color spectrum",
+        "example": "That car is an awful yellowish color.",
+        "speech_part": "adjective",
+        "example_tl": "Ang kotse na iyon ay isang kakila -kilabot na madilaw -dilaw na kulay."
+      }
+    ]
+  },
+  "yeasty": {
+    "word": "yeasty",
+    "wordset_id": "05cbedb634",
+    "meanings": [
+      {
+        "id": "60b1b5aa4b",
+        "def": "exuberantly creative",
+        "speech_part": "adjective",
+        "def_tl": "Malikhaing malikhaing"
+      },
+      {
+        "id": "4e4a45d8a9",
+        "def": "marked by spirited enjoyment",
+        "speech_part": "adjective",
+        "synonyms": [
+          "barmy",
+          "zestful",
+          "zesty"
+        ],
+        "def_tl": "minarkahan ng masiglang kasiyahan"
+      },
+      {
+        "id": "45ecb17d11",
+        "def": "of or resembling or containing yeast",
+        "speech_part": "adjective",
+        "synonyms": [
+          "yeastlike"
+        ],
+        "def_tl": "ng o kahawig o naglalaman ng lebadura"
+      }
+    ]
+  },
+  "young": {
+    "word": "young",
+    "wordset_id": "147fdd64ce",
+    "meanings": [
+      {
+        "id": "74c67acf08",
+        "def": "(of crops) harvested at an early stage of development",
+        "speech_part": "adjective",
+        "synonyms": [
+          "new"
+        ],
+        "def_tl": "(ng mga pananim) na -ani sa isang maagang yugto ng pag -unlad"
+      },
+      {
+        "id": "a36133ad82",
+        "def": "not tried or tested by experience",
+        "speech_part": "adjective",
+        "synonyms": [
+          "untested",
+          "untried",
+          "unseasoned"
+        ],
+        "def_tl": "hindi sinubukan o nasubok sa pamamagitan ng karanasan"
+      },
+      {
+        "id": "5944323735",
+        "def": "being in its early stage",
+        "example": "a young industry",
+        "speech_part": "adjective",
+        "example_tl": "isang batang industriya"
+      },
+      {
+        "id": "880f0e1f26",
+        "def": "of living things, especially persons, in an early period of life or development or growth",
+        "example": "The young people played games in the park.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "immature"
+        ],
+        "example_tl": "Ang mga kabataan ay naglaro ng mga laro sa parke."
+      },
+      {
+        "id": "7ef8a4b357",
+        "def": "suggestive of youth",
+        "speech_part": "adjective",
+        "synonyms": [
+          "youthful"
+        ],
+        "def_tl": "nagmumungkahi ng kabataan"
+      },
+      {
+        "id": "bfee6af5a8",
+        "def": "any immature animal",
+        "speech_part": "noun",
+        "synonyms": [
+          "offspring"
+        ],
+        "def_tl": "anumang hindi pa immature na hayop"
+      },
+      {
+        "id": "febf4684c9",
+        "def": "young people collectively",
+        "example": "rock music appeals to the young",
+        "speech_part": "noun",
+        "synonyms": [
+          "youth"
+        ],
+        "example_tl": "Ang musika ng rock ay nag -apela sa bata"
+      }
+    ]
+  },
+  "yielding": {
+    "word": "yielding",
+    "wordset_id": "cdcde3a4df",
+    "meanings": [
+      {
+        "id": "47811e58b9",
+        "def": "tending to give in or surrender or agree",
+        "example": "too yielding to make a stand against any encroachments- V.I.Parrington",
+        "speech_part": "adjective",
+        "example_tl": "Masyadong nagbubunga upang gumawa ng isang paninindigan laban sa anumang mga encroachment- v.i.parrington"
+      },
+      {
+        "id": "7d948582c5",
+        "def": "lacking stiffness and giving way to pressure",
+        "example": "a deep yielding layer of foam rubber",
+        "speech_part": "adjective",
+        "example_tl": "Isang malalim na ani na layer ng foam goma"
+      },
+      {
+        "id": "853862e4fb",
+        "def": "inclined to yield to argument or influence or control",
+        "example": "a timid yielding person",
+        "speech_part": "adjective",
+        "example_tl": "isang mahiyain na nagbubunga"
+      },
+      {
+        "id": "bce802d735",
+        "def": "the act of conceding or yielding",
+        "speech_part": "noun",
+        "synonyms": [
+          "concession",
+          "conceding"
+        ],
+        "def_tl": "ang kilos ng conceding o ani"
+      },
+      {
+        "id": "53274ca0e5",
+        "def": "a verbal act of admitting defeat",
+        "speech_part": "noun",
+        "synonyms": [
+          "surrender"
+        ],
+        "def_tl": "Isang pandiwang kilos ng pag -amin ng pagkatalo"
+      }
+    ]
+  },
+  "yearlong": {
+    "word": "yearlong",
+    "wordset_id": "36932e621a",
+    "meanings": [
+      {
+        "id": "17326af715",
+        "def": "lasting through a year",
+        "example": "I am attending yearlong courses in Latin.",
+        "speech_part": "adjective",
+        "example_tl": "Dumalo ako sa mga taon na kurso sa Latin."
+      }
+    ]
+  },
+  "yelled": {
+    "word": "yelled",
+    "wordset_id": "be13a1374c",
+    "meanings": [
+      {
+        "id": "680d160771",
+        "def": "in a vehement outcry",
+        "example": "Your yelled warning was of no use; the car still didn't have time to stop.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "shouted"
+        ],
+        "example_tl": "Ang iyong sigaw na babala ay walang gamit; Wala pa ring oras ang sasakyan upang tumigil."
+      }
+    ]
+  },
+  "yankee": {
+    "word": "Yankee",
+    "wordset_id": "fdcfc1d577",
+    "meanings": [
+      {
+        "id": "6c7651389d",
+        "def": "relating to an inhabitant of a northern state in the United States, especially a Union soldier during the Civil War, typically used by inhabitants of the southern United States as a pejorative term",
+        "example": "I don't care for Yankee food.",
+        "speech_part": "adjective",
+        "example_tl": "Wala akong pakialam sa pagkain ng Yankee."
+      },
+      {
+        "id": "e888c472ef",
+        "def": "an inhabitant of a northern state in the United States, especially a Union soldier during the Civil War, typically used by inhabitants of the southern United States as a pejorative term",
+        "speech_part": "noun",
+        "def_tl": "Isang naninirahan sa isang hilagang estado sa Estados Unidos, lalo na ang isang sundalo ng unyon sa panahon ng digmaang sibil, na karaniwang ginagamit ng mga naninirahan sa timog Estados Unidos bilang isang term na pejorative"
+      }
+    ]
+  },
+  "yucky": {
+    "word": "yucky",
+    "wordset_id": "b40395665b",
+    "meanings": [
+      {
+        "id": "2bd876357d",
+        "def": "unappealing or unappetizing",
+        "example": "The calamari looked yucky from where I was sitting.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "repellent"
+        ],
+        "example_tl": "Ang calamari ay mukhang yucky mula sa kung saan ako nakaupo."
+      }
+    ]
+  },
+  "yellowed": {
+    "word": "yellowed",
+    "wordset_id": "ff64888cd8",
+    "meanings": [
+      {
+        "id": "b7f6d528b8",
+        "def": "changed to a yellowish color by age",
+        "example": "The yellowed parchment cracked at the slightest touch.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "yellow"
+        ],
+        "example_tl": "Ang dilaw na pergamino ay basag sa bahagyang pagpindot."
+      }
+    ]
+  },
+  "youngish": {
+    "word": "youngish",
+    "wordset_id": "283c54013f",
+    "meanings": [
+      {
+        "id": "3799699418",
+        "def": "somewhat young",
+        "example": "Their modern haircut contributed to their youngish appearance.",
+        "speech_part": "adjective",
+        "example_tl": "Ang kanilang modernong gupit ay nag -ambag sa kanilang batang hitsura."
+      }
+    ]
+  },
+  "youthful": {
+    "word": "youthful",
+    "wordset_id": "49cb3c8452",
+    "meanings": [
+      {
+        "id": "b7c9482d74",
+        "def": "suggestive of youth",
+        "example": "Your youthful good looks will be an advantage in the modeling world.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "young"
+        ],
+        "example_tl": "Ang iyong kabataan na magandang hitsura ay magiging isang kalamangan sa mundo ng pagmomolde."
+      }
+    ]
+  },
+  "yawning": {
+    "word": "yawning",
+    "wordset_id": "d32a397d9c",
+    "meanings": [
+      {
+        "id": "0b38c41f21",
+        "def": "showing lack of attention or boredom",
+        "example": "The teacher tried a new subject to wake the yawning class.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "drowsy"
+        ],
+        "example_tl": "Sinubukan ng guro ang isang bagong paksa upang gisingin ang ungol na klase."
+      },
+      {
+        "id": "705ecc53bc",
+        "def": "gaping open as if threatening to engulf someone or something",
+        "example": "The yawning mine shaft was pitch black.",
+        "speech_part": "adjective",
+        "example_tl": "Ang yawning mine shaft ay itim na itim."
+      },
+      {
+        "id": "6eec9fd885",
+        "def": "with the mouth wide open indicating boredom or sleepiness",
+        "example": "We put the yawning toddler to bed.",
+        "speech_part": "adjective",
+        "example_tl": "Inilagay namin ang yawning na sanggol sa kama."
+      },
+      {
+        "id": "19ef82fd68",
+        "def": "an involuntary intake of breath through a wide open mouth",
+        "example": "Your yawning is contagious.",
+        "speech_part": "noun",
+        "synonyms": [
+          "yawn"
+        ],
+        "example_tl": "Nakakahawa ang iyong yawning."
+      }
+    ]
+  },
+  "yokelish": {
+    "word": "yokelish",
+    "wordset_id": "9439433fe6",
+    "meanings": [
+      {
+        "id": "9823431ed8",
+        "def": "relating to persons that are lacking in refinement or grace",
+        "example": "We did not want to appear yokelish to the visitors.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "rude"
+        ],
+        "example_tl": "Hindi namin nais na lumitaw Yokelish sa mga bisita."
+      }
+    ]
+  },
+  "younger": {
+    "word": "younger",
+    "wordset_id": "bbe3804443",
+    "meanings": [
+      {
+        "id": "b3c477c9c3",
+        "def": "used of the younger of two persons of the same name especially used to distinguish a son from his father",
+        "speech_part": "adjective",
+        "synonyms": [
+          "jr."
+        ],
+        "def_tl": "ginamit ng mas bata sa dalawang tao na may parehong pangalan lalo na ginamit upang makilala ang isang anak na lalaki sa kanyang ama"
+      }
+    ]
+  },
+  "yummy": {
+    "word": "yummy",
+    "wordset_id": "fe240156da",
+    "meanings": [
+      {
+        "id": "5a361e80b9",
+        "def": "extremely pleasing to the sense of taste",
+        "example": "These seared scallops are yummy.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "delectable"
+        ],
+        "example_tl": "Ang mga seared scallops na ito ay masarap."
+      }
+    ]
+  },
+  "yugoslavian": {
+    "word": "Yugoslavian",
+    "wordset_id": "93b4c43436",
+    "meanings": [
+      {
+        "id": "35afb1d463",
+        "def": "of or relating to or characteristic of the former country of Yugoslavia or its people or languages",
+        "example": "Yugoslavian wine",
+        "speech_part": "adjective",
+        "synonyms": [
+          "Yugoslav"
+        ],
+        "example_tl": "Yugoslavian alak"
+      }
+    ]
+  },
+  "yugoslav": {
+    "word": "Yugoslav",
+    "wordset_id": "b68b649224",
+    "meanings": [
+      {
+        "id": "0a63b7d484",
+        "def": "of, relating to, or characteristic of the former country of Yugoslavia, its people, or its languages",
+        "example": "I had some great Yugoslav wine the other evening.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "Yugoslavian"
+        ],
+        "example_tl": "Nagkaroon ako ng ilang mahusay na Yugoslav na alak sa ibang gabi."
+      }
+    ]
+  },
+  "yogistic": {
+    "word": "yogistic",
+    "wordset_id": "757cd4da23",
+    "meanings": [
+      {
+        "id": "b271e6eb4f",
+        "def": "of or relating to yoga",
+        "speech_part": "adjective",
+        "synonyms": [
+          "yogic"
+        ],
+        "def_tl": "ng o nauugnay sa yoga"
+      }
+    ]
+  },
+  "yogic": {
+    "word": "yogic",
+    "wordset_id": "1efaa77f02",
+    "meanings": [
+      {
+        "id": "4418966a35",
+        "def": "of or relating to yoga",
+        "example": "Yogic exercises have trimmed my belly.",
+        "speech_part": "adjective",
+        "synonyms": [
+          "yogistic"
+        ],
+        "example_tl": "Ang mga pagsasanay sa yogic ay nag -trim sa aking tiyan."
+      }
+    ]
+  },
+  "yeatsian": {
+    "word": "Yeatsian",
+    "wordset_id": "3884031f92",
+    "meanings": [
+      {
+        "id": "bceb7c4709",
+        "def": "in the manner of William Butler Yeats",
+        "example": "This poetry is Yeatsian.",
+        "speech_part": "adjective",
+        "example_tl": "Ang tula na ito ay Yeatsian."
+      }
+    ]
+  },
+  "yeastlike": {
+    "word": "yeastlike",
+    "wordset_id": "784453cd8d",
+    "meanings": [
+      {
+        "id": "27930e9eaa",
+        "def": "of or resembling or containing yeast",
+        "speech_part": "adjective",
+        "synonyms": [
+          "yeasty"
+        ],
+        "def_tl": "ng o kahawig o naglalaman ng lebadura"
+      }
+    ]
+  },
+  "yuman": {
+    "word": "Yuman",
+    "wordset_id": "f834afc9a2",
+    "meanings": [
+      {
+        "id": "0b1abc0f3a",
+        "def": "of or relating to the language or culture of the Yuma people",
+        "example": "Yuman settlements were commonly small and not permanent.",
+        "speech_part": "adjective",
+        "example_tl": "Ang mga pag -aayos ng Yuman ay karaniwang maliit at hindi permanente."
+      },
+      {
+        "id": "51166d7087",
+        "def": "a Native American tribal person living in southern California or western Arizona",
+        "example": "The Yumans also had loose political structure and control.",
+        "speech_part": "noun",
+        "example_tl": "Ang mga Yumans ay mayroon ding maluwag na istrukturang pampulitika at kontrol."
+      }
+    ]
+  },
+  "yemeni": {
+    "word": "Yemeni",
+    "wordset_id": "65a3339569",
+    "meanings": [
+      {
+        "id": "2e185f67b2",
+        "def": "of or relating to or characteristic of Yemen or its inhabitants",
+        "example": "The Yemeni mountains provide a harsh living environment.",
+        "speech_part": "adjective",
+        "example_tl": "Ang Yemeni Mountains ay nagbibigay ng isang malupit na kapaligiran sa pamumuhay."
+      }
+    ]
+  },
+  "yachting": {
+    "word": "yachting",
+    "wordset_id": "7c4546466f",
+    "meanings": [
+      {
+        "id": "c68834b18a",
+        "def": "water travel for pleasure",
+        "example": "I enjoy yachting on the Atlantic off the coast of Florida.",
+        "speech_part": "noun",
+        "synonyms": [
+          "boating"
+        ],
+        "example_tl": "Nasisiyahan ako sa yate sa Atlantiko sa baybayin ng Florida."
+      }
+    ]
+  },
+  "yoga": {
+    "word": "yoga",
+    "wordset_id": "81bd49717e",
+    "meanings": [
+      {
+        "id": "489dfefc7e",
+        "def": "a system of exercises, focusing on breathing techniques, originally practiced as part of the Hindu religion, to promote control of the body and mind",
+        "example": "I always feel calm after practicing yoga.",
+        "speech_part": "noun",
+        "example_tl": "Palagi akong nakakaramdam ng kalmado pagkatapos magsagawa ng yoga."
+      }
+    ]
+  },
+  "yawn": {
+    "word": "yawn",
+    "wordset_id": "822185fb91",
+    "meanings": [
+      {
+        "id": "a7919dff85",
+        "def": "an involuntary intake of breath through a wide open mouth",
+        "speech_part": "noun",
+        "synonyms": [
+          "oscitance",
+          "oscitancy",
+          "yawning"
+        ],
+        "def_tl": "isang hindi sinasadyang paggamit ng hininga sa pamamagitan ng isang malawak na bukas na bibig"
+      },
+      {
+        "id": "fb443a76b4",
+        "def": "utter a yawn, as from lack of oxygen or when one is tired",
+        "example": "The child yawned during the long performance",
+        "speech_part": "verb",
+        "example_tl": "Ang bata ay humikab sa mahabang pagganap"
+      },
+      {
+        "id": "bb4fef6f58",
+        "def": "be wide open",
+        "speech_part": "verb",
+        "synonyms": [
+          "gape",
+          "yaw"
+        ],
+        "def_tl": "maging malawak na bukas"
+      }
+    ]
+  },
+  "yield": {
+    "word": "yield",
+    "wordset_id": "93bd1a8740",
+    "meanings": [
+      {
+        "id": "8c14efa909",
+        "def": "production of a certain amount",
+        "speech_part": "noun",
+        "synonyms": [
+          "output"
+        ],
+        "def_tl": "paggawa ng isang tiyak na halaga"
+      },
+      {
+        "id": "b5f12bb29c",
+        "def": "an amount of a product",
+        "speech_part": "noun",
+        "synonyms": [
+          "fruit"
+        ],
+        "def_tl": "isang halaga ng isang produkto"
+      },
+      {
+        "id": "96a792b11c",
+        "def": "the income or profit arising from such transactions as the sale of land or other property",
+        "speech_part": "noun",
+        "synonyms": [
+          "return"
+        ],
+        "def_tl": "ang kita o kita na nagmula sa mga naturang transaksyon tulad ng pagbebenta ng lupa o iba pang pag -aari"
+      },
+      {
+        "id": "0eea4e11be",
+        "def": "the quantity of something (as a commodity) that is created (usually within a given period of time)",
+        "speech_part": "noun",
+        "synonyms": [
+          "production"
+        ],
+        "def_tl": "Ang dami ng isang bagay (bilang isang kalakal) na nilikha (karaniwang sa loob ng isang naibigay na tagal ng oras)"
+      },
+      {
+        "id": "71d09e00d9",
+        "def": "end resistance, as under pressure or force",
+        "example": "The door yielded to repeated blows with a battering ram",
+        "speech_part": "verb",
+        "synonyms": [
+          "give way"
+        ],
+        "example_tl": "Ang pintuan ay nagbigay ng paulit -ulit na mga suntok na may nakamamatay na tupa"
+      },
+      {
+        "id": "11e85dad7a",
+        "def": "consent reluctantly",
+        "speech_part": "verb",
+        "synonyms": [
+          "give in",
+          "succumb",
+          "knuckle under",
+          "buckle under"
+        ],
+        "def_tl": "Nag -atubili ang pagsang -ayon"
+      },
+      {
+        "id": "ff84165a78",
+        "def": "be willing to concede",
+        "speech_part": "verb",
+        "synonyms": [
+          "grant"
+        ],
+        "def_tl": "maging handa na sumang -ayon"
+      },
+      {
+        "id": "5983883ca5",
+        "def": "cease opposition",
+        "speech_part": "verb",
+        "def_tl": "itigil ang pagsalungat"
+      },
+      {
+        "id": "456cffdb2f",
+        "def": "be flexible under stress of physical force",
+        "speech_part": "verb",
+        "synonyms": [
+          "give"
+        ],
+        "def_tl": "Maging kakayahang umangkop sa ilalim ng stress ng pisikal na puwersa"
+      },
+      {
+        "id": "49516de417",
+        "def": "give or supply",
+        "speech_part": "verb",
+        "synonyms": [
+          "return"
+        ],
+        "def_tl": "bigyan o magbigay ng supply"
+      },
+      {
+        "id": "934eb3f85c",
+        "def": "cause to happen or be responsible for",
+        "speech_part": "verb",
+        "synonyms": [
+          "give"
+        ],
+        "def_tl": "maging responsable o maging responsable para sa"
+      },
+      {
+        "id": "a31763267d",
+        "def": "move in order to make room for someone for something",
+        "speech_part": "verb",
+        "synonyms": [
+          "give",
+          "ease up",
+          "give way",
+          "move over"
+        ],
+        "def_tl": "ilipat upang magkaroon ng silid para sa isang tao para sa isang bagay"
+      },
+      {
+        "id": "fe0eb170be",
+        "def": "bring in",
+        "speech_part": "verb",
+        "synonyms": [
+          "bear",
+          "pay"
+        ],
+        "def_tl": "Dalhin"
+      },
+      {
+        "id": "4f311dd817",
+        "def": "give over",
+        "speech_part": "verb",
+        "synonyms": [
+          "grant"
+        ],
+        "def_tl": "ibigay"
+      },
+      {
+        "id": "44064211fa",
+        "def": "be the cause or source of",
+        "speech_part": "verb",
+        "synonyms": [
+          "give",
+          "afford"
+        ],
+        "def_tl": "maging sanhi o mapagkukunan ng"
+      },
+      {
+        "id": "f8ef104b67",
+        "def": "be fatally overwhelmed",
+        "speech_part": "verb",
+        "synonyms": [
+          "succumb"
+        ],
+        "def_tl": "malubha na labis na labis"
+      },
+      {
+        "id": "c33d3fbf69",
+        "def": "give in, as to influence or pressure",
+        "speech_part": "verb",
+        "synonyms": [
+          "soften",
+          "relent"
+        ],
+        "def_tl": "sumuko, bilang impluwensya o presyon"
+      }
+    ]
+  },
+  "yodeling": {
+    "word": "yodeling",
+    "wordset_id": "5468496c52",
+    "meanings": [
+      {
+        "id": "70e0765301",
+        "def": "singing by changing back and forth between the chest voice and a falsetto",
+        "example": "Yodeling is something that you either love or hate.",
+        "speech_part": "noun",
+        "example_tl": "Ang Yodeling ay isang bagay na mahal mo o mapoot."
+      }
+    ]
+  },
+  "yolk": {
+    "word": "yolk",
+    "wordset_id": "1d532abe23",
+    "meanings": [
+      {
+        "id": "2400aacaba",
+        "def": "nutritive material of an ovum stored for the nutrition of an embryo (especially the yellow mass of a bird or reptile egg)",
+        "speech_part": "noun",
+        "def_tl": "Nutritive material ng isang ovum na nakaimbak para sa nutrisyon ng isang embryo (lalo na ang dilaw na masa ng isang ibon o reptile egg)"
+      },
+      {
+        "id": "ceb0ba24b2",
+        "def": "the yellow spherical part of an egg that is surrounded by the albumen",
+        "speech_part": "noun",
+        "synonyms": [
+          "egg yolk"
+        ],
+        "def_tl": "Ang dilaw na spherical na bahagi ng isang itlog na napapalibutan ng albumen"
+      }
+    ]
+  },
+  "yellowhammer": {
+    "word": "yellowhammer",
+    "wordset_id": "38dd779f94",
+    "meanings": [
+      {
+        "id": "473996a945",
+        "def": "European bunting the male being bright yellow",
+        "speech_part": "noun",
+        "def_tl": "Ang European bunting ang lalaki ay maliwanag na dilaw"
+      },
+      {
+        "id": "c86ec50b9d",
+        "def": "large flicker of eastern North America with a red neck and yellow undersurface to wings and tail",
+        "speech_part": "noun",
+        "def_tl": "Malaking flicker ng silangang Hilagang Amerika na may pulang leeg at dilaw na undersurface sa mga pakpak at buntot"
+      }
+    ]
+  },
+  "yellowbird": {
+    "word": "yellowbird",
+    "wordset_id": "fe133fef13",
+    "meanings": [
+      {
+        "id": "581714514b",
+        "def": "American finch whose male has yellow body plumage in summer",
+        "speech_part": "noun",
+        "synonyms": [
+          "goldfinch"
+        ],
+        "def_tl": "American finch na ang lalaki ay may dilaw na plumage ng katawan sa tag -init"
+      },
+      {
+        "id": "60c8613736",
+        "def": "yellow-throated American wood warbler",
+        "speech_part": "noun",
+        "synonyms": [
+          "golden warbler"
+        ],
+        "def_tl": "Yellow-throated American Wood Warbler"
+      }
+    ]
+  },
+  "yearling": {
+    "word": "yearling",
+    "wordset_id": "af61db7d53",
+    "meanings": [
+      {
+        "id": "e212d46ab6",
+        "def": "an animal in its second year",
+        "speech_part": "noun",
+        "def_tl": "Isang hayop sa ikalawang taon nito"
+      },
+      {
+        "id": "943487e421",
+        "def": "a racehorse considered one year old until the second Jan. 1 following its birth",
+        "speech_part": "noun",
+        "def_tl": "isang racehorse na itinuturing na isang taong gulang hanggang sa ikalawang Enero 1 kasunod ng kapanganakan nito"
+      },
+      {
+        "id": "3294ced806",
+        "def": "a young child",
+        "speech_part": "noun",
+        "synonyms": [
+          "kiddy",
+          "bambino"
+        ],
+        "def_tl": "isang bata"
+      }
+    ]
+  },
+  "yak": {
+    "word": "yak",
+    "wordset_id": "e8c126ba5d",
+    "meanings": [
+      {
+        "id": "4bb05a8d09",
+        "def": "large long-haired wild ox of Tibet often domesticated",
+        "speech_part": "noun",
+        "def_tl": "Ang malalaking mahabang buhok na ligaw na baka ng Tibet ay madalas na nag-domesticated"
+      },
+      {
+        "id": "4612a2b278",
+        "def": "noisy talk",
+        "speech_part": "noun",
+        "synonyms": [
+          "cackle",
+          "yack",
+          "yakety-yak",
+          "chatter"
+        ],
+        "def_tl": "maingay na pag -uusap"
+      },
+      {
+        "id": "3ddb49cb68",
+        "def": "talk profusely",
+        "example": "I was yakking away about my grandchildren with a glass of whiskey on the porch.",
+        "speech_part": "verb",
+        "synonyms": [
+          "gab"
+        ],
+        "example_tl": "Nag -yakking ako tungkol sa aking mga apo na may isang baso ng whisky sa beranda."
+      }
+    ]
+  },
+  "yellowtail": {
+    "word": "yellowtail",
+    "wordset_id": "aeca631248",
+    "meanings": [
+      {
+        "id": "fba126c8b2",
+        "def": "game fish of southern California and Mexico having a yellow tail fin",
+        "speech_part": "noun",
+        "def_tl": "Laro Isda ng Southern California at Mexico Ang pagkakaroon ng isang Yellow Tail Fin"
+      },
+      {
+        "id": "a3494c8281",
+        "def": "superior food fish of the tropical Atlantic and Caribbean with broad yellow stripe along the sides and on the tail",
+        "speech_part": "noun",
+        "def_tl": "Superior na isda ng pagkain ng tropikal na Atlantiko at Caribbean na may malawak na dilaw na guhit sa tabi ng mga gilid at sa buntot"
+      }
+    ]
+  },
+  "yellowfin": {
+    "word": "yellowfin",
+    "wordset_id": "88e6b200f1",
+    "meanings": [
+      {
+        "id": "1f8b7a1cd5",
+        "def": "may reach 400 pounds",
+        "speech_part": "noun",
+        "synonyms": [
+          "yellowfin tuna"
+        ],
+        "def_tl": "Maaaring umabot sa 400 pounds"
+      }
+    ]
+  },
+  "yarn": {
+    "word": "yarn",
+    "wordset_id": "01f65db8c1",
+    "meanings": [
+      {
+        "id": "727cd07789",
+        "def": "a fine cord of twisted fibers (of cotton or silk or wool or nylon etc.) used in sewing and weaving",
+        "speech_part": "noun",
+        "synonyms": [
+          "thread"
+        ],
+        "def_tl": "isang pinong kurdon ng mga baluktot na hibla (ng koton o sutla o lana o naylon atbp.) Ginamit sa pagtahi at paghabi"
+      },
+      {
+        "id": "da998774f7",
+        "def": "the act of giving an account describing incidents or a course of events",
+        "speech_part": "noun",
+        "synonyms": [
+          "narration",
+          "recital"
+        ],
+        "def_tl": "ang kilos ng pagbibigay ng isang account na naglalarawan ng mga insidente o isang kurso ng mga kaganapan"
+      },
+      {
+        "id": "a6c3f24e93",
+        "def": "tell or spin a yarn",
+        "speech_part": "verb",
+        "def_tl": "Sabihin o iikot ang isang sinulid"
+      }
+    ]
+  },
+  "yacht": {
+    "word": "yacht",
+    "wordset_id": "ea52df9614",
+    "meanings": [
+      {
+        "id": "dc024e2ae1",
+        "def": "an expensive vessel propelled by sail or power and used for cruising or racing",
+        "speech_part": "noun",
+        "synonyms": [
+          "racing yacht"
+        ],
+        "def_tl": "isang mamahaling daluyan na hinimok ng layag o kapangyarihan at ginamit para sa cruising o karera"
+      },
+      {
+        "id": "4c9802cc50",
+        "def": "travel in a yacht",
+        "speech_part": "verb",
+        "def_tl": "Maglakbay sa isang yate"
+      }
+    ]
+  },
+  "yagi": {
+    "word": "yagi",
+    "wordset_id": "7855658215",
+    "meanings": [
+      {
+        "id": "718c00ede8",
+        "def": "a sharply directional antenna",
+        "example": "We pointed the yagi toward the signal's source.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Itinuro namin ang yagi patungo sa mapagkukunan ng signal."
+      }
+    ]
+  },
+  "yard": {
+    "word": "yard",
+    "wordset_id": "28336acf39",
+    "meanings": [
+      {
+        "id": "e31f3b6794",
+        "def": "an enclosure for animals (as chicken or livestock)",
+        "speech_part": "noun",
+        "def_tl": "isang enclosure para sa mga hayop (bilang manok o hayop)"
+      },
+      {
+        "id": "c4d96bb001",
+        "def": "a long horizontal spar tapered at the end and used to support and spread a square sail or lateen",
+        "speech_part": "noun",
+        "def_tl": "isang mahabang pahalang na spar tapered sa dulo at ginamit upang suportahan at kumalat ang isang parisukat na layag o lateen"
+      },
+      {
+        "id": "a0e8e1fbbe",
+        "def": "the enclosed land around a house or other building",
+        "example": "it was a small house with almost no yard",
+        "speech_part": "noun",
+        "synonyms": [
+          "grounds",
+          "curtilage"
+        ],
+        "example_tl": "Ito ay isang maliit na bahay na may halos walang bakuran"
+      },
+      {
+        "id": "a49edb4edb",
+        "def": "an area having a network of railway tracks and sidings for storage and maintenance of cars and engines",
+        "speech_part": "noun",
+        "synonyms": [
+          "railway yard",
+          "railyard"
+        ],
+        "def_tl": "Isang lugar na mayroong isang network ng mga track ng riles at sidings para sa pag -iimbak at pagpapanatili ng mga kotse at makina"
+      },
+      {
+        "id": "bfaf17130a",
+        "def": "a tract of land enclosed for particular activities (sometimes paved and usually associated with buildings)",
+        "example": "they opened a repair yard on the edge of town",
+        "speech_part": "noun",
+        "example_tl": "Binuksan nila ang isang bakuran sa pag -aayos sa gilid ng bayan"
+      },
+      {
+        "id": "be1948c683",
+        "def": "a tract of land where logs are accumulated",
+        "speech_part": "noun",
+        "def_tl": "Isang tract ng lupa kung saan naipon ang mga troso"
+      },
+      {
+        "id": "88896ceeef",
+        "def": "a unit of volume, as for sand or gravel",
+        "example": "We'll need 1000 yards to finish this project.",
+        "speech_part": "noun",
+        "synonyms": [
+          "cubic yard"
+        ],
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Kakailanganin namin ang 1000 yard upang matapos ang proyektong ito."
+      },
+      {
+        "id": "b8bbd0c192",
+        "def": "a unit of length equal to 3 feet",
+        "speech_part": "noun",
+        "synonyms": [
+          "pace"
+        ],
+        "def_tl": "isang yunit ng haba na katumbas ng 3 talampakan"
+      },
+      {
+        "id": "fab0861ebb",
+        "def": "the cardinal number that is the product of 10 and 100",
+        "speech_part": "noun",
+        "synonyms": [
+          "grand"
+        ],
+        "def_tl": "Ang numero ng kardinal na produkto ng 10 at 100"
+      }
+    ]
+  },
+  "yardarm": {
+    "word": "yardarm",
+    "wordset_id": "00330e83ec",
+    "meanings": [
+      {
+        "id": "366a64e035",
+        "def": "either end of the yard of a square-rigged ship",
+        "example": "Go up on the yardarm and have a look.",
+        "speech_part": "noun",
+        "example_tl": "Umakyat sa bakuran at tingnan."
+      }
+    ]
+  },
+  "yarder": {
+    "word": "yarder",
+    "wordset_id": "942d4eeaa8",
+    "meanings": [
+      {
+        "id": "5e901f9227",
+        "def": "a winch (or system of winches) powered by an engine and used to haul logs from a stump to a landing or to a skid road",
+        "speech_part": "noun",
+        "synonyms": [
+          "yard donkey"
+        ],
+        "def_tl": "isang winch (o system ng mga winches) na pinalakas ng isang makina at ginamit upang maghatak ng mga log mula sa isang tuod hanggang sa isang landing o sa isang kalsada na kalsada"
+      },
+      {
+        "id": "f9b99c5946",
+        "def": "the height or length of something in yards, used only in combinations",
+        "example": "The golfer hit a 300-yarder to the green.",
+        "speech_part": "noun",
+        "example_tl": "Ang manlalaro ng golp ay tumama sa isang 300-yarder sa berde."
+      }
+    ]
+  },
+  "yardstick": {
+    "word": "yardstick",
+    "wordset_id": "9434b90d0d",
+    "meanings": [
+      {
+        "id": "16f1e60d79",
+        "def": "a ruler or tape that is three feet long",
+        "speech_part": "noun",
+        "synonyms": [
+          "yard measure"
+        ],
+        "def_tl": "Isang pinuno o tape na tatlong paa ang haba"
+      },
+      {
+        "id": "9d3a8e451d",
+        "def": "a measure or standard used for comparison",
+        "example": "On what kind of yardstick are they basing their judgment?",
+        "speech_part": "noun",
+        "example_tl": "Sa anong uri ng bakuran ang pinagbabatayan nila ng kanilang paghuhusga?"
+      }
+    ]
+  },
+  "yarmulke": {
+    "word": "yarmulke",
+    "wordset_id": "eddded1d0d",
+    "meanings": [
+      {
+        "id": "b2671655f4",
+        "def": "a skullcap worn by Jews, especially at prayer",
+        "example": "I wore my yarmulke to church.",
+        "speech_part": "noun",
+        "synonyms": [
+          null,
+          null
+        ],
+        "example_tl": "Sinusuot ko ang aking yarmulke sa simbahan."
+      }
+    ]
+  },
+  "yarmulka": {
+    "word": "yarmulka",
+    "wordset_id": "eddded1d0d",
+    "meanings": [
+      {
+        "id": "b2671655f4",
+        "def": "a skullcap worn by Jews, especially at prayer",
+        "example": "I wore my yarmulke to church.",
+        "speech_part": "noun",
+        "synonyms": [
+          null,
+          null
+        ],
+        "example_tl": "Sinusuot ko ang aking yarmulke sa simbahan."
+      }
+    ]
+  },
+  "yarmelke": {
+    "word": "yarmelke",
+    "wordset_id": "eddded1d0d",
+    "meanings": [
+      {
+        "id": "b2671655f4",
+        "def": "a skullcap worn by Jews, especially at prayer",
+        "example": "I wore my yarmulke to church.",
+        "speech_part": "noun",
+        "synonyms": [
+          null,
+          null
+        ],
+        "example_tl": "Sinusuot ko ang aking yarmulke sa simbahan."
+      }
+    ]
+  },
+  "yashmak": {
+    "word": "yashmak",
+    "wordset_id": "e168788019",
+    "meanings": [
+      {
+        "id": "663d6edbae",
+        "def": "the face veil worn by Muslim women",
+        "speech_part": "noun",
+        "synonyms": [
+          "yashmac"
+        ],
+        "def_tl": "Ang mukha ng belo na isinusuot ng mga babaeng Muslim"
+      }
+    ]
+  },
+  "yashmac": {
+    "word": "yashmac",
+    "wordset_id": "0115570eff",
+    "meanings": [
+      {
+        "id": "e5a031e309",
+        "def": "the face veil worn by Muslim women in Turkish",
+        "example": "The imam's wife wore a yashmac out in public.",
+        "speech_part": "noun",
+        "synonyms": [
+          "yashmak"
+        ],
+        "example_tl": "Ang asawa ng Imam ay nagsuot ng isang Yashmac sa publiko."
+      }
+    ]
+  },
+  "yataghan": {
+    "word": "yataghan",
+    "wordset_id": "6982800036",
+    "meanings": [
+      {
+        "id": "ed557d83b6",
+        "def": "a long Turkish knife with a curved blade having a single edge",
+        "example": "The shopkeeper had several exotic yataghans in their knife selection.",
+        "speech_part": "noun",
+        "example_tl": "Ang tindero ay mayroong maraming mga kakaibang Yataghans sa kanilang pagpili ng kutsilyo."
+      }
+    ]
+  },
+  "yawl": {
+    "word": "yawl",
+    "wordset_id": "3e1d770b39",
+    "meanings": [
+      {
+        "id": "e655eff6f8",
+        "def": "a sailing vessel with two masts",
+        "speech_part": "noun",
+        "synonyms": [
+          "dandy"
+        ],
+        "def_tl": "Isang daluyan ng paglalayag na may dalawang mask"
+      },
+      {
+        "id": "024a879759",
+        "def": "a ship's small boat (usually rowed by 4 or 6 oars)",
+        "speech_part": "noun",
+        "def_tl": "Ang maliit na bangka ng isang barko (karaniwang pinagsama ng 4 o 6 na oars)"
+      },
+      {
+        "id": "04883a001d",
+        "def": "emit long loud cries",
+        "speech_part": "verb",
+        "synonyms": [
+          "roar",
+          "howl",
+          "wail",
+          "ululate",
+          "yaup"
+        ],
+        "def_tl": "Lumabas ng mahabang pag -iyak"
+      }
+    ]
+  },
+  "yoke": {
+    "word": "yoke",
+    "wordset_id": "75a3b98c11",
+    "meanings": [
+      {
+        "id": "b800f86463",
+        "def": "stable gear that joins two draft animals at the neck so they can work together as a team",
+        "example": "The oxen were used to pulling the plow with the yoke.",
+        "speech_part": "noun",
+        "example_tl": "Ang mga baka ay ginamit upang hilahin ang araro gamit ang pamatok."
+      },
+      {
+        "id": "afd94c3691",
+        "def": "fabric comprising a fitted part at the top of a garment",
+        "example": "The tailor had to patch the yoke of my shirt.",
+        "speech_part": "noun",
+        "example_tl": "Kailangang i -patch ng sastre ang pamatok ng aking shirt."
+      },
+      {
+        "id": "0922db4a18",
+        "def": "a connection, like a clamp or vise, between two things so they move together",
+        "example": "The yoke between the parts was firm after the glue dried.",
+        "speech_part": "noun",
+        "synonyms": [
+          "coupling"
+        ],
+        "example_tl": "Ang pamatok sa pagitan ng mga bahagi ay matatag matapos matuyo ang pandikit."
+      },
+      {
+        "id": "302e53b9fa",
+        "def": "support consisting of a wooden frame across the shoulders that enables a person to carry buckets hanging from each end",
+        "example": "The farmer carried buckets of water with a yoke back to the house.",
+        "speech_part": "noun",
+        "example_tl": "Ang magsasaka ay nagdala ng mga balde ng tubig na may isang pamatok pabalik sa bahay."
+      },
+      {
+        "id": "e3aa7dbf76",
+        "def": "a pair of draft animals joined by a yoke",
+        "example": "The wagon was pulled by a yoke of oxen.",
+        "speech_part": "noun",
+        "example_tl": "Ang kariton ay hinila ng isang pamatok ng mga baka."
+      },
+      {
+        "id": "16981a4695",
+        "def": "two items of the same kind",
+        "example": "The third broke, but we still have a yoke.",
+        "speech_part": "noun",
+        "synonyms": [
+          "span"
+        ],
+        "example_tl": "Ang pangatlo ay sumira, ngunit mayroon pa rin kaming pamatok."
+      },
+      {
+        "id": "ca6536a4ea",
+        "def": "an oppressive power",
+        "example": "The populace was under the yoke of a tyrant.",
+        "speech_part": "noun",
+        "example_tl": "Ang populasyon ay nasa ilalim ng pamatok ng isang mapang -api."
+      },
+      {
+        "id": "58ec318149",
+        "def": "to put a yoke on or join with a yoke",
+        "example": "The peasant yoked the horse after putting its blinders on.",
+        "speech_part": "verb",
+        "example_tl": "Ang mga magsasaka ay nagbubuod sa kabayo matapos ilagay ang mga blinder nito."
+      },
+      {
+        "id": "bef1ee17f5",
+        "def": "to link with or as with a yoke",
+        "example": "You will need to yoke the oxen together.",
+        "speech_part": "verb",
+        "synonyms": [
+          "link"
+        ],
+        "example_tl": "Kakailanganin mong pamatok ang mga baka."
+      },
+      {
+        "id": "4b67661cb6",
+        "def": "to become joined or linked together",
+        "example": "We were yoked before competing in the three-legged race.",
+        "speech_part": "verb",
+        "example_tl": "Kami ay Yoked bago makipagkumpetensya sa three-legged race."
+      },
+      {
+        "id": "8257b496fe",
+        "def": "the control mechanism for an aircraft",
+        "example": "The pilot pulled back on the yoke to straighten out the plane's path.",
+        "speech_part": "noun",
+        "example_tl": "Bumalik ang piloto sa pamatok upang ituwid ang landas ng eroplano."
+      }
+    ]
+  },
+  "yurt": {
+    "word": "yurt",
+    "wordset_id": "18a03b68a0",
+    "meanings": [
+      {
+        "id": "5928aa03b2",
+        "def": "a circular domed dwelling that is portable and self-supporting",
+        "example": "I built a yurt in my backyard for the summer.",
+        "speech_part": "noun",
+        "example_tl": "Nagtayo ako ng isang yurt sa aking likuran para sa tag -araw."
+      }
+    ]
+  },
+  "youngness": {
+    "word": "youngness",
+    "wordset_id": "36217b6b23",
+    "meanings": [
+      {
+        "id": "cd944b7d50",
+        "def": "the opposite of oldness",
+        "example": "The player's youngness was apparent.",
+        "speech_part": "noun",
+        "example_tl": "Ang kabataan ng manlalaro ay maliwanag."
+      }
+    ]
+  },
+  "youth": {
+    "word": "youth",
+    "wordset_id": "fa4e9d53dd",
+    "meanings": [
+      {
+        "id": "c383a45cc5",
+        "def": "the freshness and vitality characteristic of a young person",
+        "speech_part": "noun",
+        "synonyms": [
+          "youthfulness",
+          "juvenility"
+        ],
+        "def_tl": "Ang pagiging bago at sigla na katangian ng isang kabataan"
+      },
+      {
+        "id": "f998dcdc6f",
+        "def": "young people collectively",
+        "speech_part": "noun",
+        "synonyms": [
+          "young"
+        ],
+        "def_tl": "Ang mga kabataan ay sama -sama"
+      },
+      {
+        "id": "9aa2fd093f",
+        "def": "a young person (especially a young man or boy)",
+        "speech_part": "noun",
+        "synonyms": [
+          "spring chicken"
+        ],
+        "def_tl": "isang kabataan (lalo na ang isang binata o lalaki)"
+      },
+      {
+        "id": "7e47cecac1",
+        "def": "early maturity",
+        "speech_part": "noun",
+        "def_tl": "maagang kapanahunan"
+      },
+      {
+        "id": "21975ccd30",
+        "def": "the time of life between childhood and maturity",
+        "speech_part": "noun",
+        "def_tl": "Ang oras ng buhay sa pagitan ng pagkabata at kapanahunan"
+      },
+      {
+        "id": "b3ab9e464e",
+        "def": "an early period of development",
+        "example": "during the youth of the project",
+        "speech_part": "noun",
+        "synonyms": [
+          "early days"
+        ],
+        "example_tl": "Sa panahon ng kabataan ng proyekto"
+      }
+    ]
+  },
+  "youthfulness": {
+    "word": "youthfulness",
+    "wordset_id": "a300bafe06",
+    "meanings": [
+      {
+        "id": "1c8c082cb2",
+        "def": "the freshness and vitality characteristic of a young person",
+        "example": "Your youthfulness continues to stay with you despite your ever-increasing age.",
+        "speech_part": "noun",
+        "synonyms": [
+          "youth"
+        ],
+        "example_tl": "Ang iyong kabataan ay patuloy na manatili sa iyo sa kabila ng iyong patuloy na pagtaas ng edad."
+      }
+    ]
+  },
+  "yellowness": {
+    "word": "yellowness",
+    "wordset_id": "b4e59c4172",
+    "meanings": [
+      {
+        "id": "dea20aa999",
+        "def": "yellow color or pigment",
+        "example": "The yellowness of the banana indicates that it is ripe.",
+        "speech_part": "noun",
+        "synonyms": [
+          "yellow"
+        ],
+        "example_tl": "Ang yellowness ng saging ay nagpapahiwatig na ito ay hinog."
+      },
+      {
+        "id": "86ddb0f557",
+        "def": "cowardlyness",
+        "example": "Your yellowness is showing.",
+        "speech_part": "noun",
+        "example_tl": "Ang iyong yellowness ay nagpapakita."
+      }
+    ]
+  },
+  "yardage": {
+    "word": "yardage",
+    "wordset_id": "26c5358c24",
+    "meanings": [
+      {
+        "id": "433cc6420e",
+        "def": "distance measured in the aggregate number of yards",
+        "example": "What is the yardage of this golf course?",
+        "speech_part": "noun",
+        "example_tl": "Ano ang bakuran ng golf course na ito?"
+      }
+    ]
+  },
+  "yap": {
+    "word": "yap",
+    "wordset_id": "08912bda7d",
+    "meanings": [
+      {
+        "id": "1e78e8feeb",
+        "def": "informal terms for the mouth",
+        "speech_part": "noun",
+        "synonyms": [
+          "trap"
+        ],
+        "def_tl": "Mga impormal na termino para sa bibig"
+      },
+      {
+        "id": "21bbc1b70b",
+        "def": "bark in a high-pitched tone",
+        "speech_part": "verb",
+        "synonyms": [
+          "yip",
+          "yelp"
+        ],
+        "def_tl": "Bark sa isang mataas na tono"
+      }
+    ]
+  },
+  "yang": {
+    "word": "yang",
+    "wordset_id": "ac2c785d9c",
+    "meanings": [
+      {
+        "id": "2dcfbcc1aa",
+        "def": "the bright, positive, masculine principle in Chinese dualistic cosmology",
+        "example": "Yin and yang together produce everything that comes into existence, according to some.",
+        "speech_part": "noun",
+        "example_tl": "Sina Yin at Yang ay magkasama ay gumagawa ng lahat na umiiral, ayon sa ilan."
+      }
+    ]
+  },
+  "yin": {
+    "word": "yin",
+    "wordset_id": "4e99add10f",
+    "meanings": [
+      {
+        "id": "e9e60735bc",
+        "def": "the dark, negative, feminine principle in Chinese dualistic cosmology",
+        "example": "The interaction of yin and yang maintains the harmony of the universe, according to some.",
+        "speech_part": "noun",
+        "example_tl": "Ang pakikipag -ugnay nina Yin at Yang ay nagpapanatili ng pagkakaisa ng uniberso, ayon sa ilan."
+      }
+    ]
+  },
+  "yearbook": {
+    "word": "yearbook",
+    "wordset_id": "17f10de549",
+    "meanings": [
+      {
+        "id": "398cd5be9d",
+        "def": "a book published annually by a school usually containing photographs of faculty and students",
+        "example": "Yearbooks are being sold for $65 dollars in the cafeteria this week.",
+        "speech_part": "noun",
+        "example_tl": "Ang mga yearbook ay ibinebenta ng $ 65 dolyar sa cafeteria sa linggong ito."
+      }
+    ]
+  },
+  "yodh": {
+    "word": "yodh",
+    "wordset_id": "56df358ef5",
+    "meanings": [
+      {
+        "id": "cb8ea4fb2e",
+        "def": "the 10th letter of the Hebrew alphabet",
+        "example": "I have trouble pronouncing yodh.",
+        "speech_part": "noun",
+        "example_tl": "Nahihirapan akong magpahayag ng Yodh."
+      }
+    ]
+  },
+  "y": {
+    "word": "y",
+    "wordset_id": "ce56de7b0f",
+    "meanings": [
+      {
+        "id": "ff8efaf56b",
+        "def": "the 25th letter of the Roman alphabet",
+        "speech_part": "noun",
+        "synonyms": [
+          "wye"
+        ],
+        "def_tl": "Ang ika -25 liham ng alpabetong Romano"
+      }
+    ]
+  },
+  "yell": {
+    "word": "yell",
+    "wordset_id": "c87cc9abfd",
+    "meanings": [
+      {
+        "id": "013e23ed1b",
+        "def": "a loud utterance",
+        "example": "They let loose a yell when they saw the party.",
+        "speech_part": "noun",
+        "synonyms": [
+          "call"
+        ],
+        "example_tl": "Pinakawalan nila ang isang sigaw nang makita nila ang pagdiriwang."
+      },
+      {
+        "id": "1e0cfeb1e6",
+        "def": "a loud utterance of emotion, especially when inarticulate",
+        "example": "The crowd let out an angry yell.",
+        "speech_part": "noun",
+        "synonyms": [
+          "cry"
+        ],
+        "example_tl": "Ang karamihan ng tao ay nagpakawala ng isang galit na sigaw."
+      },
+      {
+        "id": "cced000b52",
+        "def": "to utter or declare in a very loud voice",
+        "example": "You don't have to yell the directions--I can hear you just fine!",
+        "speech_part": "verb",
+        "synonyms": [
+          "scream"
+        ],
+        "labels": [
+          {
+            "name": "transitive verb",
+            "is_dialect": false
+          }
+        ],
+        "example_tl": "Hindi mo na kailangang sumigaw ng mga direksyon-naririnig ko na maayos ka lang!"
+      },
+      {
+        "id": "c9ae5038a6",
+        "def": "to utter a sudden loud cry",
+        "example": "The team yelled to the fans when they scored.",
+        "speech_part": "verb",
+        "synonyms": [
+          "call"
+        ],
+        "example_tl": "Sumigaw ang koponan sa mga tagahanga nang mag -iskor sila."
+      }
+    ]
+  },
+  "yowl": {
+    "word": "yowl",
+    "wordset_id": "248adb4e8c",
+    "meanings": [
+      {
+        "id": "508385eaed",
+        "def": "a very loud utterance (like the sound of an animal)",
+        "speech_part": "noun",
+        "synonyms": [
+          "roaring"
+        ],
+        "def_tl": "Isang napakalakas na pagsasalita (tulad ng tunog ng isang hayop)"
+      },
+      {
+        "id": "8ba4d8927f",
+        "def": "utter shrieks, as of cats",
+        "speech_part": "verb",
+        "synonyms": [
+          "caterwaul"
+        ],
+        "def_tl": "Utter Shrieks, tulad ng mga pusa"
+      },
+      {
+        "id": "81761a4602",
+        "def": "cry loudly, as of animals",
+        "speech_part": "verb",
+        "synonyms": [
+          "howl",
+          "yammer",
+          "wrawl"
+        ],
+        "def_tl": "sigaw ng malakas, tulad ng mga hayop"
+      }
+    ]
+  },
+  "yelling": {
+    "word": "yelling",
+    "wordset_id": "5ac6a81f60",
+    "meanings": [
+      {
+        "id": "04db72d478",
+        "def": "uttering a loud inarticulate cry as of pain or excitement",
+        "speech_part": "noun",
+        "synonyms": [
+          "shouting"
+        ],
+        "def_tl": "pagsasalita ng isang malakas na inarticulate na sigaw bilang sakit o kaguluhan"
+      }
+    ]
+  },
+  "yodel": {
+    "word": "yodel",
+    "wordset_id": "4f51898fe6",
+    "meanings": [
+      {
+        "id": "491cf6cdf0",
+        "def": "a songlike cry in which the voice fluctuates rapidly between the normal voice and falsetto",
+        "example": "The student's yodel projected quite a distance.",
+        "speech_part": "noun",
+        "example_tl": "Ang yodel ng mag -aaral ay inaasahang medyo malayo."
+      },
+      {
+        "id": "cfec3be8af",
+        "def": "to sing by changing register",
+        "example": "I started my music career yodeling on street corners for change.",
+        "speech_part": "verb",
+        "synonyms": [
+          "warble"
+        ],
+        "example_tl": "Sinimulan ko ang aking music career yodeling sa mga sulok ng kalye para sa pagbabago."
+      }
+    ]
+  },
+  "yack": {
+    "word": "yack",
+    "wordset_id": "c8321941cf",
+    "meanings": [
+      {
+        "id": "d5228ed922",
+        "def": "noisy talk",
+        "example": "Quiet your yack.",
+        "speech_part": "noun",
+        "synonyms": [
+          "yak"
+        ],
+        "example_tl": "Tahimik ang iyong Yack."
+      },
+      {
+        "id": "0c37fa45e1",
+        "def": "talk incessantly and tiresomely",
+        "example": "The kids were yacking about their trip to the zoo.",
+        "speech_part": "verb",
+        "synonyms": [
+          "jaw"
+        ],
+        "example_tl": "Ang mga bata ay yacking tungkol sa kanilang paglalakbay sa zoo."
+      }
+    ]
+  },
+  "yes": {
+    "word": "yes",
+    "wordset_id": "ccae882631",
+    "meanings": [
+      {
+        "id": "2615814d9e",
+        "def": "an affirmative",
+        "example": "I was hoping for a yes.",
+        "speech_part": "noun",
+        "synonyms": [
+          "yea"
+        ],
+        "example_tl": "Inaasahan ko ang isang oo."
+      }
+    ]
+  },
+  "yip": {
+    "word": "yip",
+    "wordset_id": "b5598ec845",
+    "meanings": [
+      {
+        "id": "421459243f",
+        "def": "a sharp high-pitched cry (especially by a dog)",
+        "speech_part": "noun",
+        "synonyms": [
+          "yelp",
+          "yelping"
+        ],
+        "def_tl": "Isang matalim na mataas na sigaw (lalo na ng isang aso)"
+      },
+      {
+        "id": "2c26fd1b9f",
+        "def": "bark in a high-pitched tone",
+        "speech_part": "verb",
+        "synonyms": [
+          "yap"
+        ],
+        "def_tl": "Bark sa isang mataas na tono"
+      }
+    ]
+  },
+  "yelp": {
+    "word": "yelp",
+    "wordset_id": "05d465e340",
+    "meanings": [
+      {
+        "id": "cd908f1df6",
+        "def": "a sharp, high-pitched cry, especially by a dog",
+        "example": "The yelp pierced the silent night sky and made its way through the streets of Chicago.",
+        "speech_part": "noun",
+        "synonyms": [
+          "yip"
+        ],
+        "example_tl": "Ang yelp ay tinusok ang tahimik na kalangitan ng gabi at dumaan sa mga kalye ng Chicago."
+      },
+      {
+        "id": "e41d25c876",
+        "def": "to bark in a high-pitched tone",
+        "example": "The puppies yelped when they heard the garage door open up.",
+        "speech_part": "verb",
+        "synonyms": [
+          "yap"
+        ],
+        "example_tl": "Ang mga tuta ay sumigaw nang marinig nila ang pagbukas ng pintuan ng garahe."
+      }
+    ]
+  },
+  "yelping": {
+    "word": "yelping",
+    "wordset_id": "2ab19794cc",
+    "meanings": [
+      {
+        "id": "9f1d847b02",
+        "def": "a sharp high-pitched cry, especially by a dog",
+        "example": "The dog's yelping carried through the walls all night long.",
+        "speech_part": "noun",
+        "synonyms": [
+          "yip"
+        ],
+        "example_tl": "Ang yelping ng aso ay dinala sa mga dingding sa buong gabi."
+      }
+    ]
+  },
+  "yaw": {
+    "word": "yaw",
+    "wordset_id": "e1d03804e0",
+    "meanings": [
+      {
+        "id": "b1d503e094",
+        "def": "to rotate along the vertical axis in the horizontal plane",
+        "example": "The plane yawed to the left to match the new heading.",
+        "speech_part": "verb",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          },
+          {
+            "name": "mathematical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang eroplano ay humagulgol sa kaliwa upang tumugma sa bagong heading."
+      },
+      {
+        "id": "a537a3ec98",
+        "def": "a direction of rotation along the vertical axis in the horizontal plane",
+        "example": "The yaw of the plane was affected by the unbalanced thrust.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          },
+          {
+            "name": "mathematical",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang yaw ng eroplano ay naapektuhan ng hindi balanseng tulak."
+      },
+      {
+        "id": "8c49612b54",
+        "def": "an erratic deflection from an intended course",
+        "speech_part": "noun",
+        "synonyms": [
+          "swerve"
+        ],
+        "def_tl": "Isang maling pagpapalihis mula sa isang inilaan na kurso"
+      },
+      {
+        "id": "b1b5da8467",
+        "def": "to swerve off course momentarily",
+        "example": "The ship yawed when the huge waves hit it.",
+        "speech_part": "verb",
+        "example_tl": "Ang barko ay yawed kapag ang malaking alon ay tumama dito."
+      },
+      {
+        "id": "012b2e2664",
+        "def": "to deviate erratically from a set course",
+        "example": "The car with the flat started to yaw away from the road.",
+        "speech_part": "verb",
+        "example_tl": "Ang kotse na may flat ay nagsimulang umiyak palayo sa kalsada."
+      },
+      {
+        "id": "e695dbb135",
+        "def": "to be wide open",
+        "example": "The chasm yawed in front of them.",
+        "speech_part": "verb",
+        "synonyms": [
+          "yawn"
+        ],
+        "example_tl": "Ang chasm yawed sa harap nila."
+      }
+    ]
+  },
+  "yearning": {
+    "word": "yearning",
+    "wordset_id": "acac29bf22",
+    "meanings": [
+      {
+        "id": "7385326d50",
+        "def": "prolonged unfulfilled desire or need",
+        "example": "This yearning for travel will not go away.",
+        "speech_part": "noun",
+        "synonyms": [
+          "hungriness"
+        ],
+        "example_tl": "Ang pagnanasa para sa paglalakbay ay hindi mawawala."
+      }
+    ]
+  },
+  "yen": {
+    "word": "yen",
+    "wordset_id": "15edb31f7d",
+    "meanings": [
+      {
+        "id": "a19cf76dec",
+        "def": "a yearning for something or to do something",
+        "speech_part": "noun",
+        "synonyms": [
+          "hankering"
+        ],
+        "def_tl": "isang pagnanasa para sa isang bagay o gumawa ng isang bagay"
+      },
+      {
+        "id": "a7979b6fdc",
+        "def": "the basic unit of money in Japan",
+        "speech_part": "noun",
+        "def_tl": "Ang pangunahing yunit ng pera sa Japan"
+      },
+      {
+        "id": "b58cc30fed",
+        "def": "have a desire for something or someone who is not present",
+        "speech_part": "verb",
+        "synonyms": [
+          "pine",
+          "ache",
+          "languish",
+          "yearn"
+        ],
+        "def_tl": "may pagnanais para sa isang bagay o isang taong hindi naroroon"
+      }
+    ]
+  },
+  "yam": {
+    "word": "yam",
+    "wordset_id": "2e64486d61",
+    "meanings": [
+      {
+        "id": "ef0249bf8f",
+        "def": "edible tuberous root of various yam plants of the genus Dioscorea grown in the tropics world-wide for food",
+        "speech_part": "noun",
+        "def_tl": "nakakain na tuberous root ng iba't ibang mga halaman ng yam ng genus na Dioscorea na lumago sa tropiko sa buong mundo para sa pagkain"
+      },
+      {
+        "id": "4102851330",
+        "def": "sweet potato with deep orange flesh that remains moist when baked",
+        "speech_part": "noun",
+        "def_tl": "kamote na may malalim na orange na laman na nananatiling basa -basa kapag lutong"
+      },
+      {
+        "id": "2103879f64",
+        "def": "any of a number of tropical vines of the genus Dioscorea many having edible tuberous roots",
+        "speech_part": "noun",
+        "def_tl": "alinman sa isang bilang ng mga tropikal na ubas ng genus Dioscorea marami ang nakakain na mga tubero ng tuberous"
+      },
+      {
+        "id": "c4d088a741",
+        "def": "edible tuber of any of several yams",
+        "speech_part": "noun",
+        "def_tl": "nakakain na tuber ng alinman sa maraming mga yams"
+      }
+    ]
+  },
+  "yogurt": {
+    "word": "yogurt",
+    "wordset_id": "10878ae0ec",
+    "meanings": [
+      {
+        "id": "8c65461da9",
+        "def": "a custard-like food made from curdled milk",
+        "example": "I mixed granola with my morning yogurt.",
+        "speech_part": "noun",
+        "example_tl": "Naghalo ako ng granola sa aking umaga ng yogurt."
+      }
+    ]
+  },
+  "yoghurt": {
+    "word": "yoghurt",
+    "wordset_id": "10878ae0ec",
+    "labels": [
+      {
+        "name": "British",
+        "is_dialect": true
+      }
+    ],
+    "meanings": [
+      {
+        "id": "8c65461da9",
+        "def": "a custard-like food made from curdled milk",
+        "example": "I mixed granola with my morning yogurt.",
+        "speech_part": "noun",
+        "example_tl": "Naghalo ako ng granola sa aking umaga ng yogurt."
+      }
+    ]
+  },
+  "yoghourt": {
+    "word": "yoghourt",
+    "wordset_id": "09a6ce5f7b",
+    "meanings": [
+      {
+        "id": "9d9ad4b6c2",
+        "def": "a custard-like food made from curdled milk",
+        "speech_part": "noun",
+        "def_tl": "Isang pagkain na tulad ng custard na gawa sa curdled milk"
+      }
+    ]
+  },
+  "yeomanry": {
+    "word": "yeomanry",
+    "wordset_id": "e66fe567ba",
+    "meanings": [
+      {
+        "id": "a4163c72c4",
+        "def": "a British volunteer cavalry force organized in 1761 for home defense later incorporated into the Territorial Army",
+        "example": "The yeomanry protected Britain on horseback.",
+        "speech_part": "noun",
+        "example_tl": "Pinoprotektahan ng Yeomanry ang Britain sa kabayo."
+      },
+      {
+        "id": "3cf00879d0",
+        "def": "class of small freeholders who cultivated their own land",
+        "example": "The yeomanry produced another great potato crop.",
+        "speech_part": "noun",
+        "example_tl": "Ang Yeomanry ay gumawa ng isa pang mahusay na ani ng patatas."
+      }
+    ]
+  },
+  "yakuza": {
+    "word": "yakuza",
+    "wordset_id": "6261e6b3c0",
+    "meanings": [
+      {
+        "id": "16ff5d2a97",
+        "def": "organized crime in Japan",
+        "example": "The yakuza controls the black market.",
+        "speech_part": "noun",
+        "example_tl": "Kinokontrol ng Yakuza ang itim na merkado."
+      },
+      {
+        "id": "ac7ea15b28",
+        "def": "a Japanese gangster",
+        "example": "I saw a yakuza that was missing half a finger.",
+        "speech_part": "noun",
+        "example_tl": "Nakita ko ang isang yakuza na nawawala sa kalahati ng isang daliri."
+      }
+    ]
+  },
+  "year": {
+    "word": "year",
+    "wordset_id": "d983a0f9f7",
+    "meanings": [
+      {
+        "id": "dc0e99311b",
+        "def": "a body of students who graduate together",
+        "speech_part": "noun",
+        "synonyms": [
+          "class"
+        ],
+        "def_tl": "Isang katawan ng mga mag -aaral na nagtapos nang magkasama"
+      },
+      {
+        "id": "daa868b4d3",
+        "def": "the period of time that it takes for a planet (as, e.g., Earth or Mars) to make a complete revolution around the sun",
+        "example": "a Martian year takes 687 of our days",
+        "speech_part": "noun",
+        "example_tl": "Ang isang taon ng Martian ay tumatagal ng 687 ng aming mga araw"
+      },
+      {
+        "id": "d44201aebd",
+        "def": "a period of time containing 365 days",
+        "example": "I am four years old.",
+        "speech_part": "noun",
+        "synonyms": [
+          "twelvemonth"
+        ],
+        "example_tl": "Apat na taong gulang ako."
+      },
+      {
+        "id": "24b5ecfcd2",
+        "def": "a period of time occupying a regular part of a calendar year that is used for some particular activity",
+        "example": "a school year",
+        "speech_part": "noun",
+        "example_tl": "isang taon ng paaralan"
+      }
+    ]
+  },
+  "yeshiva": {
+    "word": "yeshiva",
+    "wordset_id": "75168b7268",
+    "meanings": [
+      {
+        "id": "31c05daed2",
+        "def": "an academy for the advanced study of Jewish texts (primarily the Talmud)",
+        "speech_part": "noun",
+        "synonyms": [
+          "yeshivah"
+        ],
+        "def_tl": "Isang Academy para sa Advanced na Pag -aaral ng Mga Tekstong Hudyo (Pangunahin ang Talmud)"
+      }
+    ]
+  },
+  "yeshivah": {
+    "word": "yeshivah",
+    "wordset_id": "f9c8ace348",
+    "meanings": [
+      {
+        "id": "d4b6c7949c",
+        "def": "an academy for the advanced study of Jewish texts (primarily the Talmud)",
+        "speech_part": "noun",
+        "synonyms": [
+          "yeshiva"
+        ],
+        "def_tl": "Isang Academy para sa Advanced na Pag -aaral ng Mga Tekstong Hudyo (Pangunahin ang Talmud)"
+      }
+    ]
+  },
+  "yeti": {
+    "word": "yeti",
+    "wordset_id": "75ea69f4d9",
+    "meanings": [
+      {
+        "id": "589e155ad1",
+        "def": "a large hairy humanoid creature said to live in the Himalayas",
+        "example": "The Everest expedition came to an untimely end upon being devoured by a Yeti.",
+        "speech_part": "noun",
+        "synonyms": [
+          "abominable snowman"
+        ],
+        "example_tl": "Ang ekspedisyon ng Everest ay dumating sa isang hindi tiyak na pagtatapos ng paglamon ng isang Yeti."
+      }
+    ]
+  },
+  "yid": {
+    "word": "yid",
+    "wordset_id": "8a948dba93",
+    "labels": [
+      {
+        "name": "informal",
+        "is_dialect": false
+      },
+      {
+        "name": "slang",
+        "is_dialect": false,
+        "parent": {
+          "name": "informal",
+          "is_dialect": false
+        }
+      },
+      {
+        "name": "British",
+        "is_dialect": true
+      },
+      {
+        "name": "UK",
+        "is_dialect": true,
+        "parent": {
+          "name": "British",
+          "is_dialect": true
+        }
+      }
+    ],
+    "meanings": [
+      {
+        "id": "3792f17564",
+        "def": "a fan of the Tottenham Hotspur Football Club",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "slang",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          },
+          {
+            "name": "British",
+            "is_dialect": true
+          },
+          {
+            "name": "UK",
+            "is_dialect": true,
+            "parent": {
+              "name": "British",
+              "is_dialect": true
+            }
+          }
+        ],
+        "def_tl": "Isang tagahanga ng Tottenham Hotspur Football Club"
+      },
+      {
+        "id": "764d69f712",
+        "def": "offensive term for a Jew",
+        "example": "We were shocked and offended when they called us yids.",
+        "speech_part": "noun",
+        "synonyms": [
+          "sheeny"
+        ],
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "offensive",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Nabigla kami at nasaktan nang tinawag nila kaming yids."
+      }
+    ]
+  },
+  "yob": {
+    "word": "yob",
+    "wordset_id": "661d05937a",
+    "labels": [
+      {
+        "name": "British",
+        "is_dialect": true
+      }
+    ],
+    "meanings": [
+      {
+        "id": "ae18eb1702",
+        "def": "a cruel and brutal fellow",
+        "example": "This pub is full of yobbos.",
+        "speech_part": "noun",
+        "synonyms": [
+          "tough"
+        ],
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "offensive",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang pub na ito ay puno ng yobbos."
+      }
+    ]
+  },
+  "yobo": {
+    "word": "yobo",
+    "wordset_id": "661d05937a",
+    "labels": [
+      {
+        "name": "British",
+        "is_dialect": true
+      }
+    ],
+    "meanings": [
+      {
+        "id": "ae18eb1702",
+        "def": "a cruel and brutal fellow",
+        "example": "This pub is full of yobbos.",
+        "speech_part": "noun",
+        "synonyms": [
+          "tough"
+        ],
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "offensive",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang pub na ito ay puno ng yobbos."
+      }
+    ]
+  },
+  "yobbo": {
+    "word": "yobbo",
+    "wordset_id": "661d05937a",
+    "labels": [
+      {
+        "name": "British",
+        "is_dialect": true
+      }
+    ],
+    "meanings": [
+      {
+        "id": "ae18eb1702",
+        "def": "a cruel and brutal fellow",
+        "example": "This pub is full of yobbos.",
+        "speech_part": "noun",
+        "synonyms": [
+          "tough"
+        ],
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "offensive",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang pub na ito ay puno ng yobbos."
+      }
+    ]
+  },
+  "youngster": {
+    "word": "youngster",
+    "wordset_id": "ff89da3aba",
+    "meanings": [
+      {
+        "id": "95397537bb",
+        "def": "a young person",
+        "example": "I was suspicious of the youngsters who were eyeballing my merchandise.",
+        "speech_part": "noun",
+        "synonyms": [
+          "nestling"
+        ],
+        "example_tl": "Nag -aalinlangan ako sa mga kabataan na eyeballing ang aking paninda."
+      }
+    ]
+  },
+  "yardbird": {
+    "word": "yardbird",
+    "wordset_id": "41af4ac020",
+    "meanings": [
+      {
+        "id": "f919a29898",
+        "def": "a person serving a sentence in a jail or prison",
+        "example": "Some thought the yardbirds would never amount to anything.",
+        "speech_part": "noun",
+        "synonyms": [
+          "con"
+        ],
+        "example_tl": "Ang ilan ay naisip na ang mga bakuran ay hindi kailanman magiging halaga sa anuman."
+      },
+      {
+        "id": "e189139a39",
+        "def": "a military recruit who is assigned menial tasks",
+        "example": "Looks like we have a new yard bird to collect cigarette butts in the parking lot.",
+        "speech_part": "noun",
+        "synonyms": [
+          "yard bird"
+        ],
+        "example_tl": "Mukhang mayroon kaming isang bagong ibon sa bakuran upang mangolekta ng mga butts ng sigarilyo sa paradahan."
+      }
+    ]
+  },
+  "yearner": {
+    "word": "yearner",
+    "wordset_id": "438cd2287a",
+    "meanings": [
+      {
+        "id": "b613129373",
+        "def": "a person with a strong desire for something",
+        "example": "Yearners have to be doers if they want to attain what they desire.",
+        "speech_part": "noun",
+        "synonyms": [
+          "longer"
+        ],
+        "example_tl": "Ang mga taon ay kailangang maging mga gumagawa kung nais nilang makamit ang nais nila."
+      }
+    ]
+  },
+  "yeller": {
+    "word": "yeller",
+    "wordset_id": "b75475ce39",
+    "meanings": [
+      {
+        "id": "3c0a61c354",
+        "def": "someone who communicates vocally in a very loud voice",
+        "example": "We could not hear each other over the yeller standing next to us.",
+        "speech_part": "noun",
+        "synonyms": [
+          "screamer"
+        ],
+        "example_tl": "Hindi namin marinig ang bawat isa sa yeller na nakatayo sa tabi namin."
+      }
+    ]
+  },
+  "yielder": {
+    "word": "yielder",
+    "wordset_id": "50edcc5e31",
+    "meanings": [
+      {
+        "id": "d07ae57a9c",
+        "def": "a person who yields or surrenders",
+        "example": "The conquerers met with no yielders in their contested invasion.",
+        "speech_part": "noun",
+        "synonyms": [
+          "surrenderer"
+        ],
+        "example_tl": "Ang mga mananakop ay nakipagpulong sa walang mga nagbubunga sa kanilang kontrobersyal na pagsalakay."
+      }
+    ]
+  },
+  "younker": {
+    "word": "younker",
+    "wordset_id": "39c711106a",
+    "labels": [
+      {
+        "name": "archaic",
+        "is_dialect": false
+      }
+    ],
+    "meanings": [
+      {
+        "id": "fd8ff96f64",
+        "def": "a young person, especially a young man or boy",
+        "example": "The younkers won't stop playing in the road.",
+        "speech_part": "noun",
+        "synonyms": [
+          "spring chicken"
+        ],
+        "example_tl": "Ang mga Younkers ay hindi titigil sa paglalaro sa kalsada."
+      }
+    ]
+  },
+  "yuppie": {
+    "word": "yuppie",
+    "wordset_id": "e9e1469085",
+    "meanings": [
+      {
+        "id": "0b1cff4e58",
+        "def": "a young upwardly mobile professional individual",
+        "example": "The yuppies loved meeting at coffee shops to talk.",
+        "speech_part": "noun",
+        "example_tl": "Gustung -gusto ng mga yuppies ang pagpupulong sa mga tindahan ng kape upang makipag -usap."
+      }
+    ]
+  },
+  "yachtsman": {
+    "word": "yachtsman",
+    "wordset_id": "6b68be7f50",
+    "meanings": [
+      {
+        "id": "a279fe3c87",
+        "def": "a person who owns or sails a yacht",
+        "speech_part": "noun",
+        "def_tl": "isang tao na nagmamay -ari o naglayag ng isang yate"
+      }
+    ]
+  },
+  "yanker": {
+    "word": "yanker",
+    "wordset_id": "25f202741b",
+    "meanings": [
+      {
+        "id": "5ac693f09b",
+        "def": "someone who gives a strong sudden pull",
+        "speech_part": "noun",
+        "synonyms": [
+          "jerker"
+        ],
+        "def_tl": "Isang taong nagbibigay ng malakas na biglaang paghila"
+      }
+    ]
+  },
+  "yardie": {
+    "word": "yardie",
+    "wordset_id": "347deb55fb",
+    "meanings": [
+      {
+        "id": "0e138b5b58",
+        "def": "member of an international gang of Jamaican criminals who sell drugs and violence",
+        "example": "A much publicized raid on yardies had first been simulated.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "slang",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang isang napapubliko na pag -atake sa mga bakuran ay unang na -simulate."
+      }
+    ]
+  },
+  "yardman": {
+    "word": "yardman",
+    "wordset_id": "e32de93d17",
+    "meanings": [
+      {
+        "id": "6b7316c1e7",
+        "def": "a laborer hired to do outdoor work",
+        "example": "The yardman was doing some weeding in front of the house.",
+        "speech_part": "noun",
+        "example_tl": "Ang Yardman ay gumagawa ng ilang pag -iwas sa harap ng bahay."
+      },
+      {
+        "id": "325ec41b10",
+        "def": "worker in a railway yard",
+        "example": "The yardman helped run off some vagrants.",
+        "speech_part": "noun",
+        "example_tl": "Tumulong ang Yardman na tumakbo sa ilang mga vagrants."
+      }
+    ]
+  },
+  "yardmaster": {
+    "word": "yardmaster",
+    "wordset_id": "93564acdd8",
+    "meanings": [
+      {
+        "id": "80400c5177",
+        "def": "a railroad employer who is in charge of a railway yard",
+        "speech_part": "noun",
+        "synonyms": [
+          "trainmaster",
+          "train dispatcher"
+        ],
+        "def_tl": "isang employer ng riles na namamahala sa isang bakuran ng tren"
+      }
+    ]
+  },
+  "yawner": {
+    "word": "yawner",
+    "wordset_id": "aa2c7e9522",
+    "meanings": [
+      {
+        "id": "397cae302d",
+        "def": "a person who yawns",
+        "example": "The yawner was embarrassed upon being caught in the act.",
+        "speech_part": "noun",
+        "example_tl": "Napahiya ang Yawner nang mahuli sa kilos."
+      }
+    ]
+  },
+  "yenta": {
+    "word": "yenta",
+    "wordset_id": "c0f620ff62",
+    "meanings": [
+      {
+        "id": "762a247896",
+        "def": "from Yiddish, a woman who talks too much",
+        "example": "The party was full of insufferable yentas.",
+        "speech_part": "noun",
+        "example_tl": "Ang partido ay puno ng hindi maiiwasang yentas."
+      },
+      {
+        "id": "8f77a7ede3",
+        "def": "from Yiddish, a vulgar shrew",
+        "example": "I won't let you grow up to be a yenta!",
+        "speech_part": "noun",
+        "example_tl": "Hindi kita hahayaang lumaki ka upang maging isang yenta!"
+      }
+    ]
+  },
+  "yeoman": {
+    "word": "yeoman",
+    "wordset_id": "3a2a93ef41",
+    "meanings": [
+      {
+        "id": "7a9fa90d4a",
+        "def": "in former times was free and cultivated his own land",
+        "speech_part": "noun",
+        "def_tl": "Sa dating panahon ay libre at nilinang ang kanyang sariling lupain"
+      },
+      {
+        "id": "263be9e3dc",
+        "def": "officer in the (ceremonial) bodyguard of the British monarch",
+        "speech_part": "noun",
+        "synonyms": [
+          "beefeater"
+        ],
+        "def_tl": "Opisyal sa (seremonyal) na bodyguard ng British Monarch"
+      }
+    ]
+  },
+  "yodeller": {
+    "word": "yodeller",
+    "wordset_id": "2b80152df9",
+    "meanings": [
+      {
+        "id": "0384573feb",
+        "def": "a singer who changes register rapidly, popular in Swiss folk songs",
+        "example": "That yodeller is terrible.",
+        "speech_part": "noun",
+        "example_tl": "Ang Yodeller na iyon ay kakila -kilabot."
+      }
+    ]
+  },
+  "yogi": {
+    "word": "yogi",
+    "wordset_id": "d0075cf1d4",
+    "meanings": [
+      {
+        "id": "84044bd19f",
+        "def": "one who practices yoga and has achieved a high level of spiritual insight",
+        "example": "My yogi taught me how to stretch and meditate.",
+        "speech_part": "noun",
+        "example_tl": "Itinuro sa akin ng aking yogi kung paano mag -inat at magnilay."
+      }
+    ]
+  },
+  "yokel": {
+    "word": "yokel",
+    "wordset_id": "4551b979a1",
+    "meanings": [
+      {
+        "id": "73cb971fd8",
+        "def": "a person who is not very intelligent or interested in culture",
+        "example": "They looked like yokels, but were in fact college professors.",
+        "speech_part": "noun",
+        "synonyms": [
+          "hick"
+        ],
+        "example_tl": "Mukha silang mga yokel, ngunit sa katunayan ang mga propesor sa kolehiyo."
+      }
+    ]
+  },
+  "yahoo": {
+    "word": "yahoo",
+    "wordset_id": "6c6be5cddd",
+    "meanings": [
+      {
+        "id": "6f40eca841",
+        "def": "a person who acts recklessly or dangerously",
+        "example": "These yahoos keep driving down the street at 70 mph.",
+        "speech_part": "noun",
+        "example_tl": "Ang mga yahoos na ito ay patuloy na nagmamaneho sa kalye sa 70 mph."
+      },
+      {
+        "id": "9e10f1faf8",
+        "def": "a person who is not very intelligent or interested in culture",
+        "example": "This bar is full of yahoos.",
+        "speech_part": "noun",
+        "synonyms": [
+          "hick"
+        ],
+        "example_tl": "Ang bar na ito ay puno ng Yahoos."
+      }
+    ]
+  },
+  "yellowwood": {
+    "word": "yellowwood",
+    "wordset_id": "2f0a5156f1",
+    "meanings": [
+      {
+        "id": "1824177ccb",
+        "def": "any of various trees having yellowish wood or yielding a yellow extract",
+        "speech_part": "noun",
+        "def_tl": "alinman sa iba't ibang mga puno na may madilaw -dilaw na kahoy o nagbubunga ng isang dilaw na katas"
+      },
+      {
+        "id": "201903d677",
+        "def": "the yellow wood of any of various yellowwood trees",
+        "speech_part": "noun",
+        "def_tl": "Ang dilaw na kahoy ng alinman sa iba't ibang mga puno ng Yellowwood"
+      }
+    ]
+  },
+  "yacca": {
+    "word": "yacca",
+    "wordset_id": "d8b7a9c0f3",
+    "meanings": [
+      {
+        "id": "6d27dad289",
+        "def": "West Indian evergreen with medium to long leaves",
+        "speech_part": "noun",
+        "def_tl": "West Indian evergreen na may daluyan hanggang mahabang dahon"
+      }
+    ]
+  },
+  "yew": {
+    "word": "yew",
+    "wordset_id": "461b48c342",
+    "meanings": [
+      {
+        "id": "3aedf66c53",
+        "def": "any of numerous evergreen trees or shrubs having red cup-shaped berries and flattened needlelike leaves",
+        "example": "I especially like the durable fine-grained light brown or red wood of the English yew for cabinetwork and archery bows.",
+        "speech_part": "noun",
+        "example_tl": "Gusto ko lalo na ang matibay na pinong grained light brown o pulang kahoy ng English yew para sa cabinetwork at archery bow."
+      }
+    ]
+  },
+  "yautia": {
+    "word": "yautia",
+    "wordset_id": "b550d29fd8",
+    "meanings": [
+      {
+        "id": "9df7601719",
+        "def": "tropical American aroid having edible tubers that are cooked and eaten like yams or potatoes",
+        "speech_part": "noun",
+        "synonyms": [
+          "tannia",
+          "spoonflower",
+          "malanga"
+        ],
+        "def_tl": "tropical American aroid pagkakaroon ng nakakain na mga tubers na luto at kinakain tulad ng mga yams o patatas"
+      }
+    ]
+  },
+  "yarrow": {
+    "word": "yarrow",
+    "wordset_id": "3ba992a5ec",
+    "meanings": [
+      {
+        "id": "185f335396",
+        "def": "ubiquitous strong-scented mat-forming Eurasian herb of wasteland, hedgerow or pasture having narrow serrate leaves and small usually white florets",
+        "speech_part": "noun",
+        "synonyms": [
+          "milfoil"
+        ],
+        "def_tl": "Ang mga nakamamanghang malakas na mabangong mat-form na Eurasian herbs ng wasteland, hedgerow o pastulan na may makitid na mga dahon ng serrate at maliit na karaniwang puting florets"
+      }
+    ]
+  },
+  "yardgrass": {
+    "word": "yardgrass",
+    "wordset_id": "6509fa3ffa",
+    "meanings": [
+      {
+        "id": "417c4e9c49",
+        "def": "coarse annual grass having fingerlike spikes of flowers",
+        "speech_part": "noun",
+        "synonyms": [
+          "wire grass",
+          "goose grass"
+        ],
+        "def_tl": "magaspang taunang damo na may tulad ng mga spike ng daliri ng mga bulaklak"
+      }
+    ]
+  },
+  "yucca": {
+    "word": "yucca",
+    "wordset_id": "cddfc86501",
+    "meanings": [
+      {
+        "id": "122d1b6e1c",
+        "def": "any of several evergreen plants of the genus Yucca, typically characterized by tall, stout stems and a terminal cluster of white flowers",
+        "example": "In certain climates, yucca grows wild year-round.",
+        "speech_part": "noun",
+        "example_tl": "Sa ilang mga klima, si Yucca ay lumalaki ng ligaw sa buong taon."
+      }
+    ]
+  },
+  "yeast": {
+    "word": "yeast",
+    "wordset_id": "fcdd458660",
+    "meanings": [
+      {
+        "id": "d067ef2b56",
+        "def": "any of various single-celled fungi that reproduce asexually by budding or division",
+        "speech_part": "noun",
+        "def_tl": "alinman sa iba't ibang mga single-celled fungi na magparami ng asexually sa pamamagitan ng budding o division"
+      },
+      {
+        "id": "b45974ff3e",
+        "def": "a commercial leavening agent containing yeast cells",
+        "speech_part": "noun",
+        "synonyms": [
+          "barm"
+        ],
+        "def_tl": "Isang komersyal na ahente ng lebadura na naglalaman ng mga cell ng lebadura"
+      }
+    ]
+  },
+  "yottabyte": {
+    "word": "yottabyte",
+    "wordset_id": "00516c81cd",
+    "meanings": [
+      {
+        "id": "473719957e",
+        "def": "a unit of information equal to 1024 zebibytes or 2^80 bytes",
+        "speech_part": "noun",
+        "synonyms": [
+          "yobibyte"
+        ],
+        "def_tl": "Isang yunit ng impormasyon na katumbas ng 1024 zebibytes o 2^80 byte"
+      },
+      {
+        "id": "6bc1234d4e",
+        "def": "a unit of information equal to 1000 zettabytes or 10^24 bytes",
+        "speech_part": "noun",
+        "def_tl": "Isang yunit ng impormasyon na katumbas ng 1000 zettabytes o 10^24 byte"
+      }
+    ]
+  },
+  "yobibyte": {
+    "word": "yobibyte",
+    "wordset_id": "6ed9787fd6",
+    "meanings": [
+      {
+        "id": "34491cd304",
+        "def": "a unit of information equal to 1024 zebibytes or 2^80 bytes",
+        "example": "How many yobibytes of data do we have?",
+        "speech_part": "noun",
+        "synonyms": [
+          "yottabyte"
+        ],
+        "example_tl": "Ilan ang mga yobibytes ng data na mayroon tayo?"
+      }
+    ]
+  },
+  "yottabit": {
+    "word": "yottabit",
+    "wordset_id": "ba41e53e6b",
+    "meanings": [
+      {
+        "id": "0915601a24",
+        "def": "a unit of information equal to 1000 zettabits or 10^24 bits",
+        "example": "I am calculating how many yottabits of information our company has.",
+        "speech_part": "noun",
+        "example_tl": "Kinakalkula ko kung gaano karaming mga yottabits ng impormasyon ang mayroon ng aming kumpanya."
+      }
+    ]
+  },
+  "yobibit": {
+    "word": "yobibit",
+    "wordset_id": "e98803359f",
+    "meanings": [
+      {
+        "id": "9ab659d4d1",
+        "def": "a unit of information equal to 1024 zebibits or 2^80 bits",
+        "example": "My drive can store more yobibits than yours.",
+        "speech_part": "noun",
+        "example_tl": "Ang aking drive ay maaaring mag -imbak ng higit pang mga yobibits kaysa sa iyo."
+      }
+    ]
+  },
+  "yuan": {
+    "word": "yuan",
+    "wordset_id": "54ead26d6a",
+    "meanings": [
+      {
+        "id": "c148ba3929",
+        "def": "the basic unit of money in China",
+        "speech_part": "noun",
+        "def_tl": "Ang pangunahing yunit ng pera sa China"
+      }
+    ]
+  },
+  "yaws": {
+    "word": "yaws",
+    "wordset_id": "38cc8ebe17",
+    "meanings": [
+      {
+        "id": "b6853827e1",
+        "def": "an infectious tropical disease resembling syphilis in its early stages",
+        "speech_part": "noun",
+        "synonyms": [
+          "frambesia",
+          "framboesia"
+        ],
+        "def_tl": "Isang nakakahawang sakit na tropikal na kahawig ng syphilis sa mga unang yugto nito"
+      }
+    ]
+  },
+  "yatobyo": {
+    "word": "yatobyo",
+    "wordset_id": "8d7a225743",
+    "meanings": [
+      {
+        "id": "3fa5e4c633",
+        "def": "a highly infectious disease of rodents, especially rabbits and squirrels, and sometimes transmitted to humans by ticks or flies or by handling infected animals",
+        "example": "While exploring the forests of Japan, I came across a squirrel with yatobyo.",
+        "speech_part": "noun",
+        "synonyms": [
+          "tularemia"
+        ],
+        "example_tl": "Habang ginalugad ang mga kagubatan ng Japan, nakatagpo ako ng isang ardilya kasama si Yatobyo."
+      }
+    ]
+  },
+  "yips": {
+    "word": "yips",
+    "wordset_id": "bff447e53f",
+    "meanings": [
+      {
+        "id": "2828d29318",
+        "def": "nervous tension that causes an athlete to fail, especially causing golfers to miss short putts",
+        "example": "To avoid the yips, I changed my style of putting.",
+        "speech_part": "noun",
+        "example_tl": "Upang maiwasan ang mga yips, binago ko ang aking estilo ng paglalagay."
+      }
+    ]
+  },
+  "ylem": {
+    "word": "ylem",
+    "wordset_id": "0ef6b5c98e",
+    "meanings": [
+      {
+        "id": "07b0c5ee38",
+        "def": "in cosmology, the original matter that, according to the big bang theory, existed before the formation of the chemical elements",
+        "example": "The ylem existed before atoms formed from electrons, neutrons and protons.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "technical",
+            "is_dialect": false
+          },
+          {
+            "name": "scientific",
+            "is_dialect": false,
+            "parent": {
+              "name": "technical",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang YLEM ay umiiral bago ang mga atomo na nabuo mula sa mga electron, neutrons at proton."
+      }
+    ]
+  },
+  "ytterbium": {
+    "word": "ytterbium",
+    "wordset_id": "319766c31a",
+    "meanings": [
+      {
+        "id": "fce8771075",
+        "def": "a soft silvery metallic element",
+        "speech_part": "noun",
+        "def_tl": "Isang malambot na elemento ng metal na pilak"
+      }
+    ]
+  },
+  "yttrium": {
+    "word": "yttrium",
+    "wordset_id": "ba73f9b21b",
+    "meanings": [
+      {
+        "id": "7982c91c20",
+        "def": "a silvery metallic element that is common in rare-earth minerals",
+        "speech_part": "noun",
+        "def_tl": "isang elemento ng metal na pilak na karaniwan sa mga bihirang-lupa mineral"
+      }
+    ]
+  },
+  "yesteryear": {
+    "word": "yesteryear",
+    "wordset_id": "30228e49ca",
+    "meanings": [
+      {
+        "id": "724c9f515d",
+        "def": "the time that has elapsed",
+        "example": "We have not heard that song since yesteryear.",
+        "speech_part": "noun",
+        "synonyms": [
+          "past"
+        ],
+        "example_tl": "Hindi namin narinig ang kantang iyon mula noong yesteryear."
+      }
+    ]
+  },
+  "yore": {
+    "word": "yore",
+    "wordset_id": "c3c082f183",
+    "meanings": [
+      {
+        "id": "5ff69b051e",
+        "def": "time long past",
+        "example": "The card games of yore are mostly forgotten.",
+        "speech_part": "noun",
+        "example_tl": "Ang mga laro ng card ng yore ay halos nakalimutan."
+      }
+    ]
+  },
+  "yellowcake": {
+    "word": "yellowcake",
+    "wordset_id": "a0547f5c2a",
+    "meanings": [
+      {
+        "id": "40739acf07",
+        "def": "an impure mixture of uranium oxides obtained during the processing of uranium ore",
+        "example": "This yellowcake could be turned into a weapon.",
+        "speech_part": "noun",
+        "example_tl": "Ang yellowcake na ito ay maaaring maging isang sandata."
+      }
+    ]
+  },
+  "yammer": {
+    "word": "yammer",
+    "wordset_id": "177ea5f08c",
+    "meanings": [
+      {
+        "id": "87e62f8d03",
+        "def": "to complain whiningly",
+        "example": "The kids yammered about getting socks for Christmas again.",
+        "speech_part": "verb",
+        "synonyms": [
+          "grizzle"
+        ],
+        "example_tl": "Ang mga bata ay yammered tungkol sa pagkuha ng medyas para sa Pasko muli."
+      },
+      {
+        "id": "ad2208c6a5",
+        "def": "to cry loudly, as of animals",
+        "example": "The yammering coyotes kept us awake in the tent all night long.",
+        "speech_part": "verb",
+        "synonyms": [
+          "yowl"
+        ],
+        "example_tl": "Ang yammering coyotes ay nagpapanatili sa amin ng gising sa tolda buong gabi."
+      }
+    ]
+  },
+  "yawp": {
+    "word": "yawp",
+    "wordset_id": "90b305f68a",
+    "meanings": [
+      {
+        "id": "f0fb928878",
+        "def": "to complain whiningly",
+        "example": "The children yawped to their parents about eating brussels sprouts.",
+        "speech_part": "verb",
+        "synonyms": [
+          "grizzle"
+        ],
+        "example_tl": "Ang mga bata ay humagulgol sa kanilang mga magulang tungkol sa pagkain ng Brussels sprout."
+      },
+      {
+        "id": "dd86358420",
+        "def": "to make a raucous noise",
+        "example": "The students were yawping at a party.",
+        "speech_part": "verb",
+        "synonyms": [
+          "bawl"
+        ],
+        "example_tl": "Ang mga mag -aaral ay umuungol sa isang pagdiriwang."
+      }
+    ]
+  },
+  "yaup": {
+    "word": "yaup",
+    "wordset_id": "109e7c77f6",
+    "meanings": [
+      {
+        "id": "74ef3c723e",
+        "def": "to emit long loud cries",
+        "example": "The dog is yauping.",
+        "speech_part": "verb",
+        "synonyms": [
+          "yawl"
+        ],
+        "example_tl": "Ang aso ay yauping."
+      }
+    ]
+  },
+  "yank": {
+    "word": "yank",
+    "wordset_id": "767600ef16",
+    "meanings": [
+      {
+        "id": "356cc1e6fa",
+        "def": "to pull, or move with a sudden movement",
+        "example": "I yanked the table cloth off the table, leaving the plates and silverware in place.",
+        "speech_part": "verb",
+        "synonyms": [
+          "jerk"
+        ],
+        "example_tl": "I -yanked ang tela ng mesa sa mesa, iniwan ang mga plato at kagamitan sa pilak."
+      },
+      {
+        "id": "4d29a70389",
+        "def": "a quick, sudden pulling movement",
+        "example": "The yank on the rope caught me off guard.",
+        "speech_part": "noun",
+        "example_tl": "Ang yank sa lubid ay nahuli ako sa bantay."
+      },
+      {
+        "id": "27c2fe9b83",
+        "def": "short for yankee i.e. an American, often pejorative ",
+        "example": "This cafe is full of drunken yanks.",
+        "speech_part": "noun",
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "slang",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Ang cafe na ito ay puno ng mga lasing na yanks."
+      }
+    ]
+  },
+  "yearn": {
+    "word": "yearn",
+    "wordset_id": "b8b9e1045d",
+    "meanings": [
+      {
+        "id": "10ffc38d29",
+        "def": "to have affection for",
+        "example": "I yearn for them.",
+        "speech_part": "verb",
+        "example_tl": "Inaalam ko sa kanila."
+      },
+      {
+        "id": "f513899603",
+        "def": "to have a desire for something or someone who is not present",
+        "example": "I yearn to go on a trip abroad.",
+        "speech_part": "verb",
+        "synonyms": [
+          "yen"
+        ],
+        "example_tl": "Nais kong maglakbay sa ibang bansa."
+      },
+      {
+        "id": "4db98a5f5f",
+        "def": "to desire strongly or persistently",
+        "example": "The old couple yearned for simpler times.",
+        "speech_part": "verb",
+        "synonyms": [
+          "long"
+        ],
+        "example_tl": "Ang matandang mag -asawa ay nagnanais ng mas simpleng oras."
+      }
+    ]
+  },
+  "yo": {
+    "word": "yo",
+    "wordset_id": "6db7471886",
+    "meanings": [
+      {
+        "id": "7ed670615d",
+        "def": "a greeting like 'hi'",
+        "example": "Yo, what's up?",
+        "speech_part": "interjection",
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "slang",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          }
+        ],
+        "example_tl": "Yo, anong meron?"
+      }
+    ]
+  },
+  "yolo": {
+    "word": "yolo",
+    "wordset_id": "904494eb38",
+    "meanings": [
+      {
+        "id": "29f43abcaa",
+        "def": "shortened form of \"you only live once\"",
+        "speech_part": "phrase",
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "slang",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          }
+        ],
+        "def_tl": "pinaikling anyo ng \"Minsan ka lang nakatira\""
+      }
+    ]
+  },
+  "yottasecond": {
+    "word": "Yottasecond",
+    "wordset_id": "3067271826",
+    "meanings": [
+      {
+        "id": "f86233607c",
+        "def": "a period of time equal to one septillion seconds, or 10^24",
+        "speech_part": "noun",
+        "def_tl": "Isang tagal ng oras na katumbas ng isang septillion segundo, o 10^24"
+      }
+    ]
+  },
+  "yall": {
+    "word": "yall",
+    "wordset_id": "b1268cb1ae",
+    "meanings": [
+      {
+        "id": "f44873c6e7",
+        "def": "second person plural pronoun, contraction of \"you all\"",
+        "example": "I don't know about y'all, but I'm ready for bed.",
+        "speech_part": "pronoun",
+        "labels": [
+          {
+            "name": "informal",
+            "is_dialect": false
+          },
+          {
+            "name": "slang",
+            "is_dialect": false,
+            "parent": {
+              "name": "informal",
+              "is_dialect": false
+            }
+          },
+          {
+            "name": "American",
+            "is_dialect": true
+          },
+          {
+            "name": "US",
+            "is_dialect": true,
+            "parent": {
+              "name": "American",
+              "is_dialect": true
+            }
+          },
+          {
+            "name": "AAVE",
+            "is_dialect": true,
+            "parent": {
+              "name": "American",
+              "is_dialect": true
+            }
+          }
+        ],
+        "example_tl": "Hindi ko alam ang tungkol sa y'all, ngunit handa na ako sa kama."
+      }
+    ]
+  }
+}

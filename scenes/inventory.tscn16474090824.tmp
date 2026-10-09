@@ -1,0 +1,115 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkrbgk5wet4dm"]
+
+[ext_resource type="Script" uid="uid://jr6kap2la5t2" path="res://scripts/inventory.gd" id="1_qw0r6"]
+[ext_resource type="PackedScene" uid="uid://cusufnal8efoc" path="res://scenes/Slot.tscn" id="2_hj2ta"]
+
+[node name="Inventory" type="Control"]
+layout_mode = 3
+anchor_right = 0.277
+anchor_bottom = 0.404
+offset_right = -0.104003906
+offset_bottom = 0.2079773
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qw0r6")
+
+[node name="SlotsContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 54
+theme_override_constants/v_separation = 54
+columns = 6
+
+[node name="Slot1" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot2" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot3" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot4" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot5" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot6" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot7" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot8" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot9" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot10" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot11" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot12" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot13" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot14" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot15" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot16" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot17" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot18" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot19" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot20" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot21" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot22" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot23" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot24" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot25" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot26" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot27" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot28" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot29" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="Slot30" parent="SlotsContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2

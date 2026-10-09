@@ -1,0 +1,183 @@
+[gd_scene load_steps=8 format=3 uid="uid://diergf5vfek5x"]
+
+[ext_resource type="Script" uid="uid://dcyryrdujdteo" path="res://scenes/main_menu.gd" id="1_l6cm7"]
+[ext_resource type="Texture2D" uid="uid://0km6gpid1d8i" path="res://assets/Free Pixel Art Forest/Preview/Background.png" id="2_ekxnf"]
+[ext_resource type="Texture2D" uid="uid://cc3ileqj1gcrn" path="res://assets/UI/ForestUI.png" id="3_bqqt6"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oa1go"]
+texture = ExtResource("3_bqqt6")
+region_rect = Rect2(160, 160, 96, 32)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wu84c"]
+texture = ExtResource("3_bqqt6")
+region_rect = Rect2(256, 160, 96, 32)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8ln24"]
+texture = ExtResource("3_bqqt6")
+region_rect = Rect2(160, 160, 96, 32)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rtw2f"]
+texture = ExtResource("3_bqqt6")
+region_rect = Rect2(256, 160, 96, 32)
+
+[node name="MainMenu" type="Control" node_paths=PackedStringArray("start_button", "quit_button", "settings_button")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l6cm7")
+start_button = NodePath("MainmenuWindow/VBoxContainer/VBoxContainer/StartButton")
+quit_button = NodePath("MainmenuWindow/VBoxContainer/VBoxContainer/QuitButton")
+settings_button = NodePath("MainmenuWindow/VBoxContainer/VBoxContainer/Settings")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -260.0
+offset_top = -459.0
+offset_right = 317.5443
+offset_bottom = 13.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_ekxnf")
+
+[node name="MainmenuWindow" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -221.0
+offset_top = -189.0
+offset_right = 231.0
+offset_bottom = 244.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_bqqt6")
+region_rect = Rect2(932.57043, 353.89206, 87.856445, 61.529694)
+
+[node name="Label" type="Label" parent="MainmenuWindow"]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 98.0
+offset_right = 377.0
+offset_bottom = 143.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "KNAPSACK ARSENAL"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -53.5
+offset_right = 118.0
+offset_bottom = 105.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow/VBoxContainer"]
+layout_mode = 2
+
+[node name="StartButton" type="Button" parent="MainmenuWindow/VBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxTexture_oa1go")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_wu84c")
+theme_override_styles/hover = SubResource("StyleBoxTexture_oa1go")
+text = "Start Game"
+
+[node name="Settings" type="Button" parent="MainmenuWindow/VBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxTexture_oa1go")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_wu84c")
+theme_override_styles/hover = SubResource("StyleBoxTexture_oa1go")
+text = "Settings"
+
+[node name="QuitButton" type="Button" parent="MainmenuWindow/VBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxTexture_8ln24")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_rtw2f")
+theme_override_styles/hover = SubResource("StyleBoxTexture_8ln24")
+text = "Quit Game"
+
+[node name="SettingsWindow" type="NinePatchRect" parent="MainmenuWindow"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -226.0
+offset_top = -216.5
+offset_right = 226.0
+offset_bottom = 216.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_bqqt6")
+region_rect = Rect2(932.57043, 353.89206, 87.856445, 61.529694)
+
+[node name="Label" type="Label" parent="MainmenuWindow/SettingsWindow"]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 98.0
+offset_right = 377.0
+offset_bottom = 143.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "SETTINGS"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow/SettingsWindow"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -53.5
+offset_right = 118.0
+offset_bottom = 105.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow/SettingsWindow/VBoxContainer"]
+layout_mode = 2
+
+[node name="SoundToggle" type="CheckBox" parent="MainmenuWindow/SettingsWindow/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "                 Sound"
+autowrap_mode = 2
+
+[node name="LanguageSelect" type="OptionButton" parent="MainmenuWindow/SettingsWindow/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="CloseButton" type="Button" parent="MainmenuWindow/SettingsWindow/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Back"
+
+[connection signal="pressed" from="MainmenuWindow/VBoxContainer/VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MainmenuWindow/VBoxContainer/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]

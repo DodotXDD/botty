@@ -1,0 +1,76 @@
+[gd_scene load_steps=5 format=3 uid="uid://bik3ic16r430d"]
+
+[ext_resource type="Script" uid="uid://y8wqkvaj3po2" path="res://scripts/uipouch.gd" id="1_jqplv"]
+[ext_resource type="Texture2D" uid="uid://7ylcye03vmh0" path="res://assets/Invent/backpack.png" id="2_tdoy6"]
+[ext_resource type="Script" uid="uid://c6pf085gdecge" path="res://scripts/LettersContainer.gd" id="3_gjw6y"]
+[ext_resource type="PackedScene" uid="uid://cklqc8kimromj" path="res://scenes/LetterLabel.tscn" id="3_tdoy6"]
+
+[node name="UIpouch" type="Control" groups=["pouch"]]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -909.0
+offset_bottom = -409.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1_jqplv")
+
+[node name="Pouch" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Pouch" type="TextureRect" parent="Pouch"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -8.0
+offset_right = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+mouse_behavior_recursive = 1
+texture = ExtResource("2_tdoy6")
+expand_mode = 1
+
+[node name="LettersContainer" type="GridContainer" parent="Pouch"]
+layout_mode = 0
+offset_left = 67.0
+offset_top = -10.0
+offset_right = 177.0
+offset_bottom = 220.0
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 2
+script = ExtResource("3_gjw6y")
+
+[node name="Control1" parent="Pouch/LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="Control2" parent="Pouch/LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="Control3" parent="Pouch/LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="Control4" parent="Pouch/LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="Control5" parent="Pouch/LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="Control6" parent="Pouch/LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="Control7" parent="Pouch/LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2
+
+[node name="Control8" parent="Pouch/LettersContainer" instance=ExtResource("3_tdoy6")]
+layout_mode = 2

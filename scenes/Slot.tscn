@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://cusufnal8efoc"]
+
+[ext_resource type="Script" uid="uid://ccp50vfkkcbws" path="res://scripts/slot.gd" id="1_mlwvr"]
+[ext_resource type="Texture2D" uid="uid://d2p73gatwgtn" path="res://assets/Invent/Sprite-0001.png" id="2_la8rk"]
+
+[node name="Control" type="Control" groups=["word_slots"]]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1102.0
+offset_bottom = -598.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_mlwvr")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+offset_right = 48.0
+offset_bottom = 45.0
+texture = ExtResource("2_la8rk")
+stretch_mode = 5
