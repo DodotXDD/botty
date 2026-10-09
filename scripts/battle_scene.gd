@@ -13,6 +13,7 @@ var all_formed_words: Array = []
 @onready var hero_hp_label: Label = $UI/HeroHPLabel
 @onready var enemy_hp_label: Label = $UI/EnemyHPLabel
 @onready var total_damage_label: Label = $UI/DamageLabel/TotalDamageLabel
+@onready var feedback_label: Label = $CanvasLayer/FeedbackLabel
 @onready var ui_pouch = $UIpouch
 @onready var inventory_slots_container = $Inventory/SlotsContainer
 @onready var inventory = $Inventory
@@ -36,6 +37,7 @@ var _grid_debounce_timer: Timer
 # READY
 # -----------------------------------------------------
 func _ready() -> void:
+	MusicController.play_stream(MusicController.music_Gameplay)
 	if not attack_button.is_connected("pressed", Callable(self, "_on_attack_button_pressed")):
 		attack_button.connect("pressed", Callable(self, "_on_attack_button_pressed"))
 	if not end_turn_button.is_connected("pressed", Callable(self, "_on_end_turn_button_pressed")):
@@ -92,6 +94,7 @@ func start_player_turn() -> void:
 	state = BattleState.PLAYER_TURN
 	attack_button.disabled = false
 	end_turn_button.disabled = false
+	feedback_label.text = "Your turn. Make a new word or pass; red slots are targeted."
 	hero.play_idle_anim()
 	
 	if ui_pouch and ui_pouch.has_method("refresh_pouch"):
@@ -134,6 +137,7 @@ func _on_attack_button_pressed() -> void:
 
 		if not new_words_found:
 			print("❌ All words on the board have already been used!")
+			feedback_label.text = "Those words were already used. Find a new word or pass."
 			return
 
 		total_damage += bonus_damage
@@ -143,6 +147,7 @@ func _on_attack_button_pressed() -> void:
 
 		pending_player_damage = total_damage
 		print("⚔️ Hero attack prepared! Total damage:", pending_player_damage)
+		feedback_label.text = "Attack prepared: %d damage." % pending_player_damage
 
 		attack_button.disabled = true
 		end_turn_button.disabled = true
@@ -150,11 +155,13 @@ func _on_attack_button_pressed() -> void:
 		hero_walk_to(enemy.position + hero_attack_offset)
 	else:
 		print("❌ No valid words were found on the grid.")
+		feedback_label.text = "No new valid word. Rearrange letters or pass your turn."
 		return
 
 func _on_end_turn_button_pressed() -> void:
 	if state != BattleState.PLAYER_TURN:
 		return
+	feedback_label.text = "You passed. The enemy is taking its turn."
 	attack_button.disabled = true
 	end_turn_button.disabled = true
 	enemy_take_turn()
@@ -288,6 +295,7 @@ func enemy_take_turn() -> void:
 	attack_button.disabled = true
 	end_turn_button.disabled = true
 	state = BattleState.ANIMATING
+	feedback_label.text = "Enemy turn..."
 	enemy_walk_to(hero.position + enemy_attack_offset)
 
 # -----------------------------------------------------
@@ -299,6 +307,7 @@ func _on_enemy_died() -> void:
 	state = BattleState.WON
 	attack_button.disabled = true
 	end_turn_button.disabled = true
+	feedback_label.hide()
 	print("🏆 You win!")
 	_show_recap("VICTORY")
 
@@ -308,6 +317,7 @@ func _on_hero_died() -> void:
 	state = BattleState.LOST
 	attack_button.disabled = true
 	end_turn_button.disabled = true
+	feedback_label.hide()
 	print("💀 You lose!")
 	_show_recap("DEFEAT")
 

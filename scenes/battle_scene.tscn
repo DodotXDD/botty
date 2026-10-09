@@ -802,6 +802,20 @@ offset_bottom = 328.0
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 process_mode = 3
 
+[node name="FeedbackLabel" type="Label" parent="CanvasLayer"]
+layout_mode = 0
+offset_left = 277.0
+offset_top = 24.0
+offset_right = 877.0
+offset_bottom = 58.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 20
+text = "Your turn. Make a new word or pass; red slots are targeted."
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="Tutorial" type="Control" parent="CanvasLayer"]
 layout_mode = 3
 anchors_preset = 15

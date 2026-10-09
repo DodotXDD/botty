@@ -59,4 +59,4 @@ func _on_continue_button_pressed() -> void:
 		hide()
 		get_tree().paused = false
 		# Restore the battle music
-		MusicController.play_stream(MusicController.music_Mainmenu)
+		MusicController.play_stream(MusicController.music_Gameplay)

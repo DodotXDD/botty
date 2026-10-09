@@ -18,8 +18,8 @@ func _input(event: InputEvent) -> void:
 func resume() -> void:
 	hide()
 	get_tree().paused = false
-	# Restore the battle music
-	MusicController.play_stream(MusicController.music_Gameplay2)
+	MusicController.process_mode = Node.PROCESS_MODE_INHERIT
+	MusicController.play_stream(MusicController.music_Gameplay)
 
 func pause() -> void:
 	show()
@@ -28,7 +28,7 @@ func pause() -> void:
 		MusicController.process_mode = Node.PROCESS_MODE_ALWAYS
 	get_tree().paused = true
 	# Play pause music
-	MusicController.play_stream(MusicController.music_Gameplay2)
+	MusicController.play_stream(MusicController.music_Pause)
 
 func _on_resume_pressed() -> void:
 	resume()

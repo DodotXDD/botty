@@ -16,7 +16,7 @@ mouse_filter = 2
 script = ExtResource("1_4dmpo")
 music_Mainmenu = ExtResource("2_jc13h")
 music_Gameplay = ExtResource("3_eqoka")
-music_Gameplay2 = ExtResource("4_eqoka")
+music_Pause = ExtResource("4_eqoka")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 bus = &"Music"

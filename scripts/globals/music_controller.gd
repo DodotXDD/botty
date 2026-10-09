@@ -4,7 +4,7 @@ extends Control
 
 @export var music_Mainmenu: AudioStream
 @export var music_Gameplay: AudioStream
-@export var music_Gameplay2: AudioStream
+@export var music_Pause: AudioStream
 
 var last_stream: AudioStream;
 var music_volume_local: float = 1.0
