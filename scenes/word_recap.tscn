@@ -1,15 +1,20 @@
-[gd_scene load_steps=6 format=3 uid="uid://2k6r6uf2nn8h"]
+[gd_scene load_steps=7 format=3 uid="uid://2k6r6uf2nn8h"]
 
 [ext_resource type="Script" uid="uid://dkuyr5531h5fh" path="res://scripts/word_recap.gd" id="1_oaxum"]
 [ext_resource type="Texture2D" uid="uid://bpfwf1v355hkg" path="res://assets/Invent/GUI.png" id="2_6thy7"]
 [ext_resource type="Texture2D" uid="uid://dhv6s43nbqp1f" path="res://assets/UI/GUI.png" id="2_aul4k"]
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_knh87"]
 texture = ExtResource("2_aul4k")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ewah2"]
 texture = ExtResource("2_6thy7")
 
-[node name="WordRecap" type="Control"]
+[sub_resource type="SystemFont" id="SystemFont_recap_display"]
+font_names = PackedStringArray("Georgia", "Noto Serif", "Liberation Serif")
+font_weight = 700
+
+[node name="WordRecap" type="Control" unique_id=838839794]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -18,7 +23,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_oaxum")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=68679812]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -27,7 +32,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 0.5019608)
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Panel" type="Panel" parent="." unique_id=1630965385]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.04
@@ -38,7 +43,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_knh87")
 
-[node name="TitleLabel" type="Label" parent="Panel"]
+[node name="TitleLabel" type="Label" parent="Panel" unique_id=1056272582]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -48,14 +53,14 @@ offset_top = 12.0
 offset_right = 180.0
 offset_bottom = 48.0
 grow_horizontal = 2
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 4
-theme_override_font_sizes/font_size = 30
+theme_override_colors/font_color = Color(0.26, 0.13, 0.1, 1)
+theme_override_fonts/font = SubResource("SystemFont_recap_display")
+theme_override_font_sizes/font_size = 34
 text = "VICTORY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="SummaryLabel" type="Label" parent="Panel"]
+[node name="SummaryLabel" type="Label" parent="Panel" unique_id=358707858]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -65,13 +70,14 @@ offset_top = 49.0
 offset_right = 220.0
 offset_bottom = 75.0
 grow_horizontal = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.32, 0.18, 0.14, 1)
+theme_override_fonts/font = SubResource("SystemFont_recap_display")
 theme_override_font_sizes/font_size = 15
 text = "BATTLE JOURNAL"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="MainMenuButton" type="Button" parent="Panel"]
+[node name="MainMenuButton" type="Button" parent="Panel" unique_id=1794683601]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 1.0
@@ -83,19 +89,20 @@ offset_bottom = 48.0
 grow_horizontal = 0
 text = "MAIN MENU"
 
-[node name="WordListHeading" type="Label" parent="Panel"]
+[node name="WordListHeading" type="Label" parent="Panel" unique_id=1416181220]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.04
 anchor_top = 0.16
 anchor_right = 0.37
 anchor_bottom = 0.22
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.26, 0.13, 0.1, 1)
+theme_override_fonts/font = SubResource("SystemFont_recap_display")
 theme_override_font_sizes/font_size = 18
 text = "WORDS FORMED"
 vertical_alignment = 1
 
-[node name="ScrollContainer" type="ScrollContainer" parent="Panel"]
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel" unique_id=1066922716]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.04
@@ -106,13 +113,12 @@ grow_horizontal = 2
 grow_vertical = 2
 horizontal_scroll_mode = 0
 
-[node name="WordList" type="GridContainer" parent="Panel/ScrollContainer"]
+[node name="WordList" type="GridContainer" parent="Panel/ScrollContainer" unique_id=1836745343]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 4
-columns = 1
 
-[node name="EmptyStateLabel" type="Label" parent="Panel"]
+[node name="EmptyStateLabel" type="Label" parent="Panel" unique_id=197496471]
 visible = false
 layout_mode = 1
 anchors_preset = -1
@@ -127,7 +133,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
 
-[node name="ReplayButton" type="Button" parent="Panel"]
+[node name="ReplayButton" type="Button" parent="Panel" unique_id=1306475734]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 1.0
@@ -140,10 +146,10 @@ offset_right = -14.0
 offset_bottom = -14.0
 text = "PLAY AGAIN"
 
-[node name="DetailsPanel" type="Panel" parent="Panel"]
+[node name="DetailsPanel" type="Panel" parent="Panel" unique_id=859959279]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.40
+anchor_left = 0.4
 anchor_top = 0.16
 anchor_right = 0.96
 anchor_bottom = 0.87
@@ -151,19 +157,20 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_ewah2")
 
-[node name="Word" type="Label" parent="Panel/DetailsPanel"]
+[node name="Word" type="Label" parent="Panel/DetailsPanel" unique_id=629171702]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.06
 anchor_top = 0.04
 anchor_right = 0.94
 anchor_bottom = 0.16
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0.26, 0.13, 0.1, 1)
+theme_override_fonts/font = SubResource("SystemFont_recap_display")
+theme_override_font_sizes/font_size = 30
 text = "SELECT A WORD"
 vertical_alignment = 1
 
-[node name="ScrollContainer" type="ScrollContainer" parent="Panel/DetailsPanel"]
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/DetailsPanel" unique_id=1487549606]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.04
@@ -174,10 +181,10 @@ grow_horizontal = 2
 grow_vertical = 2
 horizontal_scroll_mode = 0
 
-[node name="DetailsContent" type="VBoxContainer" parent="Panel/DetailsPanel/ScrollContainer"]
+[node name="DetailsContent" type="VBoxContainer" parent="Panel/DetailsPanel/ScrollContainer" unique_id=788394913]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="MeaningList" type="VBoxContainer" parent="Panel/DetailsPanel/ScrollContainer/DetailsContent"]
+[node name="MeaningList" type="VBoxContainer" parent="Panel/DetailsPanel/ScrollContainer/DetailsContent" unique_id=327842123]
 layout_mode = 2

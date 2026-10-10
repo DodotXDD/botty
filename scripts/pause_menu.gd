@@ -10,6 +10,9 @@ func _ready() -> void:
 func _input(event: InputEvent) -> void:
 	# Use _input instead of _process for better input handling
 	if event.is_action_pressed("ui_cancel"):
+		var tutorial = get_parent().get_node_or_null("Tutorial")
+		if tutorial and tutorial.visible:
+			return
 		if get_tree().paused:
 			resume()
 		else:

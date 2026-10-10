@@ -171,7 +171,8 @@ func _on_end_turn_button_pressed() -> void:
 # -----------------------------------------------------
 func _on_damage_updated(new_damage: int) -> void:
 	if total_damage_label:
-		total_damage_label.text = "Damage: %d" % new_damage
+		var bonus_damage = all_formed_words.size() * 4 if new_damage > 0 else 0
+		total_damage_label.text = "Damage: %d" % (new_damage + bonus_damage)
 
 # -----------------------------------------------------
 # TILE MANAGEMENT

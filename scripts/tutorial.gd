@@ -13,36 +13,32 @@ var tutorial_process: int = 4
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
+	get_tree().paused = true
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	match tutorial_process:
 		4:
-			print("tutorial 4")
 			label.visible = true
 			label_2.visible = false
 			label_3.visible = false
 			label_4.visible = false
 		3:
-			print("tutorial 3")
 			label.visible = false
 			label_2.visible = true
 			label_3.visible = false
 			label_4.visible = false
 		2: 
-			print("tutorial 2")
 			label.visible = false
 			label_2.visible = false
 			label_3.visible = true
 			label_4.visible = false
 		1:
-			print("tutorial 1")
 			label.visible = false
 			label_2.visible = false
 			label_3.visible = false
 			label_4.visible = true
 		0:
-			print("exit")
 			label.visible = false
 			label_2.visible = false
 			label_3.visible = false
@@ -50,13 +46,14 @@ func _process(delta: float) -> void:
 			exit_label.visible = true
 
 func _on_continue_button_pressed() -> void:
-	tutorial_process = tutorial_process - 1
-	
-	if tutorial_process == 0:
-		continue_button.text = "Exit"
-	
-	if tutorial_process == -1:
+	print("[DragDebug][TutorialButton] step=%d paused=%s" % [tutorial_process, get_tree().paused])
+	if tutorial_process <= 1:
+		tutorial_process = -1
 		hide()
 		get_tree().paused = false
+		print("[DragDebug][TutorialDismiss] visible=%s paused=%s" % [visible, get_tree().paused])
 		# Restore the battle music
 		MusicController.play_stream(MusicController.music_Gameplay)
+		return
+
+	tutorial_process -= 1

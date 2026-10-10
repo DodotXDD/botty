@@ -3,6 +3,8 @@ extends Control
 
 var letter: String = ""
 var points: int = 0 # Variable to store the point value
+var _modulate_before_drag: Color = Color.WHITE
+var _is_dragging: bool = false
 
 # --- NEW VARIABLES FOR TERRAIN MECHANIC ---
 var is_locked: bool = false
@@ -14,6 +16,10 @@ var turns_locked: int = 2
 
 func _ready() -> void:
 	print("\n[LetterTile] READY: name=%s letter=%s" % [name, letter])
+	mouse_filter = Control.MOUSE_FILTER_STOP
+	bg.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	label_node.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	points_label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 
 	if not bg:
 		push_warning("[LetterTile][ERROR] Background node missing!")
@@ -55,6 +61,7 @@ func get_letter() -> String:
 # --- NEW FUNCTION: LOCK TILE (For Terrain) ---
 func lock_tile() -> void:
 	is_locked = true
+	tooltip_text = "Used word tile: locked for your next turn, then removed."
 	# Visual feedback: Turn slightly gray
 	modulate = Color(0.7, 0.7, 0.7)
 	# Turn off the active green/red glow
@@ -63,31 +70,60 @@ func lock_tile() -> void:
 	set_used_glow()
 
 # --- DRAG & DROP ---
-func _get_drag_data(_at_position):
-	# 1. If locked, REFUSE drag
+func _gui_input(event: InputEvent) -> void:
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
+		print("[DragDebug][TileInput] letter=%s pressed=%s locked=%s visible=%s paused=%s path=%s" % [letter, event.pressed, is_locked, is_visible_in_tree(), get_tree().paused, get_path()])
+
+func _get_drag_data(_at_position: Vector2) -> Variant:
 	if is_locked:
+		print("[DragDebug][DragStart] rejected locked letter=%s path=%s" % [letter, get_path()])
 		return null
 
-	var parent_node = get_parent()
-
-	# 2. Check if the tile is being picked up from an inventory slot.
+	var parent_node := get_parent()
+	print("[DragDebug][DragStart] letter=%s parent=%s paused=%s" % [letter, parent_node.get_path() if parent_node else "<none>", get_tree().paused])
 	if parent_node and parent_node.is_in_group("word_slots"):
-		# Immediately turn off this tile's glow visually.
 		set_glow(false)
-		# Note: We removed the 'await' here because it breaks dragging.
-		# The board update happens when you drop the tile elsewhere.
 
-	# Create the drag preview (visuals)
-	var drag_preview = duplicate()
-	drag_preview.modulate.a = 0.5
+	set_drag_preview(_create_drag_preview())
+	_modulate_before_drag = modulate
+	_is_dragging = true
+	modulate.a = 0.0
+	return self
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_DRAG_END and _is_dragging:
+		modulate = _modulate_before_drag
+		_is_dragging = false
+
+func _create_drag_preview() -> Control:
+	var drag_preview_scene: PackedScene = load("res://scenes/LetterLabel.tscn")
+	var drag_preview: Control = drag_preview_scene.instantiate()
+	drag_preview.set("letter", letter)
+	var preview_label: Label = drag_preview.get_node("Label")
+	var preview_points: Label = drag_preview.get_node("PointsLabel")
+	preview_label.text = letter
+	preview_label.visible = true
+	preview_points.text = str(points)
+	preview_points.visible = true
+	print("[DragDebug][Preview] letter=%s label=%s points=%s" % [letter, preview_label.text, preview_points.text])
+	drag_preview.modulate = Color.WHITE
+	drag_preview.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	drag_preview.anchor_left = 0
 	drag_preview.anchor_top = 0
 	drag_preview.anchor_right = 0
 	drag_preview.anchor_bottom = 0
 	drag_preview.size = Vector2(50, 50)
-	set_drag_preview(drag_preview)
-	
-	return self
+	return drag_preview
+
+func _can_drop_data(_at_position: Vector2, data) -> bool:
+	var parent_node := get_parent()
+	return not is_locked and parent_node != null and parent_node.has_method("_can_drop_data") and parent_node._can_drop_data(parent_node.get_local_mouse_position(), data)
+
+func _drop_data(_at_position: Vector2, data) -> void:
+	var parent_node := get_parent()
+	print("[DragDebug][TileDrop] target_letter=%s incoming=%s parent=%s" % [letter, data.get_letter() if data and data.has_method("get_letter") else "<invalid>", parent_node.get_path() if parent_node else "<none>"])
+	if parent_node and parent_node.has_method("_drop_data"):
+		parent_node._drop_data(parent_node.get_local_mouse_position(), data)
 
 
 # --- GLOW HANDLER ---

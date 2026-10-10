@@ -64,6 +64,8 @@ func _populate_word_list() -> void:
 		btn.button_group = word_button_group
 		btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		btn.custom_minimum_size = Vector2(0, 48)
+		btn.add_theme_font_override("font", title_label.get_theme_font("font"))
+		btn.add_theme_font_size_override("font_size", 17)
 		btn.pressed.connect(_on_word_clicked.bind(i))
 		word_list.add_child(btn)
 

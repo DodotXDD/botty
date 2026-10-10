@@ -856,8 +856,8 @@ offset_bottom = 216.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 10
-theme_override_font_sizes/font_size = 30
-text = "Here is you're HP"
+theme_override_font_sizes/font_size = 26
+text = "Your HP. At 0, the battle ends."
 
 [node name="Line2D" type="Line2D" parent="CanvasLayer/Tutorial/Label"]
 position = Vector2(-186, 59)
@@ -877,8 +877,8 @@ offset_bottom = 388.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 8
-theme_override_font_sizes/font_size = 30
-text = "Drag letters from the knapsack to form valid words!"
+theme_override_font_sizes/font_size = 22
+text = "Drag pouch letters onto the grid. Form words of 3 or more letters in a row or column."
 horizontal_alignment = 3
 autowrap_mode = 2
 
@@ -898,8 +898,8 @@ offset_top = 248.0
 offset_right = 1067.0
 offset_bottom = 380.0
 theme_override_constants/outline_size = 10
-theme_override_font_sizes/font_size = 30
-text = "Make sure that the formed words are valid"
+theme_override_font_sizes/font_size = 22
+text = "Green words are valid; red words are not. Attack uses each valid word once."
 horizontal_alignment = 3
 autowrap_mode = 2
 
@@ -922,8 +922,8 @@ theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_y = 6
 theme_override_constants/outline_size = 10
-theme_override_font_sizes/font_size = 30
-text = "Press 'Attack' if you have a complete valid word"
+theme_override_font_sizes/font_size = 22
+text = "Red slots will be hit next enemy turn. Move their letters before Attack or Pass. Used tiles lock, then disappear."
 horizontal_alignment = 3
 autowrap_mode = 2
 
