@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://cmw3o4kfddfoe"]
+
+[ext_resource type="Texture2D" uid="uid://c4j381slnyagr" path="res://assets/UI/Mediavel.png" id="1_i0sit"]
+[ext_resource type="Script" uid="uid://byud0h2da0gvy" path="res://scripts/level_button.gd" id="1_o8246"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhunq"]
+atlas = ExtResource("1_i0sit")
+region = Rect2(657, 626, 45, 29)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_riqys"]
+size = Vector2(44, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sn0t7"]
+atlas = ExtResource("1_i0sit")
+region = Rect2(610, 435, 10, 9)
+
+[node name="level Button" type="Area2D" unique_id=74913537]
+scale = Vector2(2, 2)
+script = ExtResource("1_o8246")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=315595438]
+texture = SubResource("AtlasTexture_bhunq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=227499427]
+shape = SubResource("RectangleShape2D_riqys")
+
+[node name="Label" type="Label" parent="." unique_id=800159126]
+offset_left = -20.0
+offset_top = -11.0
+offset_right = 20.0
+offset_bottom = 12.0
+text = "1"
+horizontal_alignment = 1
+
+[node name="Lock" type="Sprite2D" parent="." unique_id=911994917]
+position = Vector2(2.3841858e-07, 9.536743e-07)
+scale = Vector2(2.4, 2.4444447)
+texture = SubResource("AtlasTexture_sn0t7")

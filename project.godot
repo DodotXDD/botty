@@ -26,9 +26,13 @@ LetterData="*res://scripts/LetterData.gd"
 MusicController="*res://scenes/globalscene/music_controller.tscn"
 LoadingLoader="*res://scripts/globals/loading_loader.gd"
 GameSettings="*res://scripts/globals/GameSettings.gd"
+Progress="*uid://bi8jvprap4372"
 
 [display]
 
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://diergf5vfek5x"]
+[gd_scene format=3 uid="uid://diergf5vfek5x"]
 
 [ext_resource type="Script" uid="uid://dcyryrdujdteo" path="res://scenes/main_menu.gd" id="1_l6cm7"]
 [ext_resource type="Texture2D" uid="uid://0km6gpid1d8i" path="res://assets/Free Pixel Art Forest/Preview/Background.png" id="2_ekxnf"]
@@ -20,7 +20,7 @@ region_rect = Rect2(160, 160, 96, 32)
 texture = ExtResource("3_bqqt6")
 region_rect = Rect2(256, 160, 96, 32)
 
-[node name="MainMenu" type="Control" node_paths=PackedStringArray("start_button", "quit_button", "settings_button")]
+[node name="MainMenu" type="Control" unique_id=1951615128 node_paths=PackedStringArray("start_button", "quit_button", "settings_button")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -32,7 +32,7 @@ start_button = NodePath("MainmenuWindow/VBoxContainer/VBoxContainer/StartButton"
 quit_button = NodePath("MainmenuWindow/VBoxContainer/VBoxContainer/QuitButton")
 settings_button = NodePath("MainmenuWindow/VBoxContainer/VBoxContainer/Settings")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1797849040]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -45,7 +45,7 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_ekxnf")
 
-[node name="MainmenuWindow" type="NinePatchRect" parent="."]
+[node name="MainmenuWindow" type="NinePatchRect" parent="." unique_id=1564632972]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -61,7 +61,7 @@ grow_vertical = 2
 texture = ExtResource("3_bqqt6")
 region_rect = Rect2(932.57043, 353.89206, 87.856445, 61.529694)
 
-[node name="Label" type="Label" parent="MainmenuWindow"]
+[node name="Label" type="Label" parent="MainmenuWindow" unique_id=1311319150]
 layout_mode = 0
 offset_left = 62.0
 offset_top = 98.0
@@ -73,7 +73,7 @@ theme_override_font_sizes/font_size = 32
 text = "KNAPSACK ARSENAL"
 horizontal_alignment = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow" unique_id=1743780539]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 1
 anchors_preset = 8
@@ -89,10 +89,10 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 40
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow/VBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow/VBoxContainer" unique_id=2013553722]
 layout_mode = 2
 
-[node name="StartButton" type="Button" parent="MainmenuWindow/VBoxContainer/VBoxContainer"]
+[node name="StartButton" type="Button" parent="MainmenuWindow/VBoxContainer/VBoxContainer" unique_id=1980121191]
 custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
@@ -101,7 +101,7 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_wu84c")
 theme_override_styles/hover = SubResource("StyleBoxTexture_oa1go")
 text = "Start Game"
 
-[node name="Settings" type="Button" parent="MainmenuWindow/VBoxContainer/VBoxContainer"]
+[node name="Settings" type="Button" parent="MainmenuWindow/VBoxContainer/VBoxContainer" unique_id=628171126]
 custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
@@ -110,7 +110,7 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_wu84c")
 theme_override_styles/hover = SubResource("StyleBoxTexture_oa1go")
 text = "Settings"
 
-[node name="QuitButton" type="Button" parent="MainmenuWindow/VBoxContainer/VBoxContainer"]
+[node name="QuitButton" type="Button" parent="MainmenuWindow/VBoxContainer/VBoxContainer" unique_id=128382467]
 custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
@@ -119,7 +119,7 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_rtw2f")
 theme_override_styles/hover = SubResource("StyleBoxTexture_8ln24")
 text = "Quit Game"
 
-[node name="SettingsWindow" type="NinePatchRect" parent="MainmenuWindow"]
+[node name="SettingsWindow" type="NinePatchRect" parent="MainmenuWindow" unique_id=2014806264]
 visible = false
 layout_mode = 1
 anchors_preset = 8
@@ -136,7 +136,7 @@ grow_vertical = 2
 texture = ExtResource("3_bqqt6")
 region_rect = Rect2(932.57043, 353.89206, 87.856445, 61.529694)
 
-[node name="Label" type="Label" parent="MainmenuWindow/SettingsWindow"]
+[node name="Label" type="Label" parent="MainmenuWindow/SettingsWindow" unique_id=180553248]
 layout_mode = 0
 offset_left = 62.0
 offset_top = 98.0
@@ -148,7 +148,7 @@ theme_override_font_sizes/font_size = 32
 text = "SETTINGS"
 horizontal_alignment = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow/SettingsWindow"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow/SettingsWindow" unique_id=434758813]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 1
 anchors_preset = 8
@@ -164,18 +164,18 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 40
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow/SettingsWindow/VBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MainmenuWindow/SettingsWindow/VBoxContainer" unique_id=1655545718]
 layout_mode = 2
 
-[node name="SoundToggle" type="CheckBox" parent="MainmenuWindow/SettingsWindow/VBoxContainer/VBoxContainer"]
+[node name="SoundToggle" type="CheckBox" parent="MainmenuWindow/SettingsWindow/VBoxContainer/VBoxContainer" unique_id=2054962434]
 layout_mode = 2
 text = "                 Sound"
 autowrap_mode = 2
 
-[node name="LanguageSelect" type="OptionButton" parent="MainmenuWindow/SettingsWindow/VBoxContainer/VBoxContainer"]
+[node name="LanguageSelect" type="OptionButton" parent="MainmenuWindow/SettingsWindow/VBoxContainer/VBoxContainer" unique_id=1056735591]
 layout_mode = 2
 
-[node name="CloseButton" type="Button" parent="MainmenuWindow/SettingsWindow/VBoxContainer/VBoxContainer"]
+[node name="CloseButton" type="Button" parent="MainmenuWindow/SettingsWindow/VBoxContainer/VBoxContainer" unique_id=771562967]
 layout_mode = 2
 text = "Back"
 

@@ -1,0 +1,107 @@
+[gd_scene format=3 uid="uid://d214jqa25m8tb"]
+
+[ext_resource type="Script" uid="uid://584x5s45m7v5" path="res://scripts/levelmap___s_1.gd" id="1_w2vre"]
+[ext_resource type="Texture2D" uid="uid://bdvu5wjgvwklk" path="res://assets/Map/Level/Maplevel- S1.png" id="2_c8shk"]
+[ext_resource type="Texture2D" uid="uid://brmt5jwvi264i" path="res://assets/Map/border.PNG" id="2_s0l5p"]
+[ext_resource type="PackedScene" uid="uid://cmw3o4kfddfoe" path="res://scenes/level_button.tscn" id="2_w2vre"]
+[ext_resource type="Script" uid="uid://buq7wi8j7dmfc" path="res://scripts/camera_2d.gd" id="4_w2vre"]
+
+[node name="MapView" type="Node2D" unique_id=1425073346]
+script = ExtResource("1_w2vre")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=416404018]
+layer = -1
+
+[node name="Background" type="ColorRect" parent="CanvasLayer" unique_id=486804976]
+z_index = -1
+offset_right = 1920.0
+offset_bottom = 1080.0
+mouse_filter = 2
+color = Color(0.41368303, 0.4136831, 0.41368303, 1)
+metadata/_edit_lock_ = true
+
+[node name="Water Background" type="ColorRect" parent="CanvasLayer" unique_id=511395147]
+z_index = -1
+offset_left = 51.0
+offset_top = 52.0
+offset_right = 1863.0
+offset_bottom = 1042.0
+mouse_filter = 2
+
+[node name="MaplevelS1" type="Sprite2D" parent="." unique_id=1128262191]
+position = Vector2(959, 0)
+scale = Vector2(2, 2)
+texture = ExtResource("2_c8shk")
+
+[node name="level Button" parent="MaplevelS1" unique_id=597399130 instance=ExtResource("2_w2vre")]
+position = Vector2(154, 214)
+scale = Vector2(1, 1)
+
+[node name="2 level Button" parent="MaplevelS1" unique_id=695965043 instance=ExtResource("2_w2vre")]
+position = Vector2(109, 0)
+scale = Vector2(1, 1)
+level_id = 2
+
+[node name="3 level Button" parent="MaplevelS1" unique_id=748457867 instance=ExtResource("2_w2vre")]
+position = Vector2(-116, 0)
+scale = Vector2(1, 1)
+level_id = 3
+
+[node name="4 level Button" parent="MaplevelS1" unique_id=1383409741 instance=ExtResource("2_w2vre")]
+position = Vector2(-236, -299.5)
+scale = Vector2(1, 1)
+level_id = 4
+
+[node name="5 level Button" parent="MaplevelS1" unique_id=121320402 instance=ExtResource("2_w2vre")]
+position = Vector2(109, -304.5)
+scale = Vector2(1, 1)
+level_id = 5
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=104764325 node_paths=PackedStringArray("map_sprite")]
+position = Vector2(959, 539)
+script = ExtResource("4_w2vre")
+map_sprite = NodePath("../MaplevelS1")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=1820396207]
+
+[node name="Border" type="Sprite2D" parent="CanvasLayer2" unique_id=690477535]
+position = Vector2(960, 540)
+texture = ExtResource("2_s0l5p")
+
+[node name="Map Hidding Effect" type="CanvasLayer" parent="." unique_id=223109516]
+layer = 0
+
+[node name="Top" type="ColorRect" parent="Map Hidding Effect" unique_id=1517208797]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 52.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0.4117647, 0.4117647, 0.4117647, 1)
+
+[node name="Bottom" type="ColorRect" parent="Map Hidding Effect" unique_id=1542499104]
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 1027.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0.4117647, 0.4117647, 0.4117647, 1)
+
+[node name="Left" type="ColorRect" parent="Map Hidding Effect" unique_id=256076715]
+anchors_preset = 10
+anchor_right = 1.0
+offset_right = -1869.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0.4117647, 0.4117647, 0.4117647, 1)
+
+[node name="Right" type="ColorRect" parent="Map Hidding Effect" unique_id=1244300757]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 1873.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0.4117647, 0.4117647, 0.4117647, 1)

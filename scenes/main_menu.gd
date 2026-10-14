@@ -46,7 +46,7 @@ func _ready():
 # --- MAIN BUTTONS ---
 
 func _on_start_button_pressed():
-	var error := get_tree().change_scene_to_file("res://scenes/MapProgress.tscn")
+	var error := get_tree().change_scene_to_file("res://scenes/map_zone.tscn")
 	if error != OK:
 		push_error("Could not open the map progress scene: %s" % error_string(error))
 

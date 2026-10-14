@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://ht1hism01sc"]
+
+[ext_resource type="Texture2D" uid="uid://tbaa1axe4qhy" path="res://assets/Map/Map.PNG" id="1_g1jqg"]
+[ext_resource type="Texture2D" uid="uid://brmt5jwvi264i" path="res://assets/Map/border.PNG" id="2_8v7to"]
+[ext_resource type="Texture2D" uid="uid://beq1pgitkpm4l" path="res://assets/Map/S1.PNG" id="2_s7yh8"]
+[ext_resource type="Texture2D" uid="uid://cnkdx0151v32y" path="res://assets/Map/S2.PNG" id="3_2am1l"]
+[ext_resource type="Texture2D" uid="uid://cvjk0tdchouci" path="res://assets/Map/S3.PNG" id="4_ek0ey"]
+[ext_resource type="Texture2D" uid="uid://cmnjqo72d5ygr" path="res://assets/Map/S4.PNG" id="5_afq8k"]
+[ext_resource type="Texture2D" uid="uid://c4j381slnyagr" path="res://assets/UI/Mediavel.png" id="8_2am1l"]
+[ext_resource type="Script" uid="uid://c27sipqmwafdk" path="res://scripts/map_zone.gd" id="9_map_zone"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s7yh8"]
+bg_color = Color(0.9, 0.83, 0.67, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.36, 0.21, 0.15, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhunq"]
+atlas = ExtResource("8_2am1l")
+region = Rect2(2, 308, 172, 24)
+
+[node name="MapZone" type="Control" unique_id=1623767102]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("9_map_zone")
+
+[node name="Background" type="ColorRect" parent="." unique_id=1779192766]
+z_index = -1
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.41368303, 0.4136831, 0.41368303, 1)
+
+[node name="Map" type="Sprite2D" parent="." unique_id=2050568077]
+show_behind_parent = true
+position = Vector2(960, 540)
+texture = ExtResource("1_g1jqg")
+metadata/_edit_lock_ = true
+
+[node name="S1Map" type="Sprite2D" parent="." unique_id=2055939549]
+visible = false
+position = Vector2(960, 539)
+texture = ExtResource("2_s7yh8")
+
+[node name="S2Map" type="Sprite2D" parent="." unique_id=1797180436]
+visible = false
+position = Vector2(960, 540)
+texture = ExtResource("3_2am1l")
+
+[node name="S3Map" type="Sprite2D" parent="." unique_id=1865359126]
+visible = false
+position = Vector2(960, 540)
+texture = ExtResource("4_ek0ey")
+
+[node name="S4Map" type="Sprite2D" parent="." unique_id=2029355]
+visible = false
+position = Vector2(960, 540)
+texture = ExtResource("5_afq8k")
+
+[node name="Border" type="Sprite2D" parent="." unique_id=667300961]
+position = Vector2(960, 540)
+texture = ExtResource("2_8v7to")
+metadata/_edit_lock_ = true
+
+[node name="BackButton" type="Button" parent="." unique_id=115114199]
+layout_mode = 0
+offset_left = 113.0
+offset_top = 120.0
+offset_right = 255.0
+offset_bottom = 162.0
+tooltip_text = "Return to the main menu"
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_s7yh8")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_s7yh8")
+theme_override_styles/hover = SubResource("StyleBoxFlat_s7yh8")
+text = "MAIN MENU"
+
+[node name="Map Name Container" type="Sprite2D" parent="." unique_id=1580897298]
+position = Vector2(1563, 931)
+scale = Vector2(2.958333, 2.9583342)
+texture = SubResource("AtlasTexture_bhunq")
+
+[node name="Map Name" type="Label" parent="Map Name Container" unique_id=2015852507]
+offset_left = -47.661987
+offset_top = -11.830978
+offset_right = 54.338013
+offset_bottom = 11.169022
+theme_override_font_sizes/font_size = 14
+text = "Select a Region"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
