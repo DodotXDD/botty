@@ -1,0 +1,89 @@
+[gd_scene format=3 uid="uid://bw8bkodey42t2"]
+
+[ext_resource type="Texture2D" uid="uid://bnkx8423u2sqf" path="res://assets/character/Hero/wizard_idle_stance.png" id="1_fmgy8"]
+[ext_resource type="Texture2D" uid="uid://c4j381slnyagr" path="res://assets/UI/Mediavel.png" id="1_wiygm"]
+[ext_resource type="Texture2D" uid="uid://0e327hsxq7em" path="res://assets/UI/Textbox/TextBG.png" id="2_oc77a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fmgy8"]
+atlas = ExtResource("1_wiygm")
+region = Rect2(2, 308, 172, 24)
+
+[node name="Control" type="Control" unique_id=1866564481]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Hero" type="TextureRect" parent="." unique_id=1020386712]
+layout_mode = 0
+offset_left = -40.0
+offset_top = 20.0
+offset_right = 1200.0
+offset_bottom = 997.0
+texture = ExtResource("1_fmgy8")
+flip_h = true
+
+[node name="NPC" type="TextureRect" parent="." unique_id=1615251415]
+layout_mode = 0
+offset_left = 743.0
+offset_top = 38.0
+offset_right = 1983.0
+offset_bottom = 1015.0
+texture = ExtResource("1_fmgy8")
+
+[node name="Dialog box" type="Control" parent="." unique_id=1947621079]
+modulate = Color(0.67841226, 0.5591171, 0.5305896, 1)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -865.0
+offset_top = -477.0
+offset_right = 865.0
+offset_bottom = -91.0
+grow_horizontal = 2
+grow_vertical = 0
+metadata/_edit_group_ = true
+
+[node name="Name Container" type="Sprite2D" parent="Dialog box" unique_id=747750374]
+z_index = 1
+position = Vector2(281.00003, -17)
+scale = Vector2(2.958333, 2.9583342)
+texture = SubResource("AtlasTexture_fmgy8")
+
+[node name="NameLabel" type="Label" parent="Dialog box/Name Container" unique_id=1455824187]
+offset_left = -47.661987
+offset_top = -12.169004
+offset_right = 43.338013
+offset_bottom = 10.830996
+size_flags_horizontal = 6
+size_flags_vertical = 6
+text = "Name HERE"
+
+[node name="TextureRect" type="TextureRect" parent="Dialog box" unique_id=657938252]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_oc77a")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Dialog box" unique_id=802338365]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 24.0
+offset_right = -17.0
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 42
+text = "This is a example Text who is Json and Hello World"
